@@ -1,14 +1,24 @@
 # Anydes
 
-**Una IA que puede aprender a hacer lo que todavia no sabe hacer.**
+**Una IA que puede aprender a hacer lo que todavía no sabe hacer.**
 
 Anydes is a persistent personal AI system designed to maintain context, reason,
-use tools, verify actions and progressively extend its capabilities under
+use tools, verify actions, and progressively extend its capabilities under
 controlled security boundaries.
 
-This repository is a **sanitized source/documentation release for Casa Abierta
-evaluation**, not the complete model/runtime installation. It contains real
-implementation code, not a replacement demo or mock architecture.
+This repository is a **sanitized source/documentation release for evaluation**,
+not the complete model/runtime installation. It contains real implementation
+code, not a replacement demo or mock architecture.
+
+https://anydes.netlify.app/
+
+## In 30 seconds
+
+- Persistent personal AI with memory, context, and task continuity.
+- Can use tools, create artifacts, and verify results.
+- Integrates voice, vision, and a reactive visual interface.
+- Designed with explicit security and verification boundaries.
+- Next phase: Anydes Forge, for controlled creation of new capabilities.
 
 ## Problem
 
@@ -21,7 +31,7 @@ execution risks that need explicit boundaries.
 
 Anydes combines typed cognitive context, memory interfaces, SELF and goals,
 contextual reasoning, a controlled action/tool system, artifact continuity,
-verification and a publication boundary. Voice, vision and multiple visual
+verification, and a publication boundary. Voice, vision, and multiple visual
 presences are adapters around the same core, not separate personalities or memories.
 
 ## Key Differentiator
@@ -29,7 +39,7 @@ presences are adapters around the same core, not separate personalities or memor
 **Anydes Forge: IN DEVELOPMENT / NEXT PHASE.**
 
 An experimental controlled self-extension system designed to allow Anydes to
-identify a missing capability, design/program it, test it in isolation, verify it
+identify a missing capability, design/program it, test it in isolation, verify it,
 and make it available under authorization.
 
 The current source includes code-generation and tool/verification infrastructure.
@@ -56,21 +66,21 @@ flowchart TD
 ```
 
 [Architecture](docs/ARCHITECTURE.md) | [Security](docs/SECURITY.md) |
-[Source map](docs/SOURCE_MAP.md) | [Current status](docs/CURRENT_STATUS.md)
-| [Release tests](docs/TESTING.md)
+[Source map](docs/SOURCE_MAP.md) | [Current status](docs/CURRENT_STATUS.md) |
+[Release tests](docs/TESTING.md)
 
 ## Current Capabilities
 
 - Typed context and memory architecture; controlled memory/SELF writer interfaces.
-- Interaction classification, PendingTask continuity and accumulated requirements.
+- Interaction classification, PendingTask continuity, and accumulated requirements.
 - Tool/action permissions and default-deny filesystem boundaries.
-- Windows B2 isolation, execution limits and independent verification/oracles.
-- Source-code artifact creation, versions/references and grounded metadata queries.
+- Windows B2 isolation, execution limits, and independent verification/oracles.
+- Source-code artifact creation, versions/references, and grounded metadata queries.
 - Publication checks that separate verified evidence from unsupported claims.
 - Cloud reasoning with a bounded local fallback path.
 - Professional Shell with hologram and existing avatar renderer interfaces.
 - Local Presence state adapter and B4 speech-feature-driven animation.
-- Parakeet STT, B4/Qwen TTS and vision integration source.
+- Parakeet STT, B4/Qwen TTS, and vision integration source.
 
 Memory **code/interfaces** are included, never the owner's memories. Some legacy
 source files are empty in the audited tree; see [Portability](docs/PORTABILITY.md).
@@ -78,10 +88,10 @@ No claim is made that every imported legacy implementation is present here.
 
 ## Current Status
 
-The author-accepted integrated system has a validated professional-shell manual
+The author-accepted integrated system has a validated Professional Shell manual
 flow and **529 PASS, 0 FAIL** in its accepted regression run. B2 was independently
-validated through real runtime, oracle and security tests. The final UI artifact
-used BASIC verification: no artificial execution was added for a checklist.
+validated through real runtime, oracle, and security tests. The final UI artifact
+used BASIC verification: no artificial execution was added solely to satisfy a checklist.
 
 Those are results from the configured author installation, **not a claim that all
 529 tests have been rerun from this sanitized source distribution**. Release-copy
@@ -91,7 +101,7 @@ checks and limitations are reported in [audit/](audit/).
 
 At Casa Abierta, judges can observe the configured demonstration installation:
 conversation/voice, the reactive hologram, task continuity, code/artifact creation,
-the artifact's actual location and controlled verification. This source release
+the artifact's actual location, and controlled verification. This source release
 lets judges inspect the boundaries and corresponding tests without downloading
 the full local model installation.
 
@@ -101,7 +111,7 @@ the actual approved procedural orb and motion source. It is not a replacement co
 ## Repository Limitations
 
 No model weights, native runtime bundles, virtual environments, private profiles,
-personal memories, recordings, screenshots, generated user artifacts or session
+personal memories, recordings, screenshots, generated user artifacts, or session
 logs are included. This is not a full binary distribution or one-command setup.
 Full voice/vision/avatar execution needs separately configured dependencies and
 assets. Old installation-specific integrity/launch scripts are retained as source
@@ -109,7 +119,7 @@ where useful, not advertised as portable release entry points.
 
 ## Installation Overview
 
-1. Clone this repository after its owner publishes it.
+1. Clone this repository.
 2. Create a virtual environment with Python 3.11-3.13.
 3. Install `requirements.txt`; add AI/UI/voice/vision requirement groups as needed.
 4. Create your own `.env` from `.env.example`; never commit credentials.
