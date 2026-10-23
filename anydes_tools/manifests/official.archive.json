@@ -1,0 +1,261 @@
+{
+  "tool_id": "official.archive",
+  "name": "ArchiveTool",
+  "version": "1.0.0",
+  "category": "archive",
+  "description": "Inspects, creates and safely extracts ZIP archives without path traversal.",
+  "capabilities": [
+    "archive.inspect",
+    "archive.compress_zip",
+    "archive.extract_zip"
+  ],
+  "input_schema": {
+    "type": "object"
+  },
+  "output_schema": {
+    "type": "object"
+  },
+  "side_effects": [
+    "filesystem_read",
+    "filesystem_write"
+  ],
+  "risk_level": "medium",
+  "permission_policy": {
+    "READ": "allow_in_scope",
+    "CREATE": "allow_in_scope",
+    "EDIT": "deny",
+    "OVERWRITE": "confirm",
+    "MOVE": "deny",
+    "DELETE": "deny",
+    "EXECUTE_CODE": "deny",
+    "INSTALL_DEPENDENCY": "deny",
+    "EXTERNAL_ACTION": "deny"
+  },
+  "dependencies": [],
+  "timeout": 45,
+  "filesystem_scope": [
+    "authorized_workspace"
+  ],
+  "status": "AVAILABLE",
+  "capability_contracts": {
+    "archive.inspect": {
+      "id": "archive.inspect",
+      "enabled": true,
+      "input_schema": {
+        "type": "object",
+        "properties": {
+          "path": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 32760,
+            "x-path-operation": "READ"
+          }
+        },
+        "required": [
+          "path"
+        ],
+        "additionalProperties": false
+      },
+      "output_schema": {
+        "type": "object",
+        "properties": {
+          "path": {
+            "type": "string",
+            "minLength": 0,
+            "maxLength": 32760
+          },
+          "entries": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "name": {
+                  "type": "string",
+                  "minLength": 0,
+                  "maxLength": 32760
+                },
+                "size": {
+                  "type": "integer",
+                  "minimum": 0,
+                  "maximum": 1000000000
+                },
+                "safe": {
+                  "type": "boolean"
+                }
+              },
+              "required": [
+                "name",
+                "size",
+                "safe"
+              ],
+              "additionalProperties": false
+            },
+            "minItems": 0,
+            "maxItems": 2000
+          },
+          "safe": {
+            "type": "boolean"
+          }
+        },
+        "required": [
+          "path",
+          "entries",
+          "safe"
+        ],
+        "additionalProperties": false
+      },
+      "side_effects": [
+        "READ"
+      ],
+      "risk_level": "medium",
+      "permission_requirements": [
+        "READ"
+      ],
+      "allowed_scope_types": [
+        "tools_workspaces",
+        "explicit_user_workspace"
+      ],
+      "timeout": 30,
+      "verifier_type": "ARCHIVE"
+    },
+    "archive.compress_zip": {
+      "id": "archive.compress_zip",
+      "enabled": true,
+      "input_schema": {
+        "type": "object",
+        "properties": {
+          "sources": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "minLength": 1,
+              "maxLength": 32760,
+              "x-path-operation": "READ"
+            },
+            "minItems": 1,
+            "maxItems": 2000
+          },
+          "destination": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 32760,
+            "x-path-operation": "WRITE"
+          },
+          "overwrite": {
+            "type": "boolean"
+          }
+        },
+        "required": [
+          "sources",
+          "destination"
+        ],
+        "additionalProperties": false
+      },
+      "output_schema": {
+        "type": "object",
+        "properties": {
+          "path": {
+            "type": "string",
+            "minLength": 0,
+            "maxLength": 32760
+          },
+          "bytes": {
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 1000000000
+          }
+        },
+        "required": [
+          "path",
+          "bytes"
+        ],
+        "additionalProperties": false
+      },
+      "side_effects": [
+        "CREATE",
+        "OVERWRITE"
+      ],
+      "risk_level": "medium",
+      "permission_requirements": [
+        "CREATE",
+        "OVERWRITE"
+      ],
+      "allowed_scope_types": [
+        "tools_workspaces",
+        "explicit_user_workspace"
+      ],
+      "timeout": 30,
+      "verifier_type": "ARCHIVE"
+    },
+    "archive.extract_zip": {
+      "id": "archive.extract_zip",
+      "enabled": true,
+      "input_schema": {
+        "type": "object",
+        "properties": {
+          "path": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 32760,
+            "x-path-operation": "READ"
+          },
+          "destination": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 32760,
+            "x-path-operation": "WRITE"
+          }
+        },
+        "required": [
+          "path",
+          "destination"
+        ],
+        "additionalProperties": false
+      },
+      "output_schema": {
+        "type": "object",
+        "properties": {
+          "source": {
+            "type": "string",
+            "minLength": 0,
+            "maxLength": 32760
+          },
+          "destination": {
+            "type": "string",
+            "minLength": 0,
+            "maxLength": 32760
+          },
+          "files": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "minLength": 0,
+              "maxLength": 32760
+            },
+            "minItems": 0,
+            "maxItems": 5000
+          }
+        },
+        "required": [
+          "source",
+          "destination",
+          "files"
+        ],
+        "additionalProperties": false
+      },
+      "side_effects": [
+        "CREATE"
+      ],
+      "risk_level": "medium",
+      "permission_requirements": [
+        "CREATE"
+      ],
+      "allowed_scope_types": [
+        "tools_workspaces",
+        "explicit_user_workspace"
+      ],
+      "timeout": 30,
+      "verifier_type": "ARCHIVE"
+    }
+  }
+}

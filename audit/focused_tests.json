@@ -1,0 +1,9 @@
+{
+  "tests": 52,
+  "failures": 0,
+  "errors": 0,
+  "skipped": 0,
+  "outside_release_modules": [],
+  "live_model_calls": 0,
+  "ui_opened": false
+}

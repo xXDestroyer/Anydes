@@ -1,0 +1,619 @@
+{
+  "tool_id": "official.developer",
+  "name": "DeveloperTool",
+  "version": "1.0.0",
+  "category": "developer",
+  "description": "Creates and runs validated Python or C++ snippets in isolated workspaces.",
+  "capabilities": [
+    "developer.create_workspace",
+    "developer.read_code",
+    "developer.write_code",
+    "developer.patch_code",
+    "developer.run_python",
+    "developer.run_cpp",
+    "developer.test",
+    "developer.inspect_error"
+  ],
+  "input_schema": {
+    "type": "object"
+  },
+  "output_schema": {
+    "type": "object"
+  },
+  "side_effects": [
+    "filesystem_read",
+    "filesystem_write",
+    "execute_code"
+  ],
+  "risk_level": "high",
+  "permission_policy": {
+    "READ": "allow_in_scope",
+    "CREATE": "allow_in_scope",
+    "EDIT": "allow_in_scope",
+    "OVERWRITE": "confirm",
+    "MOVE": "deny",
+    "DELETE": "deny",
+    "EXECUTE_CODE": "confirm",
+    "INSTALL_DEPENDENCY": "deny",
+    "EXTERNAL_ACTION": "deny"
+  },
+  "dependencies": [
+    "python",
+    "g++:optional"
+  ],
+  "timeout": 45,
+  "filesystem_scope": [
+    "tools_sandbox",
+    "tools_workspaces",
+    "explicit_user_workspace"
+  ],
+  "status": "AVAILABLE",
+  "capability_contracts": {
+    "developer.create_workspace": {
+      "id": "developer.create_workspace",
+      "enabled": true,
+      "input_schema": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 80,
+            "pattern": "^[A-Za-z0-9._-]+$"
+          }
+        },
+        "required": [
+          "name"
+        ],
+        "additionalProperties": false
+      },
+      "output_schema": {
+        "type": "object",
+        "properties": {
+          "path": {
+            "type": "string",
+            "minLength": 0,
+            "maxLength": 32760
+          }
+        },
+        "required": [
+          "path"
+        ],
+        "additionalProperties": false
+      },
+      "side_effects": [
+        "CREATE"
+      ],
+      "risk_level": "medium",
+      "permission_requirements": [
+        "CREATE"
+      ],
+      "allowed_scope_types": [
+        "tools_workspaces",
+        "explicit_user_workspace"
+      ],
+      "timeout": 30,
+      "verifier_type": "CODE"
+    },
+    "developer.read_code": {
+      "id": "developer.read_code",
+      "enabled": true,
+      "input_schema": {
+        "type": "object",
+        "properties": {
+          "path": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 32760,
+            "x-path-operation": "READ"
+          }
+        },
+        "required": [
+          "path"
+        ],
+        "additionalProperties": false
+      },
+      "output_schema": {
+        "type": "object",
+        "properties": {
+          "path": {
+            "type": "string",
+            "minLength": 0,
+            "maxLength": 32760
+          },
+          "content": {
+            "type": "string",
+            "minLength": 0,
+            "maxLength": 1000000
+          }
+        },
+        "required": [
+          "path",
+          "content"
+        ],
+        "additionalProperties": false
+      },
+      "side_effects": [
+        "READ"
+      ],
+      "risk_level": "medium",
+      "permission_requirements": [
+        "READ"
+      ],
+      "allowed_scope_types": [
+        "tools_workspaces",
+        "explicit_user_workspace"
+      ],
+      "timeout": 30,
+      "verifier_type": "CODE"
+    },
+    "developer.write_code": {
+      "id": "developer.write_code",
+      "enabled": true,
+      "input_schema": {
+        "type": "object",
+        "properties": {
+          "path": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 32760,
+            "x-path-operation": "WRITE"
+          },
+          "code": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 500000
+          },
+          "overwrite": {
+            "type": "boolean"
+          }
+        },
+        "required": [
+          "path",
+          "code"
+        ],
+        "additionalProperties": false
+      },
+      "output_schema": {
+        "type": "object",
+        "properties": {
+          "path": {
+            "type": "string",
+            "minLength": 0,
+            "maxLength": 32760
+          },
+          "bytes": {
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 1000000000
+          }
+        },
+        "required": [
+          "path",
+          "bytes"
+        ],
+        "additionalProperties": false
+      },
+      "side_effects": [
+        "CREATE",
+        "OVERWRITE"
+      ],
+      "risk_level": "medium",
+      "permission_requirements": [
+        "CREATE",
+        "OVERWRITE"
+      ],
+      "allowed_scope_types": [
+        "tools_workspaces",
+        "explicit_user_workspace"
+      ],
+      "timeout": 30,
+      "verifier_type": "CODE"
+    },
+    "developer.patch_code": {
+      "id": "developer.patch_code",
+      "enabled": true,
+      "input_schema": {
+        "type": "object",
+        "properties": {
+          "path": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 32760,
+            "x-path-operation": "WRITE"
+          },
+          "old_text": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 500000
+          },
+          "new_text": {
+            "type": "string",
+            "minLength": 0,
+            "maxLength": 500000
+          }
+        },
+        "required": [
+          "path",
+          "old_text",
+          "new_text"
+        ],
+        "additionalProperties": false
+      },
+      "output_schema": {
+        "type": "object",
+        "properties": {
+          "path": {
+            "type": "string",
+            "minLength": 0,
+            "maxLength": 32760
+          },
+          "patched": {
+            "type": "boolean"
+          }
+        },
+        "required": [
+          "path",
+          "patched"
+        ],
+        "additionalProperties": false
+      },
+      "side_effects": [
+        "EDIT"
+      ],
+      "risk_level": "medium",
+      "permission_requirements": [
+        "EDIT"
+      ],
+      "allowed_scope_types": [
+        "tools_workspaces",
+        "explicit_user_workspace"
+      ],
+      "timeout": 30,
+      "verifier_type": "CODE"
+    },
+    "developer.run_python": {
+      "id": "developer.run_python",
+      "enabled": true,
+      "input_schema": {
+        "type": "object",
+        "properties": {
+          "path": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 32760,
+            "x-path-operation": "READ"
+          },
+          "stdin": {
+            "type": "string",
+            "minLength": 0,
+            "maxLength": 10000
+          },
+          "timeout": {
+            "type": "number",
+            "exclusiveMinimum": 0,
+            "maximum": 20
+          },
+          "language": {
+            "enum": [
+              "python",
+              "cpp",
+              "c++"
+            ]
+          }
+        },
+        "required": [
+          "path"
+        ],
+        "additionalProperties": false
+      },
+      "output_schema": {
+        "type": "object",
+        "properties": {
+          "path": {
+            "type": "string",
+            "minLength": 0,
+            "maxLength": 32760
+          },
+          "returncode": {
+            "type": "integer",
+            "minimum": -2147483648,
+            "maximum": 2147483647
+          },
+          "stdout": {
+            "type": "string",
+            "minLength": 0,
+            "maxLength": 12000
+          },
+          "stderr": {
+            "type": "string",
+            "minLength": 0,
+            "maxLength": 12000
+          },
+          "phase": {
+            "type": "string",
+            "minLength": 0,
+            "maxLength": 100
+          },
+          "available": {
+            "type": "boolean"
+          },
+          "reason": {
+            "type": "string",
+            "minLength": 0,
+            "maxLength": 200
+          },
+          "binary": {
+            "type": "string",
+            "minLength": 0,
+            "maxLength": 32760
+          }
+        },
+        "required": [],
+        "additionalProperties": false
+      },
+      "side_effects": [
+        "EXECUTE_CODE"
+      ],
+      "risk_level": "high",
+      "permission_requirements": [
+        "EXECUTE_CODE"
+      ],
+      "allowed_scope_types": [
+        "tools_workspaces",
+        "explicit_user_workspace"
+      ],
+      "timeout": 45,
+      "verifier_type": "CODE"
+    },
+    "developer.run_cpp": {
+      "id": "developer.run_cpp",
+      "enabled": true,
+      "input_schema": {
+        "type": "object",
+        "properties": {
+          "path": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 32760,
+            "x-path-operation": "READ"
+          },
+          "stdin": {
+            "type": "string",
+            "minLength": 0,
+            "maxLength": 10000
+          },
+          "timeout": {
+            "type": "number",
+            "exclusiveMinimum": 0,
+            "maximum": 20
+          },
+          "language": {
+            "enum": [
+              "python",
+              "cpp",
+              "c++"
+            ]
+          }
+        },
+        "required": [
+          "path"
+        ],
+        "additionalProperties": false
+      },
+      "output_schema": {
+        "type": "object",
+        "properties": {
+          "path": {
+            "type": "string",
+            "minLength": 0,
+            "maxLength": 32760
+          },
+          "returncode": {
+            "type": "integer",
+            "minimum": -2147483648,
+            "maximum": 2147483647
+          },
+          "stdout": {
+            "type": "string",
+            "minLength": 0,
+            "maxLength": 12000
+          },
+          "stderr": {
+            "type": "string",
+            "minLength": 0,
+            "maxLength": 12000
+          },
+          "phase": {
+            "type": "string",
+            "minLength": 0,
+            "maxLength": 100
+          },
+          "available": {
+            "type": "boolean"
+          },
+          "reason": {
+            "type": "string",
+            "minLength": 0,
+            "maxLength": 200
+          },
+          "binary": {
+            "type": "string",
+            "minLength": 0,
+            "maxLength": 32760
+          }
+        },
+        "required": [],
+        "additionalProperties": false
+      },
+      "side_effects": [
+        "EXECUTE_CODE"
+      ],
+      "risk_level": "high",
+      "permission_requirements": [
+        "EXECUTE_CODE"
+      ],
+      "allowed_scope_types": [
+        "tools_workspaces",
+        "explicit_user_workspace"
+      ],
+      "timeout": 45,
+      "verifier_type": "CODE"
+    },
+    "developer.test": {
+      "id": "developer.test",
+      "enabled": true,
+      "input_schema": {
+        "type": "object",
+        "properties": {
+          "path": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 32760,
+            "x-path-operation": "READ"
+          },
+          "stdin": {
+            "type": "string",
+            "minLength": 0,
+            "maxLength": 10000
+          },
+          "timeout": {
+            "type": "number",
+            "exclusiveMinimum": 0,
+            "maximum": 20
+          },
+          "language": {
+            "enum": [
+              "python",
+              "cpp",
+              "c++"
+            ]
+          }
+        },
+        "required": [
+          "path"
+        ],
+        "additionalProperties": false
+      },
+      "output_schema": {
+        "type": "object",
+        "properties": {
+          "path": {
+            "type": "string",
+            "minLength": 0,
+            "maxLength": 32760
+          },
+          "returncode": {
+            "type": "integer",
+            "minimum": -2147483648,
+            "maximum": 2147483647
+          },
+          "stdout": {
+            "type": "string",
+            "minLength": 0,
+            "maxLength": 12000
+          },
+          "stderr": {
+            "type": "string",
+            "minLength": 0,
+            "maxLength": 12000
+          },
+          "phase": {
+            "type": "string",
+            "minLength": 0,
+            "maxLength": 100
+          },
+          "available": {
+            "type": "boolean"
+          },
+          "reason": {
+            "type": "string",
+            "minLength": 0,
+            "maxLength": 200
+          },
+          "binary": {
+            "type": "string",
+            "minLength": 0,
+            "maxLength": 32760
+          }
+        },
+        "required": [],
+        "additionalProperties": false
+      },
+      "side_effects": [
+        "EXECUTE_CODE"
+      ],
+      "risk_level": "high",
+      "permission_requirements": [
+        "EXECUTE_CODE"
+      ],
+      "allowed_scope_types": [
+        "tools_workspaces",
+        "explicit_user_workspace"
+      ],
+      "timeout": 45,
+      "verifier_type": "CODE"
+    },
+    "developer.inspect_error": {
+      "id": "developer.inspect_error",
+      "enabled": true,
+      "input_schema": {
+        "type": "object",
+        "properties": {
+          "stderr": {
+            "type": "string",
+            "minLength": 0,
+            "maxLength": 12000
+          }
+        },
+        "required": [
+          "stderr"
+        ],
+        "additionalProperties": false
+      },
+      "output_schema": {
+        "type": "object",
+        "properties": {
+          "category": {
+            "type": "string",
+            "minLength": 0,
+            "maxLength": 100
+          },
+          "summary": {
+            "type": "string",
+            "minLength": 0,
+            "maxLength": 12000
+          },
+          "lines": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "minLength": 0,
+              "maxLength": 12000
+            },
+            "minItems": 0,
+            "maxItems": 12
+          }
+        },
+        "required": [
+          "category",
+          "summary"
+        ],
+        "additionalProperties": false
+      },
+      "side_effects": [
+        "READ"
+      ],
+      "risk_level": "medium",
+      "permission_requirements": [
+        "READ"
+      ],
+      "allowed_scope_types": [
+        "tools_workspaces",
+        "explicit_user_workspace"
+      ],
+      "timeout": 30,
+      "verifier_type": "CODE"
+    }
+  }
+}

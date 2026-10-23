@@ -1,0 +1,73 @@
+# Python
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+# Models
+models/*
+!models/README.md
+checkpoints/
+weights/
+model_cache/
+huggingface_cache/
+torch_cache/
+*.gguf
+*.safetensors
+*.bin
+*.pth
+*.pt
+*.onnx
+# Runtime
+logs/
+telemetry/
+sessions/
+temp/
+tmp/
+cache/
+runtime/
+datos/
+data/
+workspaces/
+sandbox/
+# Backups/staging runtime data
+promotion_*/
+rollback/
+snapshots/
+candidate/
+staging/
+# Secrets
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+*.token
+# Personal/private data
+personal_memory/
+protected_memory/
+user_data/
+private/
+secrets/
+*.sqlite*
+*.db
+*.wav
+*.mp3
+*.flac
+*.vrm
+*.glb
+# JS/build
+node_modules/
+build/
+dist/
+*.exe
+*.dll
+*.pyd
+# Local validation scratch
+audit/validation_scratch/
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini

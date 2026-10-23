@@ -1,0 +1,27 @@
+{
+  "protected": {
+    "total": 956,
+    "matched": 956,
+    "violations": 0
+  },
+  "frozen": {
+    "total": 9,
+    "matched": 9,
+    "violations": 0
+  },
+  "production": {
+    "total": 208,
+    "matched": 208,
+    "violations": 0
+  },
+  "professional_shell": {
+    "total": 11,
+    "matched": 11,
+    "violations": 0
+  },
+  "exported_original_sources": {
+    "total": 548,
+    "matched": 548,
+    "violations": 0
+  }
+}

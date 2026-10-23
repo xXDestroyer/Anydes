@@ -1,0 +1,50 @@
+{
+  "blocking_findings": [],
+  "review_locations": [
+    {
+      "path": "anydes_tools/tests/test_publication_phase_f.py",
+      "line": 111,
+      "category": "ANONYMIZED_PATH_OR_DETECTION_PATTERN"
+    },
+    {
+      "path": "anydes_tools/tests/test_publication_phase_f.py",
+      "line": 122,
+      "category": "ANONYMIZED_PATH_OR_DETECTION_PATTERN"
+    },
+    {
+      "path": "anydes_tools/tests/test_publication_phase_f.py",
+      "line": 171,
+      "category": "ANONYMIZED_PATH_OR_DETECTION_PATTERN"
+    },
+    {
+      "path": "experimentos/anydes_professional_shell_h1_4/h1_4b_13/tests/test_code_output.py",
+      "line": 72,
+      "category": "ANONYMIZED_PATH_OR_DETECTION_PATTERN"
+    },
+    {
+      "path": "experimentos/anydes_professional_shell_h1_4/h1_4b_13/tests/test_publication_phase_f.py",
+      "line": 111,
+      "category": "ANONYMIZED_PATH_OR_DETECTION_PATTERN"
+    },
+    {
+      "path": "experimentos/anydes_professional_shell_h1_4/h1_4b_13/tests/test_publication_phase_f.py",
+      "line": 122,
+      "category": "ANONYMIZED_PATH_OR_DETECTION_PATTERN"
+    },
+    {
+      "path": "experimentos/anydes_professional_shell_h1_4/h1_4b_13/tests/test_publication_phase_f.py",
+      "line": 177,
+      "category": "ANONYMIZED_PATH_OR_DETECTION_PATTERN"
+    },
+    {
+      "path": "experimentos/anydes_professional_shell_h1_4/h1_4b_13/tests/test_technical_literals.py",
+      "line": 12,
+      "category": "ANONYMIZED_PATH_OR_DETECTION_PATTERN"
+    },
+    {
+      "path": "experimentos/anydes_professional_shell_h1_4/h1_4b_13/tests/test_technical_literals.py",
+      "line": 58,
+      "category": "ANONYMIZED_PATH_OR_DETECTION_PATTERN"
+    }
+  ]
+}

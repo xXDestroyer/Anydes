@@ -1,0 +1,7 @@
+# Integration dependencies only. B4 GPU engine, Parakeet DLLs and weights separate.
+numpy==2.1.3
+sounddevice==0.5.1
+soundfile==0.13.1
+certifi==2024.12.14
+# Select the Torch/Qwen backend combination appropriate for your hardware;
+# this file intentionally does not install a different voice identity/model.

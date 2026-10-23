@@ -1,0 +1,3446 @@
+{
+  "included": [
+    {
+      "path": "programa_principal/anydes/primitives.py",
+      "bytes": 257,
+      "source_sha256": "06d6e85f50a6256acf617b4bc0879f586fd8401f0648670c892a79105058aadf",
+      "sha256": "06d6e85f50a6256acf617b4bc0879f586fd8401f0648670c892a79105058aadf"
+    },
+    {
+      "path": "programa_principal/anydes/__init__.py",
+      "bytes": 64,
+      "source_sha256": "6ee6b038a10e410587af48398d50ed5224ae84fd6db3936348cebe95e3112748",
+      "sha256": "6ee6b038a10e410587af48398d50ed5224ae84fd6db3936348cebe95e3112748"
+    },
+    {
+      "path": "programa_principal/anydes/avatar/state.py",
+      "bytes": 596,
+      "source_sha256": "431684d1601bb9ec25e3530cb096a178f8e5d9b4d6c05c54fbadc7817e8a9a15",
+      "sha256": "431684d1601bb9ec25e3530cb096a178f8e5d9b4d6c05c54fbadc7817e8a9a15"
+    },
+    {
+      "path": "programa_principal/anydes/avatar/vrm.py",
+      "bytes": 5156,
+      "source_sha256": "bae16eec0c36d34e968db577225dd964048fadfee2cb014fdd1000a8a17b0bab",
+      "sha256": "bae16eec0c36d34e968db577225dd964048fadfee2cb014fdd1000a8a17b0bab"
+    },
+    {
+      "path": "programa_principal/anydes/avatar/__init__.py",
+      "bytes": 182,
+      "source_sha256": "6b294267f1251766adc04475a002a3593e555d818985a0c7a921f2bda89c2bc8",
+      "sha256": "6b294267f1251766adc04475a002a3593e555d818985a0c7a921f2bda89c2bc8"
+    },
+    {
+      "path": "programa_principal/anydes/cerebro/llm.py",
+      "bytes": 132836,
+      "source_sha256": "15c730b1c7e20892e01c6acd5794050ffc2dfe28e04c12502bbd5b7d124a2a77",
+      "sha256": "a8bee406ff65023024a18924269ed020ced171566fd7b4978d97ca40a6ba34a5"
+    },
+    {
+      "path": "programa_principal/anydes/cerebro/ollama_vision.py",
+      "bytes": 4925,
+      "source_sha256": "4b1f88bc5a7c396f2e661f9419e4ec906b9bd3743c7a647c1b884b295dde3ab6",
+      "sha256": "4b1f88bc5a7c396f2e661f9419e4ec906b9bd3743c7a647c1b884b295dde3ab6"
+    },
+    {
+      "path": "programa_principal/anydes/cerebro/prompt_builder.py",
+      "bytes": 9225,
+      "source_sha256": "88165732ef8904b161e483fe69edfe34e467f0351c5c7f255643a4241853184d",
+      "sha256": "8ff2a5b3197cc8fa8f9fe32861aff5e4faaf55d33e54850d7c5dc5fbaef8144e"
+    },
+    {
+      "path": "programa_principal/anydes/cerebro/__init__.py",
+      "bytes": 49,
+      "source_sha256": "9daaacbf30ee81ea26691260393eeeb38a4ea1dd01ab5d7f3926416469976f01",
+      "sha256": "9daaacbf30ee81ea26691260393eeeb38a4ea1dd01ab5d7f3926416469976f01"
+    },
+    {
+      "path": "programa_principal/anydes/cognition/action_manager.py",
+      "bytes": 7131,
+      "source_sha256": "31c3270f800f2bf95d06ef369f01baf2db3e7ddfd971798a187500a58459641e",
+      "sha256": "31c3270f800f2bf95d06ef369f01baf2db3e7ddfd971798a187500a58459641e"
+    },
+    {
+      "path": "programa_principal/anydes/cognition/body.py",
+      "bytes": 9040,
+      "source_sha256": "4bfd967a901c6407713b2aa3bd274affae00ba631c028a9057d6a08428ecdb89",
+      "sha256": "4bfd967a901c6407713b2aa3bd274affae00ba631c028a9057d6a08428ecdb89"
+    },
+    {
+      "path": "programa_principal/anydes/cognition/context_builder.py",
+      "bytes": 3433,
+      "source_sha256": "58c99d303f3d63a90666e31842cf29e00e05ba22e40806076c6587247a7ef5d9",
+      "sha256": "58c99d303f3d63a90666e31842cf29e00e05ba22e40806076c6587247a7ef5d9"
+    },
+    {
+      "path": "programa_principal/anydes/cognition/contracts.py",
+      "bytes": 47959,
+      "source_sha256": "28a89f43310666df33c1da4b2fdda9777d72ff484f31e8f895d1a9858ff9bd9e",
+      "sha256": "28a89f43310666df33c1da4b2fdda9777d72ff484f31e8f895d1a9858ff9bd9e"
+    },
+    {
+      "path": "programa_principal/anydes/cognition/conversation_planner.py",
+      "bytes": 7789,
+      "source_sha256": "b47073f28756cf3ce3a28f096989dcbc91489d6ed012c49b46e385f0a8f4578f",
+      "sha256": "b47073f28756cf3ce3a28f096989dcbc91489d6ed012c49b46e385f0a8f4578f"
+    },
+    {
+      "path": "programa_principal/anydes/cognition/curiosity_store.py",
+      "bytes": 6301,
+      "source_sha256": "610234d1dd7624153213246666309f75a2ee9149df9800a6a86c62ead57eb6e3",
+      "sha256": "610234d1dd7624153213246666309f75a2ee9149df9800a6a86c62ead57eb6e3"
+    },
+    {
+      "path": "programa_principal/anydes/cognition/curiosity_writer.py",
+      "bytes": 7679,
+      "source_sha256": "0add68a487336771874f084ed8750d1ab0c4704f854979ceffebb77e45d8c0ba",
+      "sha256": "0add68a487336771874f084ed8750d1ab0c4704f854979ceffebb77e45d8c0ba"
+    },
+    {
+      "path": "programa_principal/anydes/cognition/evidence_builder.py",
+      "bytes": 34828,
+      "source_sha256": "3de4f4d5b1b282738e605a84286611f9210422455b8307b199432f1e6260e751",
+      "sha256": "3de4f4d5b1b282738e605a84286611f9210422455b8307b199432f1e6260e751"
+    },
+    {
+      "path": "programa_principal/anydes/cognition/grounded_reflection.py",
+      "bytes": 10899,
+      "source_sha256": "179a06ee819b7f008e9d0dbd697f89346be62507b24df26510f4b61c7c4551a1",
+      "sha256": "179a06ee819b7f008e9d0dbd697f89346be62507b24df26510f4b61c7c4551a1"
+    },
+    {
+      "path": "programa_principal/anydes/cognition/grounding_contracts.py",
+      "bytes": 36071,
+      "source_sha256": "61fc41c32866f921be11b98f47ceeaace4603c95fcaf5cb7db2f14d543bfb8be",
+      "sha256": "61fc41c32866f921be11b98f47ceeaace4603c95fcaf5cb7db2f14d543bfb8be"
+    },
+    {
+      "path": "programa_principal/anydes/cognition/memory_writer.py",
+      "bytes": 5824,
+      "source_sha256": "80d12e6098f0ff53ebb2c929c35da44c20cef9569be8cb7d91c17680a48cc212",
+      "sha256": "80d12e6098f0ff53ebb2c929c35da44c20cef9569be8cb7d91c17680a48cc212"
+    },
+    {
+      "path": "programa_principal/anydes/cognition/metacognition.py",
+      "bytes": 7794,
+      "source_sha256": "218eadc9c2a828f1bd4ba0ec4e16e62b111b04bc9a439f24d771dd82a24196e4",
+      "sha256": "218eadc9c2a828f1bd4ba0ec4e16e62b111b04bc9a439f24d771dd82a24196e4"
+    },
+    {
+      "path": "programa_principal/anydes/cognition/plan_repair.py",
+      "bytes": 21104,
+      "source_sha256": "3aa0754ba065a098b65d95a80cb555c6e6864a9a83639bda5fbdeeefe149f8d5",
+      "sha256": "3aa0754ba065a098b65d95a80cb555c6e6864a9a83639bda5fbdeeefe149f8d5"
+    },
+    {
+      "path": "programa_principal/anydes/cognition/privacy.py",
+      "bytes": 4053,
+      "source_sha256": "db62eced13a10e495f0dcb6feca64c623aba7992d22f9aa8052a0ec4af929aba",
+      "sha256": "db62eced13a10e495f0dcb6feca64c623aba7992d22f9aa8052a0ec4af929aba"
+    },
+    {
+      "path": "programa_principal/anydes/cognition/provenance_resolver.py",
+      "bytes": 11543,
+      "source_sha256": "732cb8a9ededcfd24443ed8cd626f0fd2b320886b1501d994c11bad779fcdcd8",
+      "sha256": "732cb8a9ededcfd24443ed8cd626f0fd2b320886b1501d994c11bad779fcdcd8"
+    },
+    {
+      "path": "programa_principal/anydes/cognition/reasoning.py",
+      "bytes": 43658,
+      "source_sha256": "7f8ed28449780978766b52a570a79abf54e81eacc250fff42062ecc792f08d5f",
+      "sha256": "7f8ed28449780978766b52a570a79abf54e81eacc250fff42062ecc792f08d5f"
+    },
+    {
+      "path": "programa_principal/anydes/cognition/reflection.py",
+      "bytes": 44534,
+      "source_sha256": "c529a24dc0eac5d7b27f9015c76282410b4a130bcc9bafb7f9eb66538983b185",
+      "sha256": "2d75be5c9b6bbd382f135c45ba8e0531a9cac32d41a60c842307769f1c253b64"
+    },
+    {
+      "path": "programa_principal/anydes/cognition/relationship_writer.py",
+      "bytes": 17187,
+      "source_sha256": "9cf65e6adefbfb2367bbeb49aa9b944f57a0d6fab400b9c74757bcb020c9dcee",
+      "sha256": "9cf65e6adefbfb2367bbeb49aa9b944f57a0d6fab400b9c74757bcb020c9dcee"
+    },
+    {
+      "path": "programa_principal/anydes/cognition/self_writer.py",
+      "bytes": 11747,
+      "source_sha256": "6ad4417cd6e2a822b31230f1ca4f70eaa8700b801f52ac9db4ab469900240686",
+      "sha256": "6ad4417cd6e2a822b31230f1ca4f70eaa8700b801f52ac9db4ab469900240686"
+    },
+    {
+      "path": "programa_principal/anydes/cognition/startup.py",
+      "bytes": 4534,
+      "source_sha256": "4363e9b04deedcdcc981ca54fa566b715339613ab895197bf28218d519595114",
+      "sha256": "4363e9b04deedcdcc981ca54fa566b715339613ab895197bf28218d519595114"
+    },
+    {
+      "path": "programa_principal/anydes/cognition/unified_inference.py",
+      "bytes": 6598,
+      "source_sha256": "47622b22fb58d6c9b8f3337d6fc676049aca25d55084d6a3e18b6f21ccae1044",
+      "sha256": "47622b22fb58d6c9b8f3337d6fc676049aca25d55084d6a3e18b6f21ccae1044"
+    },
+    {
+      "path": "programa_principal/anydes/cognition/voice.py",
+      "bytes": 6084,
+      "source_sha256": "d8b3cbb12723a734a2fd4bcf5badbc74a0c661df752a78f814f0436301714fc7",
+      "sha256": "d8b3cbb12723a734a2fd4bcf5badbc74a0c661df752a78f814f0436301714fc7"
+    },
+    {
+      "path": "programa_principal/anydes/cognition/__init__.py",
+      "bytes": 5238,
+      "source_sha256": "cf0f74e0a2f57039c10f30b19246cc337ceecaa6ff0f31a7a3ba12ab22527db2",
+      "sha256": "cf0f74e0a2f57039c10f30b19246cc337ceecaa6ff0f31a7a3ba12ab22527db2"
+    },
+    {
+      "path": "programa_principal/anydes/cognition/experimental/minimal_grounding.py",
+      "bytes": 26493,
+      "source_sha256": "a7d52301a2190095a030d7e951eb9c40c0a2f988492a9a2664a482317c9bc3d8",
+      "sha256": "a7d52301a2190095a030d7e951eb9c40c0a2f988492a9a2664a482317c9bc3d8"
+    },
+    {
+      "path": "programa_principal/anydes/cognition/experimental/understanding.py",
+      "bytes": 31361,
+      "source_sha256": "1ec399e78f49f33db4c32fda9ea2f366220b6f16008670348aff2f2b0e09ff49",
+      "sha256": "1ec399e78f49f33db4c32fda9ea2f366220b6f16008670348aff2f2b0e09ff49"
+    },
+    {
+      "path": "programa_principal/anydes/cognition/experimental/__init__.py",
+      "bytes": 232,
+      "source_sha256": "34703ae6d281f390230b1e2a31e2c375abfeb252245dc8abff09c6a179b339b6",
+      "sha256": "34703ae6d281f390230b1e2a31e2c375abfeb252245dc8abff09c6a179b339b6"
+    },
+    {
+      "path": "programa_principal/anydes/cognition/live_runtime/context_pipeline.py",
+      "bytes": 9153,
+      "source_sha256": "e0d80e39fbb418a7d0f2975799adb84a51445188db6125367b029635636d3334",
+      "sha256": "e0d80e39fbb418a7d0f2975799adb84a51445188db6125367b029635636d3334"
+    },
+    {
+      "path": "programa_principal/anydes/cognition/live_runtime/contracts.py",
+      "bytes": 6894,
+      "source_sha256": "09bce387f6c3dc7d4e45cfa0018c7d54bb0d038d60847cd0285c57a78794b0d2",
+      "sha256": "09bce387f6c3dc7d4e45cfa0018c7d54bb0d038d60847cd0285c57a78794b0d2"
+    },
+    {
+      "path": "programa_principal/anydes/cognition/live_runtime/current_adapters.py",
+      "bytes": 8765,
+      "source_sha256": "aee2f87780ed3e63959d8b312a219d77a59157a7dfa150cd74210226cdd24113",
+      "sha256": "aee2f87780ed3e63959d8b312a219d77a59157a7dfa150cd74210226cdd24113"
+    },
+    {
+      "path": "programa_principal/anydes/cognition/live_runtime/events.py",
+      "bytes": 4575,
+      "source_sha256": "a11d65ca7a41dc151ad9bd51ae4ad11120009ec96a9812888bd270abf6fa0c15",
+      "sha256": "a11d65ca7a41dc151ad9bd51ae4ad11120009ec96a9812888bd270abf6fa0c15"
+    },
+    {
+      "path": "programa_principal/anydes/cognition/live_runtime/factory.py",
+      "bytes": 1439,
+      "source_sha256": "4463d66ac81e244ff9a687a570fc5f27e72cd8390c3b7001d559b713f3c917bc",
+      "sha256": "4463d66ac81e244ff9a687a570fc5f27e72cd8390c3b7001d559b713f3c917bc"
+    },
+    {
+      "path": "programa_principal/anydes/cognition/live_runtime/health.py",
+      "bytes": 5424,
+      "source_sha256": "e464e24295443d92243b39ede7cf1a9a819df98adfa4dbb4c45d00fd8630669c",
+      "sha256": "e464e24295443d92243b39ede7cf1a9a819df98adfa4dbb4c45d00fd8630669c"
+    },
+    {
+      "path": "programa_principal/anydes/cognition/live_runtime/interfaces.py",
+      "bytes": 2821,
+      "source_sha256": "fbbb2d856e0e606bbc183a106c5f7eb84a41fadbd4ebb734bf7e31976115d0af",
+      "sha256": "fbbb2d856e0e606bbc183a106c5f7eb84a41fadbd4ebb734bf7e31976115d0af"
+    },
+    {
+      "path": "programa_principal/anydes/cognition/live_runtime/metrics.py",
+      "bytes": 26192,
+      "source_sha256": "a5057b5f0c77edd259f5147d58226109b3a1a5b351d4aa01e09ed84f43055166",
+      "sha256": "a5057b5f0c77edd259f5147d58226109b3a1a5b351d4aa01e09ed84f43055166"
+    },
+    {
+      "path": "programa_principal/anydes/cognition/live_runtime/providers.py",
+      "bytes": 1295,
+      "source_sha256": "854fb66617eaa4c0a0d659caaaa45e8128eda886f85c8ab5f4dcef32ca523a9c",
+      "sha256": "854fb66617eaa4c0a0d659caaaa45e8128eda886f85c8ab5f4dcef32ca523a9c"
+    },
+    {
+      "path": "programa_principal/anydes/cognition/live_runtime/runtime.py",
+      "bytes": 11342,
+      "source_sha256": "e28fd4d049b5670c28472df8baf72b799d94a502192304c1da9122221b23a950",
+      "sha256": "e28fd4d049b5670c28472df8baf72b799d94a502192304c1da9122221b23a950"
+    },
+    {
+      "path": "programa_principal/anydes/cognition/live_runtime/state_store.py",
+      "bytes": 3365,
+      "source_sha256": "1a3bf4189880e349f8bcb730e97b7b9cd87d53bef37b153fc2fd9e8020eb929c",
+      "sha256": "1a3bf4189880e349f8bcb730e97b7b9cd87d53bef37b153fc2fd9e8020eb929c"
+    },
+    {
+      "path": "programa_principal/anydes/cognition/live_runtime/__init__.py",
+      "bytes": 3406,
+      "source_sha256": "64992e8e8052b5f84cf4f2a42df22bf2a8e18a80fddb46c931c1e44eb1eae39b",
+      "sha256": "64992e8e8052b5f84cf4f2a42df22bf2a8e18a80fddb46c931c1e44eb1eae39b"
+    },
+    {
+      "path": "programa_principal/anydes/cognition/providers/curiosity.py",
+      "bytes": 1496,
+      "source_sha256": "b2bfe55e89e7e1af6319836e299540e82eea81086e6c062b1b10d9472f5a5af7",
+      "sha256": "b2bfe55e89e7e1af6319836e299540e82eea81086e6c062b1b10d9472f5a5af7"
+    },
+    {
+      "path": "programa_principal/anydes/cognition/providers/emotion.py",
+      "bytes": 1104,
+      "source_sha256": "c15c2d7d42748fd5086142fb15260cacee1084cfb4ad36f1a1465ca1c108b38f",
+      "sha256": "c15c2d7d42748fd5086142fb15260cacee1084cfb4ad36f1a1465ca1c108b38f"
+    },
+    {
+      "path": "programa_principal/anydes/cognition/providers/environment.py",
+      "bytes": 2354,
+      "source_sha256": "e1fe7b424a8e92d6594bf8a1ddb8b6bf1fffca8e3806143a6c35f010ac9552fe",
+      "sha256": "e1fe7b424a8e92d6594bf8a1ddb8b6bf1fffca8e3806143a6c35f010ac9552fe"
+    },
+    {
+      "path": "programa_principal/anydes/cognition/providers/goals.py",
+      "bytes": 4874,
+      "source_sha256": "fc86e8034df2c206c18812a294143db33acd0f034864e73916db436ba067c4f1",
+      "sha256": "5c16ef1192cd3bd8eba358aaed461331d1b021451cde52b126f934beaf97d9a5"
+    },
+    {
+      "path": "programa_principal/anydes/cognition/providers/memory.py",
+      "bytes": 3859,
+      "source_sha256": "89ccb449914ef39e403a6c37c985c5939a98fda515c7c4ff192eab17d5a8b82e",
+      "sha256": "89ccb449914ef39e403a6c37c985c5939a98fda515c7c4ff192eab17d5a8b82e"
+    },
+    {
+      "path": "programa_principal/anydes/cognition/providers/relationship.py",
+      "bytes": 750,
+      "source_sha256": "6ad5b6efa5416199d97a79b468f78edb122352f938b5a5792a33b08a00082f04",
+      "sha256": "6ad5b6efa5416199d97a79b468f78edb122352f938b5a5792a33b08a00082f04"
+    },
+    {
+      "path": "programa_principal/anydes/cognition/providers/self_model.py",
+      "bytes": 3691,
+      "source_sha256": "a1f53f1c19cffed5fb13b00ca3e33cc0386068e5643f86537b6fbf7fb3856b25",
+      "sha256": "a1f53f1c19cffed5fb13b00ca3e33cc0386068e5643f86537b6fbf7fb3856b25"
+    },
+    {
+      "path": "programa_principal/anydes/cognition/providers/uncertainty.py",
+      "bytes": 3070,
+      "source_sha256": "99e855797d8e98647931a78264d80caf125c635e1f030b56b40bc0d96c8e0cd6",
+      "sha256": "99e855797d8e98647931a78264d80caf125c635e1f030b56b40bc0d96c8e0cd6"
+    },
+    {
+      "path": "programa_principal/anydes/cognition/providers/vision.py",
+      "bytes": 3734,
+      "source_sha256": "10f1a3af05817f5470fd83e8884ff563166698eab67fb80fc20c7bd468c1823c",
+      "sha256": "10f1a3af05817f5470fd83e8884ff563166698eab67fb80fc20c7bd468c1823c"
+    },
+    {
+      "path": "programa_principal/anydes/cognition/providers/__init__.py",
+      "bytes": 900,
+      "source_sha256": "966e0701215f9be3a9680dfabff9b48c7dcd0e6c8dd23db015fb137f13a34e81",
+      "sha256": "966e0701215f9be3a9680dfabff9b48c7dcd0e6c8dd23db015fb137f13a34e81"
+    },
+    {
+      "path": "programa_principal/anydes/continuity_v2/completion.py",
+      "bytes": 5052,
+      "source_sha256": "0b22412b780c9254e4d1b2a2561a59cf60c1e6d37ddee0c6557e26c12a408fd6",
+      "sha256": "0b22412b780c9254e4d1b2a2561a59cf60c1e6d37ddee0c6557e26c12a408fd6"
+    },
+    {
+      "path": "programa_principal/anydes/continuity_v2/core.py",
+      "bytes": 26036,
+      "source_sha256": "2e78eaee67a7b45e846ad5c96f3970a02a0303652b4f9e2606a4868ac6c0ebcb",
+      "sha256": "2e78eaee67a7b45e846ad5c96f3970a02a0303652b4f9e2606a4868ac6c0ebcb"
+    },
+    {
+      "path": "programa_principal/anydes/continuity_v2/groq_client.py",
+      "bytes": 7002,
+      "source_sha256": "1fb671142d7a55cdcc6573c8248a0b4f30d5e8561af5cca01dda04dd67e074b8",
+      "sha256": "1fb671142d7a55cdcc6573c8248a0b4f30d5e8561af5cca01dda04dd67e074b8"
+    },
+    {
+      "path": "programa_principal/anydes/continuity_v2/math_presentation.py",
+      "bytes": 23030,
+      "source_sha256": "af546454d88104930b3efdfe28874788a87a9704f66b026eefcb52c0f8007372",
+      "sha256": "af546454d88104930b3efdfe28874788a87a9704f66b026eefcb52c0f8007372"
+    },
+    {
+      "path": "programa_principal/anydes/continuity_v2/math_runtime.py",
+      "bytes": 10522,
+      "source_sha256": "cf6447f2844518e540c3831afa7f1c992f96db9db46e5c0a75d5e8f29a8d20cd",
+      "sha256": "cf6447f2844518e540c3831afa7f1c992f96db9db46e5c0a75d5e8f29a8d20cd"
+    },
+    {
+      "path": "programa_principal/anydes/continuity_v2/runtime_patch.py",
+      "bytes": 4542,
+      "source_sha256": "0686d4a0ae31a9277b14b64b795ed0895d9dd5d00d8fc38817d0b385a3707508",
+      "sha256": "0686d4a0ae31a9277b14b64b795ed0895d9dd5d00d8fc38817d0b385a3707508"
+    },
+    {
+      "path": "programa_principal/anydes/continuity_v2/turn_style.py",
+      "bytes": 3222,
+      "source_sha256": "a923a9bc892a332dc16f0ce21c7d2e38d4382ea35b07df9993e27c9e53d22271",
+      "sha256": "a923a9bc892a332dc16f0ce21c7d2e38d4382ea35b07df9993e27c9e53d22271"
+    },
+    {
+      "path": "programa_principal/anydes/continuity_v2/__init__.py",
+      "bytes": 262,
+      "source_sha256": "b728a4cdd38b11dede364a75420043c654b08ce72dbc8379932905c3f8d4119d",
+      "sha256": "b728a4cdd38b11dede364a75420043c654b08ce72dbc8379932905c3f8d4119d"
+    },
+    {
+      "path": "programa_principal/anydes/evaluation/catalog.py",
+      "bytes": 17047,
+      "source_sha256": "76b402242113ac44528e2a8f25ec0051b4dd6d3017be1920bee09de2b172b003",
+      "sha256": "3eef15e07df2f662163a503a49b8e19840be798a9eaca5de573d31e2d034f972"
+    },
+    {
+      "path": "programa_principal/anydes/evaluation/cli.py",
+      "bytes": 5766,
+      "source_sha256": "d90efc8110b9c653709ff1dd552b8644b521be4deaa264bd693020110e68eb63",
+      "sha256": "d90efc8110b9c653709ff1dd552b8644b521be4deaa264bd693020110e68eb63"
+    },
+    {
+      "path": "programa_principal/anydes/evaluation/contracts.py",
+      "bytes": 13352,
+      "source_sha256": "13779dd2afb0607666630d18bdc5fbc6285103617b60625c67c4569a25f5aa34",
+      "sha256": "13779dd2afb0607666630d18bdc5fbc6285103617b60625c67c4569a25f5aa34"
+    },
+    {
+      "path": "programa_principal/anydes/evaluation/evaluator.py",
+      "bytes": 9665,
+      "source_sha256": "cfecd5572f31f2a9812779d3b35573a9434ddcf5089d5ae2ef0c62a05f5f847c",
+      "sha256": "cfecd5572f31f2a9812779d3b35573a9434ddcf5089d5ae2ef0c62a05f5f847c"
+    },
+    {
+      "path": "programa_principal/anydes/evaluation/long_conversation.py",
+      "bytes": 47489,
+      "source_sha256": "ecab1d456977a6053482885cb654af191c83ad84f9143a35a9f0ba068ecedbca",
+      "sha256": "db112a842baabe5514451df8e9559bfab13904c0a9630aa22259ab5b57af1f41"
+    },
+    {
+      "path": "programa_principal/anydes/evaluation/ollama_benchmark.py",
+      "bytes": 23669,
+      "source_sha256": "7f0d7ec711fd6643fa8844ce1da91ffce56f0984b00862b3afdaadd5cd929fe9",
+      "sha256": "7f0d7ec711fd6643fa8844ce1da91ffce56f0984b00862b3afdaadd5cd929fe9"
+    },
+    {
+      "path": "programa_principal/anydes/evaluation/runner.py",
+      "bytes": 22862,
+      "source_sha256": "62c05d85d79a3334223bed8240ab6d5cb08fd421e89bb50335b84045a411c53f",
+      "sha256": "ca1f1177f24656278ff5a2dfce26a6992cef3d8332eacfc26c8ec6488edc6855"
+    },
+    {
+      "path": "programa_principal/anydes/evaluation/thinking_comparison.py",
+      "bytes": 11459,
+      "source_sha256": "50e5463000967f44259851dceadfd807d4481bb3161f72d33b750552226f0e36",
+      "sha256": "50e5463000967f44259851dceadfd807d4481bb3161f72d33b750552226f0e36"
+    },
+    {
+      "path": "programa_principal/anydes/evaluation/__init__.py",
+      "bytes": 1277,
+      "source_sha256": "39bc4e068f6a4f56fa58e86fa84a98266506a251f347a9de7c19c23bf638d484",
+      "sha256": "39bc4e068f6a4f56fa58e86fa84a98266506a251f347a9de7c19c23bf638d484"
+    },
+    {
+      "path": "programa_principal/anydes/funciones_extra/application_resolver.py",
+      "bytes": 12875,
+      "source_sha256": "27f6f2d0b18ddadac4d1aa17f0636f351e3fabdd7228c1ef055696b6637f8c4e",
+      "sha256": "27f6f2d0b18ddadac4d1aa17f0636f351e3fabdd7228c1ef055696b6637f8c4e"
+    },
+    {
+      "path": "programa_principal/anydes/funciones_extra/apps.py",
+      "bytes": 7017,
+      "source_sha256": "cde163c439b61e0bdabf4b49cde970e92d8685bf55abbd6cc132e9aeccb8ba85",
+      "sha256": "cde163c439b61e0bdabf4b49cde970e92d8685bf55abbd6cc132e9aeccb8ba85"
+    },
+    {
+      "path": "programa_principal/anydes/funciones_extra/calendar_tools.py",
+      "bytes": 6172,
+      "source_sha256": "cd15bbccce047ce2017a80d52cf519bb43a0ec7084ad762e83a684ba146598d3",
+      "sha256": "cd15bbccce047ce2017a80d52cf519bb43a0ec7084ad762e83a684ba146598d3"
+    },
+    {
+      "path": "programa_principal/anydes/funciones_extra/local.py",
+      "bytes": 1480,
+      "source_sha256": "ff35473d4b205f0fb395c76950290fa25745d23d4abf77df84efe75ea9f1a059",
+      "sha256": "ff35473d4b205f0fb395c76950290fa25745d23d4abf77df84efe75ea9f1a059"
+    },
+    {
+      "path": "programa_principal/anydes/funciones_extra/memory_tools.py",
+      "bytes": 7507,
+      "source_sha256": "3aae3749205f80e4bb1a138a079af7871dc0e45537d4074cd9b3f41f400adbb3",
+      "sha256": "3aae3749205f80e4bb1a138a079af7871dc0e45537d4074cd9b3f41f400adbb3"
+    },
+    {
+      "path": "programa_principal/anydes/funciones_extra/network.py",
+      "bytes": 299,
+      "source_sha256": "671dccb59ea78913d0135cd6cd245de824ce3730fa6758c5021b4ecb0f4c27be",
+      "sha256": "671dccb59ea78913d0135cd6cd245de824ce3730fa6758c5021b4ecb0f4c27be"
+    },
+    {
+      "path": "programa_principal/anydes/funciones_extra/registry.py",
+      "bytes": 10088,
+      "source_sha256": "05242ecce450b72178ffdd9b20d61bcfce6a793c401f5770354d9ee20b0cab74",
+      "sha256": "05242ecce450b72178ffdd9b20d61bcfce6a793c401f5770354d9ee20b0cab74"
+    },
+    {
+      "path": "programa_principal/anydes/funciones_extra/weather.py",
+      "bytes": 4105,
+      "source_sha256": "cf0b0c73542ca3133473a075152a699a0ab09282453cf7e2680562200fad1d5a",
+      "sha256": "cf0b0c73542ca3133473a075152a699a0ab09282453cf7e2680562200fad1d5a"
+    },
+    {
+      "path": "programa_principal/anydes/funciones_extra/__init__.py",
+      "bytes": 39,
+      "source_sha256": "01ca62348409fb4c796fd5169fa033fbfa0eb168dd6b781bc9795f3ebcb76a0c",
+      "sha256": "01ca62348409fb4c796fd5169fa033fbfa0eb168dd6b781bc9795f3ebcb76a0c"
+    },
+    {
+      "path": "programa_principal/anydes/hybrid/router.py",
+      "bytes": 39502,
+      "source_sha256": "319295437b216c3536051ce523410675967fb305ebd61255603c1356a509122c",
+      "sha256": "319295437b216c3536051ce523410675967fb305ebd61255603c1356a509122c"
+    },
+    {
+      "path": "programa_principal/anydes/hybrid/__init__.py",
+      "bytes": 202,
+      "source_sha256": "a630442bbd49340f5567b8245bcffd48b4d1a728066480873063fee66dc2c621",
+      "sha256": "a630442bbd49340f5567b8245bcffd48b4d1a728066480873063fee66dc2c621"
+    },
+    {
+      "path": "programa_principal/anydes/identity/avatar_self.py",
+      "bytes": 6390,
+      "source_sha256": "d8452edcba372ef7f4e1e3d856461a0944865897e84b4427428b2dc4b9a84de4",
+      "sha256": "d8452edcba372ef7f4e1e3d856461a0944865897e84b4427428b2dc4b9a84de4"
+    },
+    {
+      "path": "programa_principal/anydes/identity/core.py",
+      "bytes": 13750,
+      "source_sha256": "bacd9998b21b9e84ba7476fb52bce380fc842dc97ea40b7b74c0a0fa130f6d2c",
+      "sha256": "c7e08ee28e8c344a8561d4bfd42e2c477ce1582aacf94c233748cef50488ab71"
+    },
+    {
+      "path": "programa_principal/anydes/identity/relationship_contracts.py",
+      "bytes": 31184,
+      "source_sha256": "ef64972c407744e580a6071d2dd532fb63429c360aaa449f81b9d97b5ec83f4e",
+      "sha256": "d6c59333a43a61f01e37f709004c8510f38ceaf166d40a6fcd7a3b8224772b0e"
+    },
+    {
+      "path": "programa_principal/anydes/identity/relationship_repository.py",
+      "bytes": 998,
+      "source_sha256": "159f9118feff0c90c407b4eefd1d3f4ea36f06d36eb73e9e982cf6cca08657e1",
+      "sha256": "159f9118feff0c90c407b4eefd1d3f4ea36f06d36eb73e9e982cf6cca08657e1"
+    },
+    {
+      "path": "programa_principal/anydes/identity/relationship_store.py",
+      "bytes": 11146,
+      "source_sha256": "1716ba338d1617e8fef6246a48ee8e254507f22fc5671387f8cf0b7111009973",
+      "sha256": "1716ba338d1617e8fef6246a48ee8e254507f22fc5671387f8cf0b7111009973"
+    },
+    {
+      "path": "programa_principal/anydes/identity/self_preference_store.py",
+      "bytes": 3253,
+      "source_sha256": "536d5b5e009325756b0dc9d53a9f99edcce8f6f2bde5f1c357738ed67777eb0c",
+      "sha256": "536d5b5e009325756b0dc9d53a9f99edcce8f6f2bde5f1c357738ed67777eb0c"
+    },
+    {
+      "path": "programa_principal/anydes/identity/self_state_store.py",
+      "bytes": 219,
+      "source_sha256": "e52b04c37471e08de3baa9810dd52fc7952e248032273fd1a3cd4b5da7d2a147",
+      "sha256": "e52b04c37471e08de3baa9810dd52fc7952e248032273fd1a3cd4b5da7d2a147"
+    },
+    {
+      "path": "programa_principal/anydes/identity/__init__.py",
+      "bytes": 1674,
+      "source_sha256": "7b23504fbef46d0342ad7b41331866d23fa18bf382b21bd244cb73541ff7175f",
+      "sha256": "7b23504fbef46d0342ad7b41331866d23fa18bf382b21bd244cb73541ff7175f"
+    },
+    {
+      "path": "programa_principal/anydes/interfaz/console.py",
+      "bytes": 3070,
+      "source_sha256": "b87e84c9dfb627351514175a4105ebb119d731f200d6ecaa419a1f4b3d4a5a05",
+      "sha256": "b87e84c9dfb627351514175a4105ebb119d731f200d6ecaa419a1f4b3d4a5a05"
+    },
+    {
+      "path": "programa_principal/anydes/interfaz/launcher.py",
+      "bytes": 54965,
+      "source_sha256": "3a10a3f9bfb62615cee8eb473ce5715d5853fc4bc7c7ae670c761a8ef6c6367a",
+      "sha256": "92e1ac30662b9cc7650d11f1ead0b689163cd0aab81bb36e060cf56e10ee7d9b"
+    },
+    {
+      "path": "programa_principal/anydes/interfaz/runtime_env.py",
+      "bytes": 1478,
+      "source_sha256": "23ae67702555094e3125ea8e9df20614679e0bbf9cc238bc4e9093bd62f44c2c",
+      "sha256": "23ae67702555094e3125ea8e9df20614679e0bbf9cc238bc4e9093bd62f44c2c"
+    },
+    {
+      "path": "programa_principal/anydes/interfaz/theme.py",
+      "bytes": 5147,
+      "source_sha256": "6b6bf634b8e90fdd26b0150a215a5262db7fab47d31e5728e5a3d8f83ece6e74",
+      "sha256": "6b6bf634b8e90fdd26b0150a215a5262db7fab47d31e5728e5a3d8f83ece6e74"
+    },
+    {
+      "path": "programa_principal/anydes/interfaz/turn_interaction.py",
+      "bytes": 2733,
+      "source_sha256": "edb2952f904432bca48191e78d012f0587f60337459a138c00d609a462ee9604",
+      "sha256": "edb2952f904432bca48191e78d012f0587f60337459a138c00d609a462ee9604"
+    },
+    {
+      "path": "programa_principal/anydes/interfaz/__init__.py",
+      "bytes": 34,
+      "source_sha256": "63482ea82c1dc7d42b2800217c8657e960880711311cd78cbcfb4ea3557ade73",
+      "sha256": "63482ea82c1dc7d42b2800217c8657e960880711311cd78cbcfb4ea3557ade73"
+    },
+    {
+      "path": "programa_principal/anydes/interfaz/companion/app.py",
+      "bytes": 7290,
+      "source_sha256": "8dd55d8818ad094e50f5bb940fff1907711b1b4c3a01596c445a560e57653bb4",
+      "sha256": "8dd55d8818ad094e50f5bb940fff1907711b1b4c3a01596c445a560e57653bb4"
+    },
+    {
+      "path": "programa_principal/anydes/interfaz/companion/components.py",
+      "bytes": 12267,
+      "source_sha256": "05039041b08db23d9c03d06dc1f3d902ea5cac001b83d0e31b5ba9f27c75fe27",
+      "sha256": "05039041b08db23d9c03d06dc1f3d902ea5cac001b83d0e31b5ba9f27c75fe27"
+    },
+    {
+      "path": "programa_principal/anydes/interfaz/companion/theme.py",
+      "bytes": 3911,
+      "source_sha256": "a2183c1c97f2182c6d92a5c33d3fdb12bc43df4e96760d859f1ef4129156829d",
+      "sha256": "a2183c1c97f2182c6d92a5c33d3fdb12bc43df4e96760d859f1ef4129156829d"
+    },
+    {
+      "path": "programa_principal/anydes/interfaz/companion/view_model.py",
+      "bytes": 7856,
+      "source_sha256": "cc74f735bdd220b6c2608005e8f7128d7fb68c412f7d95e381e9d561b460822d",
+      "sha256": "cc74f735bdd220b6c2608005e8f7128d7fb68c412f7d95e381e9d561b460822d"
+    },
+    {
+      "path": "programa_principal/anydes/interfaz/companion/__init__.py",
+      "bytes": 572,
+      "source_sha256": "527098d56b2142b0f1dd62f33ec3f75b20b79df33967d9202b0ebe119a9264e3",
+      "sha256": "527098d56b2142b0f1dd62f33ec3f75b20b79df33967d9202b0ebe119a9264e3"
+    },
+    {
+      "path": "programa_principal/anydes/interfaz/performance_companion/app.py",
+      "bytes": 46195,
+      "source_sha256": "d2e77b3e57504b180cea5fed98b88265a1959bc01d18cc24c377314108447f78",
+      "sha256": "d2e77b3e57504b180cea5fed98b88265a1959bc01d18cc24c377314108447f78"
+    },
+    {
+      "path": "programa_principal/anydes/interfaz/performance_companion/mascot.py",
+      "bytes": 21077,
+      "source_sha256": "f97efb0c181fac9a8aa980eb7b5d22ae74a9dea766651296344bdd80346063a8",
+      "sha256": "f97efb0c181fac9a8aa980eb7b5d22ae74a9dea766651296344bdd80346063a8"
+    },
+    {
+      "path": "programa_principal/anydes/interfaz/performance_companion/__init__.py",
+      "bytes": 68,
+      "source_sha256": "40fcfb18ef7a5394e86509aa98c0d91bb3c494440297df90475a6272ee7efd02",
+      "sha256": "40fcfb18ef7a5394e86509aa98c0d91bb3c494440297df90475a6272ee7efd02"
+    },
+    {
+      "path": "programa_principal/anydes/interfaz/pyside_companion/app.py",
+      "bytes": 71526,
+      "source_sha256": "3bd3f7123d5ef7ff8f651d92b5314f445134a7dfdc6cac05ad2de34abe417600",
+      "sha256": "3bd3f7123d5ef7ff8f651d92b5314f445134a7dfdc6cac05ad2de34abe417600"
+    },
+    {
+      "path": "programa_principal/anydes/interfaz/pyside_companion/avatar25d_renderer.py",
+      "bytes": 12629,
+      "source_sha256": "f0e6cf961d1198a1a56c55eccb849cb637356d5091bd82fafc2b89472017c784",
+      "sha256": "f0e6cf961d1198a1a56c55eccb849cb637356d5091bd82fafc2b89472017c784"
+    },
+    {
+      "path": "programa_principal/anydes/interfaz/pyside_companion/avatar_render_profile.py",
+      "bytes": 2027,
+      "source_sha256": "52ea61beeb1cac9db3c589c908c22f351c4fc149052e5dfc2c9cf7fb675d504d",
+      "sha256": "52ea61beeb1cac9db3c589c908c22f351c4fc149052e5dfc2c9cf7fb675d504d"
+    },
+    {
+      "path": "programa_principal/anydes/interfaz/pyside_companion/design_tokens.py",
+      "bytes": 5401,
+      "source_sha256": "ef6c81d3b36974ed19e395a1bda96eccc84316ae9367b1784153094e9e67a9c1",
+      "sha256": "ef6c81d3b36974ed19e395a1bda96eccc84316ae9367b1784153094e9e67a9c1"
+    },
+    {
+      "path": "programa_principal/anydes/interfaz/pyside_companion/room_environment.py",
+      "bytes": 7190,
+      "source_sha256": "b754815f17a2963c4589d03796f888eb5b142e1f6ef7a3004277fff994058005",
+      "sha256": "b754815f17a2963c4589d03796f888eb5b142e1f6ef7a3004277fff994058005"
+    },
+    {
+      "path": "programa_principal/anydes/interfaz/pyside_companion/view_model.py",
+      "bytes": 8234,
+      "source_sha256": "4d2a331c2e593a0b411d790d6d69992889e5700efaade0d213a1b1e61bd2eff5",
+      "sha256": "4d2a331c2e593a0b411d790d6d69992889e5700efaade0d213a1b1e61bd2eff5"
+    },
+    {
+      "path": "programa_principal/anydes/interfaz/pyside_companion/vrm_renderer.py",
+      "bytes": 15341,
+      "source_sha256": "d46bcdfd25eca62f7367d8081ede1eb445f30fc8fc3ee36a0a21e4f06e10b3fd",
+      "sha256": "d46bcdfd25eca62f7367d8081ede1eb445f30fc8fc3ee36a0a21e4f06e10b3fd"
+    },
+    {
+      "path": "programa_principal/anydes/interfaz/pyside_companion/__init__.py",
+      "bytes": 185,
+      "source_sha256": "6e5e503792d6cd1a9c4e79855620eacf82814064fb9e74d3cb8fe8068dfb9421",
+      "sha256": "6e5e503792d6cd1a9c4e79855620eacf82814064fb9e74d3cb8fe8068dfb9421"
+    },
+    {
+      "path": "programa_principal/anydes/interfaz/pyside_companion/vrm_stage/index.html",
+      "bytes": 557,
+      "source_sha256": "1db13d63fe0d7f6394b40150ba6d056c6f076647304337f5dd816b70fb297678",
+      "sha256": "1db13d63fe0d7f6394b40150ba6d056c6f076647304337f5dd816b70fb297678"
+    },
+    {
+      "path": "programa_principal/anydes/interfaz/pyside_companion/vrm_stage/renderer.js",
+      "bytes": 42189,
+      "source_sha256": "0b1ac3ff23f995fed4a536ba2f343837436812af472b688444e6bd395a249fed",
+      "sha256": "0b1ac3ff23f995fed4a536ba2f343837436812af472b688444e6bd395a249fed"
+    },
+    {
+      "path": "programa_principal/anydes/interfaz/pyside_companion/vrm_stage/stage.css",
+      "bytes": 883,
+      "source_sha256": "0ed00d013a23567705583dd447dca5ae34018084a982445898c3a96334b8a164",
+      "sha256": "0ed00d013a23567705583dd447dca5ae34018084a982445898c3a96334b8a164"
+    },
+    {
+      "path": "programa_principal/anydes/interfaz/pyside_companion/vrm_stage/utils/BufferGeometryUtils.js",
+      "bytes": 31768,
+      "source_sha256": "c25b7930e570e9ec56173cd3b866ec8d2e10016630db3937efb439daf1cedbf6",
+      "sha256": "c25b7930e570e9ec56173cd3b866ec8d2e10016630db3937efb439daf1cedbf6"
+    },
+    {
+      "path": "programa_principal/anydes/interfaz/pyside_companion/vrm_stage/vendor/GLTFLoader.js",
+      "bytes": 110029,
+      "source_sha256": "6f1719dcc6a179d30273dfb0de07a8c898a7981f7b08e600b446387f5967371f",
+      "sha256": "6f1719dcc6a179d30273dfb0de07a8c898a7981f7b08e600b446387f5967371f"
+    },
+    {
+      "path": "programa_principal/anydes/interfaz/pyside_companion/vrm_stage/vendor/three-vrm-materials-mtoon.module.js",
+      "bytes": 177652,
+      "source_sha256": "40d902a5e8377675375fb7e35fba8259ccba33112235224e83d4f491fd5daaa5",
+      "sha256": "40d902a5e8377675375fb7e35fba8259ccba33112235224e83d4f491fd5daaa5"
+    },
+    {
+      "path": "programa_principal/anydes/interfaz/pyside_companion/vrm_stage/vendor/three.module.js",
+      "bytes": 1304820,
+      "source_sha256": "0a3368c165eea773490aec7b77c22de70e3eac288503409256fdbf4d12578416",
+      "sha256": "0a3368c165eea773490aec7b77c22de70e3eac288503409256fdbf4d12578416"
+    },
+    {
+      "path": "programa_principal/anydes/memoria/conversation_memory.py",
+      "bytes": 35090,
+      "source_sha256": "5bbaabb64555e63da3f34e678b1963d5193c9de53a11d8250e3c8c12bcb7a579",
+      "sha256": "5bbaabb64555e63da3f34e678b1963d5193c9de53a11d8250e3c8c12bcb7a579"
+    },
+    {
+      "path": "programa_principal/anydes/memoria/data_protection.py",
+      "bytes": 6460,
+      "source_sha256": "24fb4db7f531819c83bdfd4a7822832a913f06f52ae1a3f704380a542b844c62",
+      "sha256": "24fb4db7f531819c83bdfd4a7822832a913f06f52ae1a3f704380a542b844c62"
+    },
+    {
+      "path": "programa_principal/anydes/memoria/local_memory.py",
+      "bytes": 1675,
+      "source_sha256": "86ee2e570363f3cedf3a60eb5595f1259f02576e00309618538577f0c2559915",
+      "sha256": "86ee2e570363f3cedf3a60eb5595f1259f02576e00309618538577f0c2559915"
+    },
+    {
+      "path": "programa_principal/anydes/memoria/manager.py",
+      "bytes": 10722,
+      "source_sha256": "e68dd14e70a8321abb0b2a5e363446804587d826fec15f578147fde8e8ad0190",
+      "sha256": "e68dd14e70a8321abb0b2a5e363446804587d826fec15f578147fde8e8ad0190"
+    },
+    {
+      "path": "programa_principal/anydes/memoria/secure_store.py",
+      "bytes": 4262,
+      "source_sha256": "5a6c8218e15f37f64b16ba180a3fde8b9866cc99954b9195d75b4f81ed93804a",
+      "sha256": "5a6c8218e15f37f64b16ba180a3fde8b9866cc99954b9195d75b4f81ed93804a"
+    },
+    {
+      "path": "programa_principal/anydes/memoria/__init__.py",
+      "bytes": 32,
+      "source_sha256": "53f24640073cd7f1bfe37a30ac46b5e653472af40373fb637c6ff7919ce1cf58",
+      "sha256": "53f24640073cd7f1bfe37a30ac46b5e653472af40373fb637c6ff7919ce1cf58"
+    },
+    {
+      "path": "programa_principal/anydes/nucleo/assistant.py",
+      "bytes": 89932,
+      "source_sha256": "e19ca1e1bd6b6d53ee06e8d9916528a2d6ecc4834e10b93727e4b45bcaa589af",
+      "sha256": "e68b1a211647710269182e0ee0649dcd0208de0b3304dbac6cf9f57783557d4f"
+    },
+    {
+      "path": "programa_principal/anydes/nucleo/audit.py",
+      "bytes": 4067,
+      "source_sha256": "3c5d373a3c4bb7aa9d745a12b55a15518ec6c8b1c7d43bbb7b606c483becfc3c",
+      "sha256": "3c5d373a3c4bb7aa9d745a12b55a15518ec6c8b1c7d43bbb7b606c483becfc3c"
+    },
+    {
+      "path": "programa_principal/anydes/nucleo/config.py",
+      "bytes": 18805,
+      "source_sha256": "db4143197a9122fd58926adebf717182a672a0eb29ba7058cbb99df005dba466",
+      "sha256": "29ce92b6b1bb508ecb3dffba839626bb71801274a688bf6ab33b1ea35fb496e6"
+    },
+    {
+      "path": "programa_principal/anydes/nucleo/consent.py",
+      "bytes": 2436,
+      "source_sha256": "a885bf25107c1c6cf30a647b8394aa6ca06e13092c92df44262fd33b3df7c419",
+      "sha256": "a885bf25107c1c6cf30a647b8394aa6ca06e13092c92df44262fd33b3df7c419"
+    },
+    {
+      "path": "programa_principal/anydes/nucleo/estado_emocional.py",
+      "bytes": 15031,
+      "source_sha256": "398fdc7f45c6aa085ac9d6407c41fa9379f9464deeec00c0b668b4a488e1a714",
+      "sha256": "526dfff9577f61d02bca14bd9bd0b74d44d67046edf21b69f99fa3d1d9a3fc4f"
+    },
+    {
+      "path": "programa_principal/anydes/nucleo/intent.py",
+      "bytes": 11794,
+      "source_sha256": "d08f6f9d1a738b1d503e1295ecbfe1eff71133e8a07d253d7a55b29c0cc11ced",
+      "sha256": "d08f6f9d1a738b1d503e1295ecbfe1eff71133e8a07d253d7a55b29c0cc11ced"
+    },
+    {
+      "path": "programa_principal/anydes/nucleo/interlocutor.py",
+      "bytes": 4084,
+      "source_sha256": "5eda645cfea2dfcf2c8be78112148a935866bc1bd39f63d3ebd3085a8e2ed9ad",
+      "sha256": "e4cf064bc7dc3f9cc09363809af09dbd7746be1358b9d3fd0d3e4229ee7a8884"
+    },
+    {
+      "path": "programa_principal/anydes/nucleo/orquestador.py",
+      "bytes": 7086,
+      "source_sha256": "9eded884ba850db78f8e264fd999e87a4f061a6d44f2a5af02a04a7399f510c8",
+      "sha256": "ae02d90f65fb663531648504736b1f5d007404ddcf67e5f770f5ca078e23c3fd"
+    },
+    {
+      "path": "programa_principal/anydes/nucleo/path_locks.py",
+      "bytes": 422,
+      "source_sha256": "33c8f4ec508397b0e2c47cefc3f16b9169d5a90931d9105ed6610c796daefe0c",
+      "sha256": "33c8f4ec508397b0e2c47cefc3f16b9169d5a90931d9105ed6610c796daefe0c"
+    },
+    {
+      "path": "programa_principal/anydes/nucleo/permissions.py",
+      "bytes": 7300,
+      "source_sha256": "063c8e6871e01bccf35a259a69eb90a00dcfce4b6d5ffdc050284a8d75062dab",
+      "sha256": "063c8e6871e01bccf35a259a69eb90a00dcfce4b6d5ffdc050284a8d75062dab"
+    },
+    {
+      "path": "programa_principal/anydes/nucleo/personality.py",
+      "bytes": 2503,
+      "source_sha256": "e5b50152c0759f8c68910f233a142f55821237dc8b6f432b1dab3af704ee0227",
+      "sha256": "e5b50152c0759f8c68910f233a142f55821237dc8b6f432b1dab3af704ee0227"
+    },
+    {
+      "path": "programa_principal/anydes/nucleo/security.py",
+      "bytes": 2226,
+      "source_sha256": "6758352658e293ef8f17830adea9caf578c343b29444413d195ee466f73b44c6",
+      "sha256": "6758352658e293ef8f17830adea9caf578c343b29444413d195ee466f73b44c6"
+    },
+    {
+      "path": "programa_principal/anydes/nucleo/sensors.py",
+      "bytes": 1236,
+      "source_sha256": "919280ce7186c360c736a8ffdb6a658ab1c0802230de0bb9c5b3d406554fd030",
+      "sha256": "919280ce7186c360c736a8ffdb6a658ab1c0802230de0bb9c5b3d406554fd030"
+    },
+    {
+      "path": "programa_principal/anydes/nucleo/vram_safety.py",
+      "bytes": 17129,
+      "source_sha256": "9cbedcb75a972da363f8d05c0e0db4c0a8da17f5e6c6fdd8226bb904a953cbcb",
+      "sha256": "9cbedcb75a972da363f8d05c0e0db4c0a8da17f5e6c6fdd8226bb904a953cbcb"
+    },
+    {
+      "path": "programa_principal/anydes/nucleo/__init__.py",
+      "bytes": 29,
+      "source_sha256": "aa57158579cda61d6d8a48854088a2052739af4dd70c41862a9b374e82331a02",
+      "sha256": "aa57158579cda61d6d8a48854088a2052739af4dd70c41862a9b374e82331a02"
+    },
+    {
+      "path": "programa_principal/anydes/official_runtime/integration.py",
+      "bytes": 35684,
+      "source_sha256": "44b567da32d0ebe5d63c6d0233fb443b2eb6c8e466f323c324a0e6b67e414216",
+      "sha256": "44b567da32d0ebe5d63c6d0233fb443b2eb6c8e466f323c324a0e6b67e414216"
+    },
+    {
+      "path": "programa_principal/anydes/official_runtime/__init__.py",
+      "bytes": 47,
+      "source_sha256": "bf060306212a14f7bd21c0384cb8d411b3b3031302bded65061666a218cedd72",
+      "sha256": "bf060306212a14f7bd21c0384cb8d411b3b3031302bded65061666a218cedd72"
+    },
+    {
+      "path": "programa_principal/anydes/personalidad/__init__.py",
+      "bytes": 46,
+      "source_sha256": "90949ba08d97e1f1f8006ebe517bccbf24a439bf21d31dc9f7312d53cfe0179d",
+      "sha256": "90949ba08d97e1f1f8006ebe517bccbf24a439bf21d31dc9f7312d53cfe0179d"
+    },
+    {
+      "path": "programa_principal/anydes/personas/profile.py",
+      "bytes": 8921,
+      "source_sha256": "36922ee47fcdbfa11c509fde42628168146016c78fc32fb8df69051c2ac1e24f",
+      "sha256": "36922ee47fcdbfa11c509fde42628168146016c78fc32fb8df69051c2ac1e24f"
+    },
+    {
+      "path": "programa_principal/anydes/proactivo/autonomo.py",
+      "bytes": 5275,
+      "source_sha256": "d7f340751fc79c2b090d6f2df43eb432f1132fbbc7c8d4a2915163286e72a58c",
+      "sha256": "d7f340751fc79c2b090d6f2df43eb432f1132fbbc7c8d4a2915163286e72a58c"
+    },
+    {
+      "path": "programa_principal/anydes/proactivo/initiative.py",
+      "bytes": 2191,
+      "source_sha256": "117a893fe522c50f4b1dab0729713753b726f066368b9902d4c13bb602fd6d28",
+      "sha256": "117a893fe522c50f4b1dab0729713753b726f066368b9902d4c13bb602fd6d28"
+    },
+    {
+      "path": "programa_principal/anydes/proactivo/__init__.py",
+      "bytes": 38,
+      "source_sha256": "a8478b3d7302c0cb34b582d8ac7f29df512afe1e09eff3a1398e723bd10dc5f2",
+      "sha256": "a8478b3d7302c0cb34b582d8ac7f29df512afe1e09eff3a1398e723bd10dc5f2"
+    },
+    {
+      "path": "programa_principal/anydes/realtime/calendar_state.py",
+      "bytes": 5320,
+      "source_sha256": "7070f049a996d35dcf063c8232d918b969b522ecc4687b25b5aad8795af7f2be",
+      "sha256": "7070f049a996d35dcf063c8232d918b969b522ecc4687b25b5aad8795af7f2be"
+    },
+    {
+      "path": "programa_principal/anydes/realtime/cancellation.py",
+      "bytes": 117,
+      "source_sha256": "24c4c5d16e1d11bc39db8d54ce855fa13c82655503670f0caaf1bd43cf62ce2b",
+      "sha256": "24c4c5d16e1d11bc39db8d54ce855fa13c82655503670f0caaf1bd43cf62ce2b"
+    },
+    {
+      "path": "programa_principal/anydes/realtime/capabilities.py",
+      "bytes": 5377,
+      "source_sha256": "3564fbaec417ce53f278990e6717966779acaef9b96dda4a6bb2800a89f4fcae",
+      "sha256": "3564fbaec417ce53f278990e6717966779acaef9b96dda4a6bb2800a89f4fcae"
+    },
+    {
+      "path": "programa_principal/anydes/realtime/context.py",
+      "bytes": 22017,
+      "source_sha256": "e70ca90d3023a6542315ccd38572b36354f53694b8b0e33407110aacb1b09180",
+      "sha256": "22d9b405ef9ba6b866da7c37de8213148e0d12876a86a81a6f4e291261625c70"
+    },
+    {
+      "path": "programa_principal/anydes/realtime/derived_insights.py",
+      "bytes": 8172,
+      "source_sha256": "20419004295a246b3afbbcc5c86c433fa8184984b67ab2a502ef83aec2d1e2e7",
+      "sha256": "20419004295a246b3afbbcc5c86c433fa8184984b67ab2a502ef83aec2d1e2e7"
+    },
+    {
+      "path": "programa_principal/anydes/realtime/identity_profile.py",
+      "bytes": 10242,
+      "source_sha256": "29ee15fd126f20b3a160fa90feeb8b3466249fe5f30170a954feccf53ec1a684",
+      "sha256": "8ba4cd80d7d543e69f687bc91200ed6bfff966e06b99b60bfbb873fbdcca25a1"
+    },
+    {
+      "path": "programa_principal/anydes/realtime/journal.py",
+      "bytes": 14047,
+      "source_sha256": "1b941d2f122b500130c13839e61d8dcc1856e64bc34fa3a559c5aa460e52ca94",
+      "sha256": "1b941d2f122b500130c13839e61d8dcc1856e64bc34fa3a559c5aa460e52ca94"
+    },
+    {
+      "path": "programa_principal/anydes/realtime/local_routes.py",
+      "bytes": 26185,
+      "source_sha256": "62608b773cd40910a56ba684411c57da62fef125b9236355fa7eb98813ffde2c",
+      "sha256": "62608b773cd40910a56ba684411c57da62fef125b9236355fa7eb98813ffde2c"
+    },
+    {
+      "path": "programa_principal/anydes/realtime/router.py",
+      "bytes": 12267,
+      "source_sha256": "bf3349bd1c6ea9c9bc6576efa97f5e607cf99f9055fa75168f50ae656024d3b6",
+      "sha256": "bf3349bd1c6ea9c9bc6576efa97f5e607cf99f9055fa75168f50ae656024d3b6"
+    },
+    {
+      "path": "programa_principal/anydes/realtime/self_preferences.py",
+      "bytes": 13212,
+      "source_sha256": "42caef74e61889fdec2c390bc50da65cebc15828f48aa9c3de7005a66f776c91",
+      "sha256": "e83e21ac7331bee8da20d8b1ac1277606b03f7411e436241fe0b4952f0f9bf04"
+    },
+    {
+      "path": "programa_principal/anydes/realtime/service.py",
+      "bytes": 60287,
+      "source_sha256": "8c1c048815dd9560c10f4f84f654e1e383aba50a4bf561a1cc80e5d25daa11a9",
+      "sha256": "8c1c048815dd9560c10f4f84f654e1e383aba50a4bf561a1cc80e5d25daa11a9"
+    },
+    {
+      "path": "programa_principal/anydes/realtime/session.py",
+      "bytes": 27284,
+      "source_sha256": "2d99db74cd7e9439b86dc98dd3ff6741960afe5b589aa42b0baa02e0d74c94f8",
+      "sha256": "2d99db74cd7e9439b86dc98dd3ff6741960afe5b589aa42b0baa02e0d74c94f8"
+    },
+    {
+      "path": "programa_principal/anydes/realtime/tasks.py",
+      "bytes": 11784,
+      "source_sha256": "cb2c64f746dc1ffac8e9464e007fc4b51e875e865d1bef27f7b8263578b17c9f",
+      "sha256": "cb2c64f746dc1ffac8e9464e007fc4b51e875e865d1bef27f7b8263578b17c9f"
+    },
+    {
+      "path": "programa_principal/anydes/realtime/temporal.py",
+      "bytes": 21052,
+      "source_sha256": "b92dc4dba0dd84993521fa86da5c38eb76284709a9ed6fed8343935b4387f5f0",
+      "sha256": "b92dc4dba0dd84993521fa86da5c38eb76284709a9ed6fed8343935b4387f5f0"
+    },
+    {
+      "path": "programa_principal/anydes/realtime/tooling.py",
+      "bytes": 50195,
+      "source_sha256": "0e71650349a6a2171b40576fa4ea8cf46c871b332fba34a7ebe52a1a073cbabb",
+      "sha256": "0e71650349a6a2171b40576fa4ea8cf46c871b332fba34a7ebe52a1a073cbabb"
+    },
+    {
+      "path": "programa_principal/anydes/realtime/transport.py",
+      "bytes": 9607,
+      "source_sha256": "508ab105225b80a66bb4a87a21bf0d6d3e40be65442f33c75652be1c76bd6b2a",
+      "sha256": "508ab105225b80a66bb4a87a21bf0d6d3e40be65442f33c75652be1c76bd6b2a"
+    },
+    {
+      "path": "programa_principal/anydes/realtime/validation.py",
+      "bytes": 14817,
+      "source_sha256": "d53428cb78b48de924dba16997557385124a7b876bc3a0109e02bc263e2ae594",
+      "sha256": "d53428cb78b48de924dba16997557385124a7b876bc3a0109e02bc263e2ae594"
+    },
+    {
+      "path": "programa_principal/anydes/realtime/__init__.py",
+      "bytes": 1682,
+      "source_sha256": "4b123dc918b717a167e704dc17e072344382df21e6579cf52ab00c91a8462c61",
+      "sha256": "4b123dc918b717a167e704dc17e072344382df21e6579cf52ab00c91a8462c61"
+    },
+    {
+      "path": "programa_principal/anydes/stt/__init__.py",
+      "bytes": 46,
+      "source_sha256": "1d88ee5ef4beeb49cd0e3a8798ff126efc50a0547ae8cc03e246b9831120cdba",
+      "sha256": "1d88ee5ef4beeb49cd0e3a8798ff126efc50a0547ae8cc03e246b9831120cdba"
+    },
+    {
+      "path": "programa_principal/anydes/stt/parakeet/backend.py",
+      "bytes": 20768,
+      "source_sha256": "a5bd119e76cdb4352f5066b056b5542b0e15dddedb251a367eb0697d851d6c70",
+      "sha256": "a5bd119e76cdb4352f5066b056b5542b0e15dddedb251a367eb0697d851d6c70"
+    },
+    {
+      "path": "programa_principal/anydes/stt/parakeet/build_report.py",
+      "bytes": 6275,
+      "source_sha256": "48ef4b724449549b36c36d2f112340e737821784a999285f2f6c5b95c9c8de6e",
+      "sha256": "48ef4b724449549b36c36d2f112340e737821784a999285f2f6c5b95c9c8de6e"
+    },
+    {
+      "path": "programa_principal/anydes/stt/parakeet/candidate_run.py",
+      "bytes": 9017,
+      "source_sha256": "a265711ab1dcdd1a00af7061cb7f96c43ea0ccfc9fd776226997129a2d655a77",
+      "sha256": "a265711ab1dcdd1a00af7061cb7f96c43ea0ccfc9fd776226997129a2d655a77"
+    },
+    {
+      "path": "programa_principal/anydes/stt/parakeet/common.py",
+      "bytes": 5904,
+      "source_sha256": "be6a0515adbc09e7cd26d232fd61f9d853984cb648e8e815f3bca614687e61ad",
+      "sha256": "be6a0515adbc09e7cd26d232fd61f9d853984cb648e8e815f3bca614687e61ad"
+    },
+    {
+      "path": "programa_principal/anydes/stt/parakeet/live_lab.py",
+      "bytes": 4791,
+      "source_sha256": "6f5bbc50e6b650d07b079a4eca231d058ddd14f257273a04ed48b343b48e7777",
+      "sha256": "6f5bbc50e6b650d07b079a4eca231d058ddd14f257273a04ed48b343b48e7777"
+    },
+    {
+      "path": "programa_principal/anydes/stt/parakeet/open_results.py",
+      "bytes": 346,
+      "source_sha256": "2cb3413197e3fc7e98d65733526cd1b9ca8970e7467e81beba712b00a994a360",
+      "sha256": "2cb3413197e3fc7e98d65733526cd1b9ca8970e7467e81beba712b00a994a360"
+    },
+    {
+      "path": "programa_principal/anydes/stt/parakeet/record_corpus.py",
+      "bytes": 9366,
+      "source_sha256": "ed113d4cb0863c42ab345d85e9d9672931846140921fb956b8dffa025db9bf2e",
+      "sha256": "ed113d4cb0863c42ab345d85e9d9672931846140921fb956b8dffa025db9bf2e"
+    },
+    {
+      "path": "programa_principal/anydes/stt/parakeet/run_benchmark.py",
+      "bytes": 1441,
+      "source_sha256": "91d059fb5f679d36e84f262f97c0be02ea885b3622ebffc012287b4486d99352",
+      "sha256": "91d059fb5f679d36e84f262f97c0be02ea885b3622ebffc012287b4486d99352"
+    },
+    {
+      "path": "programa_principal/anydes/stt/parakeet/test_validation.py",
+      "bytes": 1533,
+      "source_sha256": "8381d0acd5d71b7f10242040238629aa64ba71f5b2e29dc4419fc3062869df20",
+      "sha256": "8381d0acd5d71b7f10242040238629aa64ba71f5b2e29dc4419fc3062869df20"
+    },
+    {
+      "path": "programa_principal/anydes/stt/parakeet/__init__.py",
+      "bytes": 168,
+      "source_sha256": "595ce5850e5e5647b6e1e62c25a4d6d8dcd5b2138ce0fdaa7b1ee6039f21b4d5",
+      "sha256": "595ce5850e5e5647b6e1e62c25a4d6d8dcd5b2138ce0fdaa7b1ee6039f21b4d5"
+    },
+    {
+      "path": "programa_principal/anydes/vision/autonomo.py",
+      "bytes": 9039,
+      "source_sha256": "513972ff6d335561b8b0fb2014d6160b6dc19d29c4a2e37b418f1eef71948de8",
+      "sha256": "513972ff6d335561b8b0fb2014d6160b6dc19d29c4a2e37b418f1eef71948de8"
+    },
+    {
+      "path": "programa_principal/anydes/vision/capture.py",
+      "bytes": 6975,
+      "source_sha256": "1bae8a9819dc8676fd5b9ab7eda56acd5b9b6200c1028585d9d7c9cd8f165cb1",
+      "sha256": "1bae8a9819dc8676fd5b9ab7eda56acd5b9b6200c1028585d9d7c9cd8f165cb1"
+    },
+    {
+      "path": "programa_principal/anydes/vision/conciencia_visual.py",
+      "bytes": 26850,
+      "source_sha256": "bb91768107a7ea186c11b489a6d74c89f6c189d7c36d18d604eed334db17bc61",
+      "sha256": "529601ba4216a017d43a5d0d0a5c84674b6a04c38c6ca2f1a2f74b1b75345d87"
+    },
+    {
+      "path": "programa_principal/anydes/vision/identidad.py",
+      "bytes": 3456,
+      "source_sha256": "eec39f17bc60a52352b381c0d1fec546669cad421c74464e29205bd80e07d104",
+      "sha256": "c633ad041b6d581f85ea33725f96358bd19462363081ff95d06857075a83de84"
+    },
+    {
+      "path": "programa_principal/anydes/vision/memoria_visual.py",
+      "bytes": 7567,
+      "source_sha256": "dac8e171003248aa61b471945f2f69829f7046d51f37d5f6d40cf4804b87ea7c",
+      "sha256": "6939c61ad71338f50eb82ae495db0c2b984ade4e195b6d4ba6e81fb9f8e538c4"
+    },
+    {
+      "path": "programa_principal/anydes/vision/observadora.py",
+      "bytes": 3004,
+      "source_sha256": "7cba0a5ed3e7bf67082d27dd4d0e134b6128ad4f65d27ce81b5dde7ee96f5aa2",
+      "sha256": "7cba0a5ed3e7bf67082d27dd4d0e134b6128ad4f65d27ce81b5dde7ee96f5aa2"
+    },
+    {
+      "path": "programa_principal/anydes/vision/observation_store.py",
+      "bytes": 3267,
+      "source_sha256": "48cf0e6c453349d47d23afb055ea79e1a3b50d4306b03b43cc8fa1adce09da00",
+      "sha256": "48cf0e6c453349d47d23afb055ea79e1a3b50d4306b03b43cc8fa1adce09da00"
+    },
+    {
+      "path": "programa_principal/anydes/vision/residency.py",
+      "bytes": 13384,
+      "source_sha256": "99683ecf751163f2fdf1a3129803ea0805701d65bd2636cee144273541a880e4",
+      "sha256": "99683ecf751163f2fdf1a3129803ea0805701d65bd2636cee144273541a880e4"
+    },
+    {
+      "path": "programa_principal/anydes/vision/session.py",
+      "bytes": 6428,
+      "source_sha256": "efde05095ecdf86b7c34ea51808a72494d7fc6ec8430fa8fcbc521da05179232",
+      "sha256": "efde05095ecdf86b7c34ea51808a72494d7fc6ec8430fa8fcbc521da05179232"
+    },
+    {
+      "path": "programa_principal/anydes/vision/state.py",
+      "bytes": 4298,
+      "source_sha256": "71e1dc8a5441227e5ce030a0a237c91c796bf2dd8940b58759205f7a651524b0",
+      "sha256": "71e1dc8a5441227e5ce030a0a237c91c796bf2dd8940b58759205f7a651524b0"
+    },
+    {
+      "path": "programa_principal/anydes/vision/tools.py",
+      "bytes": 5702,
+      "source_sha256": "1bb91776e197802f0a0ad732e6f73456c96548fe9d6e348eb2e96be2a933aa42",
+      "sha256": "1bb91776e197802f0a0ad732e6f73456c96548fe9d6e348eb2e96be2a933aa42"
+    },
+    {
+      "path": "programa_principal/anydes/vision/variedad_frases.py",
+      "bytes": 7080,
+      "source_sha256": "10fa8aa4fd7375c46a75a0c79bcd2b7e9dd1dcfdb06f582ba02f2f2698807356",
+      "sha256": "10fa8aa4fd7375c46a75a0c79bcd2b7e9dd1dcfdb06f582ba02f2f2698807356"
+    },
+    {
+      "path": "programa_principal/anydes/vision/watcher.py",
+      "bytes": 4417,
+      "source_sha256": "87d075930cdf11ced9d54ba997158de3114fbd3489684b7f00f628c82b91e8e7",
+      "sha256": "87d075930cdf11ced9d54ba997158de3114fbd3489684b7f00f628c82b91e8e7"
+    },
+    {
+      "path": "programa_principal/anydes/vision/__init__.py",
+      "bytes": 284,
+      "source_sha256": "a745b5cd6b0c24461872c2a258f26de2a3d38035484172efddc55708a1aa8700",
+      "sha256": "a745b5cd6b0c24461872c2a258f26de2a3d38035484172efddc55708a1aa8700"
+    },
+    {
+      "path": "programa_principal/anydes/voice_input/audio_session_audit.py",
+      "bytes": 7096,
+      "source_sha256": "4444c1987f5a8525ca022bbb7025b291bcfadc3a41c84dd1038b74f2d29c338f",
+      "sha256": "4444c1987f5a8525ca022bbb7025b291bcfadc3a41c84dd1038b74f2d29c338f"
+    },
+    {
+      "path": "programa_principal/anydes/voice_input/capture.py",
+      "bytes": 9133,
+      "source_sha256": "e1773ff77c12222c7160326b640643649d8fada7c44f482b0a1e25079e3ddd51",
+      "sha256": "e1773ff77c12222c7160326b640643649d8fada7c44f482b0a1e25079e3ddd51"
+    },
+    {
+      "path": "programa_principal/anydes/voice_input/core.py",
+      "bytes": 29072,
+      "source_sha256": "08996bcffeed5fd8831e07584481910cc58b0427692a543b45bab2147a0a54aa",
+      "sha256": "08996bcffeed5fd8831e07584481910cc58b0427692a543b45bab2147a0a54aa"
+    },
+    {
+      "path": "programa_principal/anydes/voice_input/diagnostics.py",
+      "bytes": 7362,
+      "source_sha256": "234974de5844516e2c33c8e89476ccd51ffe0f4dc9d52c528752d059f58a9762",
+      "sha256": "234974de5844516e2c33c8e89476ccd51ffe0f4dc9d52c528752d059f58a9762"
+    },
+    {
+      "path": "programa_principal/anydes/voice_input/environment.py",
+      "bytes": 524,
+      "source_sha256": "00717dda15b0bac3ba988776707bc5a5bb0d153be615d5e8efd81fd34447d8d5",
+      "sha256": "00717dda15b0bac3ba988776707bc5a5bb0d153be615d5e8efd81fd34447d8d5"
+    },
+    {
+      "path": "programa_principal/anydes/voice_input/integration.py",
+      "bytes": 19152,
+      "source_sha256": "1a705c2e3e86acb3870b9b7b7e3c7c16a35a89112c39e6ae3509fd3ed49270b9",
+      "sha256": "1a705c2e3e86acb3870b9b7b7e3c7c16a35a89112c39e6ae3509fd3ed49270b9"
+    },
+    {
+      "path": "programa_principal/anydes/voice_input/telemetry.py",
+      "bytes": 23287,
+      "source_sha256": "4c7d2ed43617ff619a038a374ca51ee684b3e86d1316bf9cc93d7869b9a03dd2",
+      "sha256": "4c7d2ed43617ff619a038a374ca51ee684b3e86d1316bf9cc93d7869b9a03dd2"
+    },
+    {
+      "path": "programa_principal/anydes/voice_input/ui.py",
+      "bytes": 27662,
+      "source_sha256": "f5fb9868bf5ddb934a64930739a3556b1d192782802c4437cdf3fa54f56d37b1",
+      "sha256": "f5fb9868bf5ddb934a64930739a3556b1d192782802c4437cdf3fa54f56d37b1"
+    },
+    {
+      "path": "programa_principal/anydes/voice_input/__init__.py",
+      "bytes": 84,
+      "source_sha256": "251a872e5a3d4fb779cae572b55011dc65cee65130ce55bd013a6c35a30b43bd",
+      "sha256": "251a872e5a3d4fb779cae572b55011dc65cee65130ce55bd013a6c35a30b43bd"
+    },
+    {
+      "path": "programa_principal/anydes/voz/controller.py",
+      "bytes": 15326,
+      "source_sha256": "4a69fc3f103236958f58cf320d0838f9e53e68c857637da8fa300c2a60a757d6",
+      "sha256": "88a815b51e36ce21dcc8a9b86d259687dbd15ec43e0759473a82cef32538417a"
+    },
+    {
+      "path": "programa_principal/anydes/voz/identity.py",
+      "bytes": 8484,
+      "source_sha256": "5e325543efb11217c9099d6a9d3a381f327271508aceff1d5cfc8e6ff1872d51",
+      "sha256": "a73cb00239368a5fe97c7ac733fe487b487527d68813e497a3530889b8c21ad2"
+    },
+    {
+      "path": "programa_principal/anydes/voz/interpreter.py",
+      "bytes": 7728,
+      "source_sha256": "4873df7b93876a8ee97c707bc23616464588d9e3794c435357f8a7f31b40d8eb",
+      "sha256": "4873df7b93876a8ee97c707bc23616464588d9e3794c435357f8a7f31b40d8eb"
+    },
+    {
+      "path": "programa_principal/anydes/voz/manager_factory.py",
+      "bytes": 1036,
+      "source_sha256": "29de15dbbbe03242a28eba1a5a867e70144b26eb8bea5b0223ad71c4b2e8189d",
+      "sha256": "29de15dbbbe03242a28eba1a5a867e70144b26eb8bea5b0223ad71c4b2e8189d"
+    },
+    {
+      "path": "programa_principal/anydes/voz/process.py",
+      "bytes": 747,
+      "source_sha256": "5344945c5dfd0ceb84559134b55ac6c0ad9cc383d6531a8ad3601418f8294929",
+      "sha256": "5344945c5dfd0ceb84559134b55ac6c0ad9cc383d6531a8ad3601418f8294929"
+    },
+    {
+      "path": "programa_principal/anydes/voz/recorder.py",
+      "bytes": 2466,
+      "source_sha256": "d220f6a056ff7523bdd67c6004c9221778b68ceb88559657402805eada0b8ec0",
+      "sha256": "d220f6a056ff7523bdd67c6004c9221778b68ceb88559657402805eada0b8ec0"
+    },
+    {
+      "path": "programa_principal/anydes/voz/session.py",
+      "bytes": 2193,
+      "source_sha256": "62b6c38f8f60422c40852bb69ac6c376cca0c94942aef354a1baa1b1b81b2199",
+      "sha256": "62b6c38f8f60422c40852bb69ac6c376cca0c94942aef354a1baa1b1b81b2199"
+    },
+    {
+      "path": "programa_principal/anydes/voz/speaker_id.py",
+      "bytes": 7601,
+      "source_sha256": "f6102f1c228f869ec53df33459b4758944ee95fcee8380774a43f6fa4ba95ece",
+      "sha256": "f6102f1c228f869ec53df33459b4758944ee95fcee8380774a43f6fa4ba95ece"
+    },
+    {
+      "path": "programa_principal/anydes/voz/spoken_text.py",
+      "bytes": 2440,
+      "source_sha256": "0829c3737ecdfe1004d84b4f03504870e46e31d38164a4080d0505c52de5132d",
+      "sha256": "0829c3737ecdfe1004d84b4f03504870e46e31d38164a4080d0505c52de5132d"
+    },
+    {
+      "path": "programa_principal/anydes/voz/stt.py",
+      "bytes": 6461,
+      "source_sha256": "f3500578ff8eee9731ded1c28b69c21fbe83c84900d3c58793760c43648af8ee",
+      "sha256": "f3500578ff8eee9731ded1c28b69c21fbe83c84900d3c58793760c43648af8ee"
+    },
+    {
+      "path": "programa_principal/anydes/voz/transcript.py",
+      "bytes": 3980,
+      "source_sha256": "c8e882d669f000945e305fe83d8e174dd73d5c276d20ea3a69edbd69fe5c6515",
+      "sha256": "c8e882d669f000945e305fe83d8e174dd73d5c276d20ea3a69edbd69fe5c6515"
+    },
+    {
+      "path": "programa_principal/anydes/voz/tts.py",
+      "bytes": 23668,
+      "source_sha256": "230c3fe7b272fa476bfef31f74c0faef733bb9b0382a39ef32f2bf62cc41c007",
+      "sha256": "230c3fe7b272fa476bfef31f74c0faef733bb9b0382a39ef32f2bf62cc41c007"
+    },
+    {
+      "path": "programa_principal/anydes/voz/__init__.py",
+      "bytes": 34,
+      "source_sha256": "660cd7b6ec84d28162e702aa7ce352f85dda172772917e38ce648da7ceccc323",
+      "sha256": "660cd7b6ec84d28162e702aa7ce352f85dda172772917e38ce648da7ceccc323"
+    },
+    {
+      "path": "programa_principal/anydes/voz/nueva/audio_pipeline.py",
+      "bytes": 19403,
+      "source_sha256": "aa2336379efd23b73cb31b243f398f789e6f6ab6ccf3f63ce85fc4acf7e1075f",
+      "sha256": "aa2336379efd23b73cb31b243f398f789e6f6ab6ccf3f63ce85fc4acf7e1075f"
+    },
+    {
+      "path": "programa_principal/anydes/voz/nueva/common_phrase_cache.py",
+      "bytes": 2168,
+      "source_sha256": "10394742f840a54b84f3c03565690255a986ae2617788534c3eee6bd012694f0",
+      "sha256": "10394742f840a54b84f3c03565690255a986ae2617788534c3eee6bd012694f0"
+    },
+    {
+      "path": "programa_principal/anydes/voz/nueva/contracts.py",
+      "bytes": 3826,
+      "source_sha256": "3cd1483b8559b3b4b9cc6fbe92e561d1fdf54d33bc484b31a1f042c3714f1893",
+      "sha256": "3cd1483b8559b3b4b9cc6fbe92e561d1fdf54d33bc484b31a1f042c3714f1893"
+    },
+    {
+      "path": "programa_principal/anydes/voz/nueva/dac_output.py",
+      "bytes": 8431,
+      "source_sha256": "c3bc3dd21b6e0d14e1eafeec17fd8ba09fd3cecdb463a15f37baf831c1ceee8b",
+      "sha256": "c3bc3dd21b6e0d14e1eafeec17fd8ba09fd3cecdb463a15f37baf831c1ceee8b"
+    },
+    {
+      "path": "programa_principal/anydes/voz/nueva/director.py",
+      "bytes": 3256,
+      "source_sha256": "fe7c78fbd907b20379568f5c764c0f7db894b3ed51ff32226d42ae28bd4d53f8",
+      "sha256": "fe7c78fbd907b20379568f5c764c0f7db894b3ed51ff32226d42ae28bd4d53f8"
+    },
+    {
+      "path": "programa_principal/anydes/voz/nueva/engines.py",
+      "bytes": 31316,
+      "source_sha256": "3424ba543cab66d827426bd9951024e104f6e04f72c0461e261ac2d39ca6174b",
+      "sha256": "3424ba543cab66d827426bd9951024e104f6e04f72c0461e261ac2d39ca6174b"
+    },
+    {
+      "path": "programa_principal/anydes/voz/nueva/factory.py",
+      "bytes": 3470,
+      "source_sha256": "d067d13dc4756f19de8e2693ebd89a5c5cbe7958921aed8a422f4a158a9a1cc7",
+      "sha256": "d067d13dc4756f19de8e2693ebd89a5c5cbe7958921aed8a422f4a158a9a1cc7"
+    },
+    {
+      "path": "programa_principal/anydes/voz/nueva/lip_sync.py",
+      "bytes": 12199,
+      "source_sha256": "50d21c8c8ef51680d091f1d8f833635a3abc171c5f4637391b15f9c8b9981d4f",
+      "sha256": "50d21c8c8ef51680d091f1d8f833635a3abc171c5f4637391b15f9c8b9981d4f"
+    },
+    {
+      "path": "programa_principal/anydes/voz/nueva/manager.py",
+      "bytes": 45128,
+      "source_sha256": "1c7950b004bf2de3f59fbda186fc77be19677651301410c3284bf9f177e4642c",
+      "sha256": "1c7950b004bf2de3f59fbda186fc77be19677651301410c3284bf9f177e4642c"
+    },
+    {
+      "path": "programa_principal/anydes/voz/nueva/normalizer.py",
+      "bytes": 6227,
+      "source_sha256": "3544399ad504a49fce339056ebbf68c93f8fadef9ad42133e58541813fbc89f1",
+      "sha256": "3544399ad504a49fce339056ebbf68c93f8fadef9ad42133e58541813fbc89f1"
+    },
+    {
+      "path": "programa_principal/anydes/voz/nueva/playback_events.py",
+      "bytes": 2497,
+      "source_sha256": "cc914d074caccc086912390b0dcbf8c5d227d248fffa2589b5f31e87561d5e22",
+      "sha256": "cc914d074caccc086912390b0dcbf8c5d227d248fffa2589b5f31e87561d5e22"
+    },
+    {
+      "path": "programa_principal/anydes/voz/nueva/segmenter.py",
+      "bytes": 3486,
+      "source_sha256": "41fd94c1a5f4c53fe92b24517b0a8823b87923d29cee3a611e56899322f5beb1",
+      "sha256": "41fd94c1a5f4c53fe92b24517b0a8823b87923d29cee3a611e56899322f5beb1"
+    },
+    {
+      "path": "programa_principal/anydes/voz/nueva/voice_bank.py",
+      "bytes": 10622,
+      "source_sha256": "a0f72593b8f6f64e5b5bc59a41dd6b8f84fda9c2f0765d76d0c9732344177aa9",
+      "sha256": "3894f2f3abdbd9c4a2e5c7ab2316c55ae0e643bbeca138a1287a0c9c15890ced"
+    },
+    {
+      "path": "programa_principal/anydes/voz/nueva/__init__.py",
+      "bytes": 661,
+      "source_sha256": "2667e54529a9701cc8e4f9ea62337e1f64c1c1d49f7126a5bf3f737edc57c435",
+      "sha256": "2667e54529a9701cc8e4f9ea62337e1f64c1c1d49f7126a5bf3f737edc57c435"
+    },
+    {
+      "path": "anydes_tools/audit.py",
+      "bytes": 1821,
+      "source_sha256": "f1368b48515136f70dbe5fe54aecfa9ccbbb3c29c31e926f68f938f64034b766",
+      "sha256": "f1368b48515136f70dbe5fe54aecfa9ccbbb3c29c31e926f68f938f64034b766"
+    },
+    {
+      "path": "anydes_tools/bridge.py",
+      "bytes": 1804,
+      "source_sha256": "f6c7b7ff5e06ed86451fdfc186bd8e10c46080b20ddaeaaede9c23619c998ed5",
+      "sha256": "f6c7b7ff5e06ed86451fdfc186bd8e10c46080b20ddaeaaede9c23619c998ed5"
+    },
+    {
+      "path": "anydes_tools/composition.py",
+      "bytes": 2796,
+      "source_sha256": "b7c1f0302e91f1beea35e9718c47197a0a8279f5e14e3e00f73a0e6a145a0e2c",
+      "sha256": "b7c1f0302e91f1beea35e9718c47197a0a8279f5e14e3e00f73a0e6a145a0e2c"
+    },
+    {
+      "path": "anydes_tools/context.py",
+      "bytes": 1265,
+      "source_sha256": "34efcc62c4260281b938cde801381d6f40f32e58c05d1b810cc9910320150649",
+      "sha256": "34efcc62c4260281b938cde801381d6f40f32e58c05d1b810cc9910320150649"
+    },
+    {
+      "path": "anydes_tools/contracts.py",
+      "bytes": 6533,
+      "source_sha256": "0afcd3b96064222ef4322cf730144c5d99195dfec8ef97104f75dd4c119db358",
+      "sha256": "0afcd3b96064222ef4322cf730144c5d99195dfec8ef97104f75dd4c119db358"
+    },
+    {
+      "path": "anydes_tools/errors.py",
+      "bytes": 342,
+      "source_sha256": "d173a49df46d95c8723a548fe87d36bbf8cfdf3d469b59931696cb395c2fca92",
+      "sha256": "d173a49df46d95c8723a548fe87d36bbf8cfdf3d469b59931696cb395c2fca92"
+    },
+    {
+      "path": "anydes_tools/executor.py",
+      "bytes": 17808,
+      "source_sha256": "906a772e7335e477a9a5d509baaf45be73f6d65ee401331472b5fc639f2d1d05",
+      "sha256": "906a772e7335e477a9a5d509baaf45be73f6d65ee401331472b5fc639f2d1d05"
+    },
+    {
+      "path": "anydes_tools/lab.py",
+      "bytes": 16973,
+      "source_sha256": "aa1d75af728caa35e897b940badfbfc9a957b01f8ba584a4024b34d1492361a8",
+      "sha256": "aa1d75af728caa35e897b940badfbfc9a957b01f8ba584a4024b34d1492361a8"
+    },
+    {
+      "path": "anydes_tools/observer_filesystem.py",
+      "bytes": 2561,
+      "source_sha256": "7c12cf8b61515dec9ecf3fa211dd65aab1d3ed47353b56bbbd834b090ace731d",
+      "sha256": "7c12cf8b61515dec9ecf3fa211dd65aab1d3ed47353b56bbbd834b090ace731d"
+    },
+    {
+      "path": "anydes_tools/path_policy.py",
+      "bytes": 5958,
+      "source_sha256": "99e543a05c9bad03f7023660888a5c0cd566c79faf910279a271980f1566bf73",
+      "sha256": "99e543a05c9bad03f7023660888a5c0cd566c79faf910279a271980f1566bf73"
+    },
+    {
+      "path": "anydes_tools/permissions.py",
+      "bytes": 1883,
+      "source_sha256": "0d2b005896e0333da63f9ea335d53bfb70345fdc65d36d1dbffc760cbf068860",
+      "sha256": "0d2b005896e0333da63f9ea335d53bfb70345fdc65d36d1dbffc760cbf068860"
+    },
+    {
+      "path": "anydes_tools/resolver.py",
+      "bytes": 3881,
+      "source_sha256": "e8beda8ef367795795069f05608fb39577570eabe9e1bc0ecbba40765ec838e7",
+      "sha256": "e8beda8ef367795795069f05608fb39577570eabe9e1bc0ecbba40765ec838e7"
+    },
+    {
+      "path": "anydes_tools/runtime_environment.py",
+      "bytes": 7450,
+      "source_sha256": "9e71eb83fc7ab62981734ff3755c83ce0969ed7f1da178edfde079c71f006d57",
+      "sha256": "9e71eb83fc7ab62981734ff3755c83ce0969ed7f1da178edfde079c71f006d57"
+    },
+    {
+      "path": "anydes_tools/schema_validation.py",
+      "bytes": 1488,
+      "source_sha256": "5ac3ec97dd3de48ecb7ed347c6a767bf90c1896d0ac7bc2ac593898d9bf90502",
+      "sha256": "5ac3ec97dd3de48ecb7ed347c6a767bf90c1896d0ac7bc2ac593898d9bf90502"
+    },
+    {
+      "path": "anydes_tools/ui_lifecycle.py",
+      "bytes": 9089,
+      "source_sha256": "0844ec08f1eec642f270b414fae987428d7e7a9737aa53f41e56c771e055b474",
+      "sha256": "0844ec08f1eec642f270b414fae987428d7e7a9737aa53f41e56c771e055b474"
+    },
+    {
+      "path": "anydes_tools/windows_sandbox.py",
+      "bytes": 25770,
+      "source_sha256": "e83ff4166f4ee8d0508e9ab561de3e47f070cff76cdb936d1ce1d58b9f574c83",
+      "sha256": "e83ff4166f4ee8d0508e9ab561de3e47f070cff76cdb936d1ce1d58b9f574c83"
+    },
+    {
+      "path": "anydes_tools/worker.py",
+      "bytes": 3274,
+      "source_sha256": "001959cb353a3e05c94558e121952c275614d9c66b2e8b700ad44fb057af06c2",
+      "sha256": "001959cb353a3e05c94558e121952c275614d9c66b2e8b700ad44fb057af06c2"
+    },
+    {
+      "path": "anydes_tools/__init__.py",
+      "bytes": 715,
+      "source_sha256": "1b5490b4e4e7b1bedf5ae7cea2945cb139184c9d4a1254dac86964ae19cb1daf",
+      "sha256": "1b5490b4e4e7b1bedf5ae7cea2945cb139184c9d4a1254dac86964ae19cb1daf"
+    },
+    {
+      "path": "anydes_tools/conversation/action_memory.py",
+      "bytes": 12452,
+      "source_sha256": "0d0294acb04591d7ffddabd980a794d25a9abcab5f2c771b0b8b424a5ea80b28",
+      "sha256": "0d0294acb04591d7ffddabd980a794d25a9abcab5f2c771b0b8b424a5ea80b28"
+    },
+    {
+      "path": "anydes_tools/conversation/artifact_state.py",
+      "bytes": 17172,
+      "source_sha256": "c64e7252e287ed8e5f83913af312f506735c6498c7062163b346be3794e90935",
+      "sha256": "c64e7252e287ed8e5f83913af312f506735c6498c7062163b346be3794e90935"
+    },
+    {
+      "path": "anydes_tools/conversation/capability_grounding.py",
+      "bytes": 2865,
+      "source_sha256": "5f9db26604b7e482feb676ef0252ad8939d13ed4fca95b604581f46f0676c03b",
+      "sha256": "5f9db26604b7e482feb676ef0252ad8939d13ed4fca95b604581f46f0676c03b"
+    },
+    {
+      "path": "anydes_tools/conversation/code_generation.py",
+      "bytes": 9390,
+      "source_sha256": "6b819bd965cb4b60f5e4f3b88aff0870f5d40a3c371b163c607bfcffb76a36d4",
+      "sha256": "6b819bd965cb4b60f5e4f3b88aff0870f5d40a3c371b163c607bfcffb76a36d4"
+    },
+    {
+      "path": "anydes_tools/conversation/content_generation.py",
+      "bytes": 10416,
+      "source_sha256": "01c32511d977244ad8e91e6ac1fdfce09a07b10ff71887c23adfbcfe388567ac",
+      "sha256": "01c32511d977244ad8e91e6ac1fdfce09a07b10ff71887c23adfbcfe388567ac"
+    },
+    {
+      "path": "anydes_tools/conversation/contracts.py",
+      "bytes": 10018,
+      "source_sha256": "8e3b061a058d75d2e2d16ad355a7f85d326d6f16acf388f3e97f7d60270c95dc",
+      "sha256": "8e3b061a058d75d2e2d16ad355a7f85d326d6f16acf388f3e97f7d60270c95dc"
+    },
+    {
+      "path": "anydes_tools/conversation/contract_canonicalization.py",
+      "bytes": 845,
+      "source_sha256": "048ed3707f7264c059931be13cc4f12b98d6102705adbe208ddb79abed34fa39",
+      "sha256": "048ed3707f7264c059931be13cc4f12b98d6102705adbe208ddb79abed34fa39"
+    },
+    {
+      "path": "anydes_tools/conversation/controller.py",
+      "bytes": 273494,
+      "source_sha256": "4f3db5113b00eb22c2f2226e18afe7184d2357e53f6c6b0912e4e45b5102d66c",
+      "sha256": "4f3db5113b00eb22c2f2226e18afe7184d2357e53f6c6b0912e4e45b5102d66c"
+    },
+    {
+      "path": "anydes_tools/conversation/conversational_bridge.py",
+      "bytes": 20844,
+      "source_sha256": "b4382ded05cace138b141bca047a662d682a91eb0b0e697b8e7a5b0b9ad74338",
+      "sha256": "b4382ded05cace138b141bca047a662d682a91eb0b0e697b8e7a5b0b9ad74338"
+    },
+    {
+      "path": "anydes_tools/conversation/dataflow.py",
+      "bytes": 9148,
+      "source_sha256": "eca54d904280bc02cbad288678ec9cc2f7c55350d64826bbb6d8dded7e26ac0c",
+      "sha256": "eca54d904280bc02cbad288678ec9cc2f7c55350d64826bbb6d8dded7e26ac0c"
+    },
+    {
+      "path": "anydes_tools/conversation/delete_plan.py",
+      "bytes": 6213,
+      "source_sha256": "3e1e75dbcc678b2d87bc9ddffa00b2f8eb76c48114dd765ce72a81dad1fcab50",
+      "sha256": "3e1e75dbcc678b2d87bc9ddffa00b2f8eb76c48114dd765ce72a81dad1fcab50"
+    },
+    {
+      "path": "anydes_tools/conversation/diagnostics.py",
+      "bytes": 5911,
+      "source_sha256": "1b6d2f0c4d0a61a6df9e10bb2f3f2f9bdf755a6ac20ad537e1a21e24ec5c50b9",
+      "sha256": "1b6d2f0c4d0a61a6df9e10bb2f3f2f9bdf755a6ac20ad537e1a21e24ec5c50b9"
+    },
+    {
+      "path": "anydes_tools/conversation/discourse_context.py",
+      "bytes": 3953,
+      "source_sha256": "9be2c41210287a9fc772a6edbcda6fdc46fca2d0a136bd718910a08bf96ff939",
+      "sha256": "9be2c41210287a9fc772a6edbcda6fdc46fca2d0a136bd718910a08bf96ff939"
+    },
+    {
+      "path": "anydes_tools/conversation/document_conversion.py",
+      "bytes": 3783,
+      "source_sha256": "0b805d229abcd28395aaaf702aa8e8a45c88c0b563d3c97d76383fb4592af1fa",
+      "sha256": "0b805d229abcd28395aaaf702aa8e8a45c88c0b563d3c97d76383fb4592af1fa"
+    },
+    {
+      "path": "anydes_tools/conversation/document_model.py",
+      "bytes": 6741,
+      "source_sha256": "98c69afbef06e3fbd6732491052fd8d826dab9a036b43a74b5dcaec1d4e5ccbc",
+      "sha256": "98c69afbef06e3fbd6732491052fd8d826dab9a036b43a74b5dcaec1d4e5ccbc"
+    },
+    {
+      "path": "anydes_tools/conversation/document_spec.py",
+      "bytes": 3044,
+      "source_sha256": "6339a390241753240da25d40cf61270fd2d25e1ed62dd7788ef89d99da4a508c",
+      "sha256": "6339a390241753240da25d40cf61270fd2d25e1ed62dd7788ef89d99da4a508c"
+    },
+    {
+      "path": "anydes_tools/conversation/document_transform.py",
+      "bytes": 11788,
+      "source_sha256": "0ac888b70cb8b4de321d95cfef8c9df4c8ee6da1f05c35fc9aa9f25e66798e5a",
+      "sha256": "0ac888b70cb8b4de321d95cfef8c9df4c8ee6da1f05c35fc9aa9f25e66798e5a"
+    },
+    {
+      "path": "anydes_tools/conversation/executable_plan.py",
+      "bytes": 16367,
+      "source_sha256": "45f4c7e5eff4ed5ea2a90deaa6e3b81ed3f3636ecec6ca99c11f8581638276d8",
+      "sha256": "45f4c7e5eff4ed5ea2a90deaa6e3b81ed3f3636ecec6ca99c11f8581638276d8"
+    },
+    {
+      "path": "anydes_tools/conversation/failure_state.py",
+      "bytes": 16704,
+      "source_sha256": "5f26421b3d4dfbc9115e66e2ea9d2857131cb0f2b98d24299a7b1f80b501547c",
+      "sha256": "5f26421b3d4dfbc9115e66e2ea9d2857131cb0f2b98d24299a7b1f80b501547c"
+    },
+    {
+      "path": "anydes_tools/conversation/general_reasoning.py",
+      "bytes": 15781,
+      "source_sha256": "54480ebd302ec4a9b39d65b3adeb2f5b56326210a37ddcbff786b0020adcbdcb",
+      "sha256": "54480ebd302ec4a9b39d65b3adeb2f5b56326210a37ddcbff786b0020adcbdcb"
+    },
+    {
+      "path": "anydes_tools/conversation/grounding_evidence.py",
+      "bytes": 1297,
+      "source_sha256": "c2d5df73579cc6199e5ceb3ecef19ab832e21b839ca265b99fc3ad48fdbc8ae1",
+      "sha256": "c2d5df73579cc6199e5ceb3ecef19ab832e21b839ca265b99fc3ad48fdbc8ae1"
+    },
+    {
+      "path": "anydes_tools/conversation/intent_normalization.py",
+      "bytes": 5709,
+      "source_sha256": "6f355cae251cd4627288884bd6de6cd81d3283d5a47b62ce8b2a12e62a297327",
+      "sha256": "6f355cae251cd4627288884bd6de6cd81d3283d5a47b62ce8b2a12e62a297327"
+    },
+    {
+      "path": "anydes_tools/conversation/interaction_router.py",
+      "bytes": 36800,
+      "source_sha256": "73dab61251de49a6d911d61b4664b8171ad14f96da4f9879bce9fff18f391fe0",
+      "sha256": "73dab61251de49a6d911d61b4664b8171ad14f96da4f9879bce9fff18f391fe0"
+    },
+    {
+      "path": "anydes_tools/conversation/memory_grounding.py",
+      "bytes": 6145,
+      "source_sha256": "91dbf63ae1ff745af481b177967e2a42769ced2660ea3a03cee66c6eea5e0a2c",
+      "sha256": "91dbf63ae1ff745af481b177967e2a42769ced2660ea3a03cee66c6eea5e0a2c"
+    },
+    {
+      "path": "anydes_tools/conversation/natural_response.py",
+      "bytes": 12836,
+      "source_sha256": "b9f16ee171f8add0d3adf03001c9ef09ce6f7b54612a05680f1f6d5dbd43b57e",
+      "sha256": "b9f16ee171f8add0d3adf03001c9ef09ce6f7b54612a05680f1f6d5dbd43b57e"
+    },
+    {
+      "path": "anydes_tools/conversation/operation_intent.py",
+      "bytes": 20605,
+      "source_sha256": "ee4f751e969b81fe2772e27cbed3f2973d5a9d72862758f4a974a54d1822db9c",
+      "sha256": "ee4f751e969b81fe2772e27cbed3f2973d5a9d72862758f4a974a54d1822db9c"
+    },
+    {
+      "path": "anydes_tools/conversation/operation_semantics.py",
+      "bytes": 3551,
+      "source_sha256": "bda8ae20ee9c5303ed1d1b973fef4d0450bbe27ca7d00dd4b594952e827f6b58",
+      "sha256": "bda8ae20ee9c5303ed1d1b973fef4d0450bbe27ca7d00dd4b594952e827f6b58"
+    },
+    {
+      "path": "anydes_tools/conversation/oracle_registry.py",
+      "bytes": 6741,
+      "source_sha256": "dafa7e6ac0cdbdf1352c3788418653f9e30040924324c1c1607d4b503da95e72",
+      "sha256": "dafa7e6ac0cdbdf1352c3788418653f9e30040924324c1c1607d4b503da95e72"
+    },
+    {
+      "path": "anydes_tools/conversation/outcome_voice.py",
+      "bytes": 10436,
+      "source_sha256": "00b0ac7a49e809a74e601d12e9e82b4f822b0a1db34ca8b15ac094b3f77852e6",
+      "sha256": "00b0ac7a49e809a74e601d12e9e82b4f822b0a1db34ca8b15ac094b3f77852e6"
+    },
+    {
+      "path": "anydes_tools/conversation/pipeline_trace.py",
+      "bytes": 4380,
+      "source_sha256": "411e740ca5543a84bc4d332c06cb5117c639f1c1c5cd6c6431148ab1eb5a9f5b",
+      "sha256": "411e740ca5543a84bc4d332c06cb5117c639f1c1c5cd6c6431148ab1eb5a9f5b"
+    },
+    {
+      "path": "anydes_tools/conversation/planner.py",
+      "bytes": 48085,
+      "source_sha256": "e27f3537ff67003116d4dbf248a18d5b316c1bfebd0c7fc8e759bdbf7d17b53b",
+      "sha256": "e27f3537ff67003116d4dbf248a18d5b316c1bfebd0c7fc8e759bdbf7d17b53b"
+    },
+    {
+      "path": "anydes_tools/conversation/planner_transport.py",
+      "bytes": 2855,
+      "source_sha256": "888076a68414b63d79e8fe2d96cfac7b33d5d749ff8370bca64f39987f6c845f",
+      "sha256": "888076a68414b63d79e8fe2d96cfac7b33d5d749ff8370bca64f39987f6c845f"
+    },
+    {
+      "path": "anydes_tools/conversation/plan_completeness.py",
+      "bytes": 8236,
+      "source_sha256": "0fabfecbf9d7f4c78856668964704228ae8eb5ee849880b1d306506cc5cebab6",
+      "sha256": "0fabfecbf9d7f4c78856668964704228ae8eb5ee849880b1d306506cc5cebab6"
+    },
+    {
+      "path": "anydes_tools/conversation/plan_lowering.py",
+      "bytes": 11683,
+      "source_sha256": "f80169a904ff56d1c98685734c2d888d87a1bc695ba37a0b4548ab44532e89af",
+      "sha256": "f80169a904ff56d1c98685734c2d888d87a1bc695ba37a0b4548ab44532e89af"
+    },
+    {
+      "path": "anydes_tools/conversation/plan_protocol.py",
+      "bytes": 4982,
+      "source_sha256": "7f8dca79651c95cd16ffe155cf4fdae35964f2cba902fa491ae04f8007899354",
+      "sha256": "7f8dca79651c95cd16ffe155cf4fdae35964f2cba902fa491ae04f8007899354"
+    },
+    {
+      "path": "anydes_tools/conversation/presentation.py",
+      "bytes": 7001,
+      "source_sha256": "10826c7a7f3fb583e4a9eeeb134d7f6b963a29dfc2c55f073a8d05a03fb59cab",
+      "sha256": "10826c7a7f3fb583e4a9eeeb134d7f6b963a29dfc2c55f073a8d05a03fb59cab"
+    },
+    {
+      "path": "anydes_tools/conversation/publication.py",
+      "bytes": 21359,
+      "source_sha256": "d183ac6b459267fddb53135d22ee8de214f09a6e79e313750992d31b7f05c4f1",
+      "sha256": "d183ac6b459267fddb53135d22ee8de214f09a6e79e313750992d31b7f05c4f1"
+    },
+    {
+      "path": "anydes_tools/conversation/reflection.py",
+      "bytes": 1570,
+      "source_sha256": "2f884740d12a48aeef64627a7917ec4a99fe8deada857b7e15a4b9eaf1b4ba83",
+      "sha256": "2f884740d12a48aeef64627a7917ec4a99fe8deada857b7e15a4b9eaf1b4ba83"
+    },
+    {
+      "path": "anydes_tools/conversation/resolution_contract.py",
+      "bytes": 16189,
+      "source_sha256": "6023aef2764eb67f0e0af0f815794f315d4416805c7da42139528da0805ba8ea",
+      "sha256": "6023aef2764eb67f0e0af0f815794f315d4416805c7da42139528da0805ba8ea"
+    },
+    {
+      "path": "anydes_tools/conversation/response_gate.py",
+      "bytes": 6673,
+      "source_sha256": "0590738c3fd63dee75c04140880a8b97467536a92281932d8c700f89ebeff35d",
+      "sha256": "0590738c3fd63dee75c04140880a8b97467536a92281932d8c700f89ebeff35d"
+    },
+    {
+      "path": "anydes_tools/conversation/reviewer_transport.py",
+      "bytes": 3042,
+      "source_sha256": "c6316e4d4c3979875da76709ad4c2fb35bd94bef1c507f2ac52a83827e595e82",
+      "sha256": "c6316e4d4c3979875da76709ad4c2fb35bd94bef1c507f2ac52a83827e595e82"
+    },
+    {
+      "path": "anydes_tools/conversation/runtime_patch.py",
+      "bytes": 17253,
+      "source_sha256": "3d102c6f677543e1489ca55aacc7dff2fd521676042fa8e0d1ac21fe54648625",
+      "sha256": "3d102c6f677543e1489ca55aacc7dff2fd521676042fa8e0d1ac21fe54648625"
+    },
+    {
+      "path": "anydes_tools/conversation/semantic_proposal.py",
+      "bytes": 5643,
+      "source_sha256": "f71d2daadf4fd3fbae6dc0179b0d8c91ce0f2403b8b0aa64d805db58dedc6c7b",
+      "sha256": "f71d2daadf4fd3fbae6dc0179b0d8c91ce0f2403b8b0aa64d805db58dedc6c7b"
+    },
+    {
+      "path": "anydes_tools/conversation/semantic_runtime.py",
+      "bytes": 43556,
+      "source_sha256": "03f380201bba6152ea7287e312373745f7f8b6924052226521b3b70e4d474064",
+      "sha256": "03f380201bba6152ea7287e312373745f7f8b6924052226521b3b70e4d474064"
+    },
+    {
+      "path": "anydes_tools/conversation/source_names.py",
+      "bytes": 970,
+      "source_sha256": "46db500c492a5e853ba275ab788e3cb23b5a898fdb934b7bce0ec81269807064",
+      "sha256": "46db500c492a5e853ba275ab788e3cb23b5a898fdb934b7bce0ec81269807064"
+    },
+    {
+      "path": "anydes_tools/conversation/structured_text.py",
+      "bytes": 24753,
+      "source_sha256": "c109317dacfe336747a91a55a62f82e181761f8079dbe0b899667945daa4b439",
+      "sha256": "c109317dacfe336747a91a55a62f82e181761f8079dbe0b899667945daa4b439"
+    },
+    {
+      "path": "anydes_tools/conversation/task_adherence.py",
+      "bytes": 5698,
+      "source_sha256": "2f3c1663149ece9e50e5ff2762dffe52b92323ff67b9c73724dcbc4f9d90c87c",
+      "sha256": "2f3c1663149ece9e50e5ff2762dffe52b92323ff67b9c73724dcbc4f9d90c87c"
+    },
+    {
+      "path": "anydes_tools/conversation/typed_content.py",
+      "bytes": 3526,
+      "source_sha256": "935a16ff3c368e26ae7b75a9e38d040a150e0a3c6251894298885420cba1516a",
+      "sha256": "935a16ff3c368e26ae7b75a9e38d040a150e0a3c6251894298885420cba1516a"
+    },
+    {
+      "path": "anydes_tools/conversation/typed_verification.py",
+      "bytes": 20180,
+      "source_sha256": "52a6bdbc9c986307253cd5a3e7876a343e6d3a7225b7ec1cced22a53b5ffe469",
+      "sha256": "52a6bdbc9c986307253cd5a3e7876a343e6d3a7225b7ec1cced22a53b5ffe469"
+    },
+    {
+      "path": "anydes_tools/conversation/verification_types.py",
+      "bytes": 14010,
+      "source_sha256": "3ecb1e374eaddb8c40b885103634a5f7f84d1c422adc6186fda4423096c6a333",
+      "sha256": "3ecb1e374eaddb8c40b885103634a5f7f84d1c422adc6186fda4423096c6a333"
+    },
+    {
+      "path": "anydes_tools/conversation/__init__.py",
+      "bytes": 665,
+      "source_sha256": "2922c75b8fdeea475754ae8e838529cfdc29b284a44725a7a4e9a3a35a8009cd",
+      "sha256": "2922c75b8fdeea475754ae8e838529cfdc29b284a44725a7a4e9a3a35a8009cd"
+    },
+    {
+      "path": "anydes_tools/official/archive_tool.py",
+      "bytes": 6094,
+      "source_sha256": "dae394c6b42ea75136b80d7430b84e91d60b36ff6c0febef18ff7e46bf3d24bb",
+      "sha256": "dae394c6b42ea75136b80d7430b84e91d60b36ff6c0febef18ff7e46bf3d24bb"
+    },
+    {
+      "path": "anydes_tools/official/developer_tool.py",
+      "bytes": 9696,
+      "source_sha256": "7d40b1e826fafead5c0e672b5d610e2370276eea75f3782e01a3b12c36fe3e8e",
+      "sha256": "7d40b1e826fafead5c0e672b5d610e2370276eea75f3782e01a3b12c36fe3e8e"
+    },
+    {
+      "path": "anydes_tools/official/document_tool.py",
+      "bytes": 13535,
+      "source_sha256": "c518b01dc1d029e04a93d0bfa0a8f0ec1ba59e9b856c0ed7ec061fce4fd8fdaa",
+      "sha256": "c518b01dc1d029e04a93d0bfa0a8f0ec1ba59e9b856c0ed7ec061fce4fd8fdaa"
+    },
+    {
+      "path": "anydes_tools/official/filesystem_tool.py",
+      "bytes": 12399,
+      "source_sha256": "264b78d6b9615318edf08de92e74802185b63f82baf8d275478cc3cb6a705427",
+      "sha256": "264b78d6b9615318edf08de92e74802185b63f82baf8d275478cc3cb6a705427"
+    },
+    {
+      "path": "anydes_tools/official/__init__.py",
+      "bytes": 73,
+      "source_sha256": "9f0faf57b20a8e8a2a4cf4c73d753964fa487470c4bc7496e585674b2aa584a5",
+      "sha256": "9f0faf57b20a8e8a2a4cf4c73d753964fa487470c4bc7496e585674b2aa584a5"
+    },
+    {
+      "path": "anydes_tools/registry/registry.py",
+      "bytes": 7763,
+      "source_sha256": "99c29fe435f5e72a1b580f3ccb9c53726b62c085eca66eed8fa8f8dcb46f4f4f",
+      "sha256": "99c29fe435f5e72a1b580f3ccb9c53726b62c085eca66eed8fa8f8dcb46f4f4f"
+    },
+    {
+      "path": "anydes_tools/registry/__init__.py",
+      "bytes": 115,
+      "source_sha256": "96250b16dfc2ea96ab51daaf32f87da36cbbafb326e77221e813d1f452bb5f01",
+      "sha256": "96250b16dfc2ea96ab51daaf32f87da36cbbafb326e77221e813d1f452bb5f01"
+    },
+    {
+      "path": "anydes_tools/settings/awareness.py",
+      "bytes": 6712,
+      "source_sha256": "5af5477ab8adfd8e4bbd0e1698da9cd0b256f96140b4846e8322786bc60c322c",
+      "sha256": "5af5477ab8adfd8e4bbd0e1698da9cd0b256f96140b4846e8322786bc60c322c"
+    },
+    {
+      "path": "anydes_tools/settings/runtime_patch.py",
+      "bytes": 5770,
+      "source_sha256": "18ad29dc9c99513a36eb5d355a8bdede0f967f5fc97829501302310b0c736d19",
+      "sha256": "18ad29dc9c99513a36eb5d355a8bdede0f967f5fc97829501302310b0c736d19"
+    },
+    {
+      "path": "anydes_tools/settings/store.py",
+      "bytes": 7875,
+      "source_sha256": "0c9e82696ec133792552b515f692cadf5ea04546b843a22b574e1e32808c22bb",
+      "sha256": "0c9e82696ec133792552b515f692cadf5ea04546b843a22b574e1e32808c22bb"
+    },
+    {
+      "path": "anydes_tools/settings/ui.py",
+      "bytes": 24495,
+      "source_sha256": "1af28b38318bbed014c341b948433b5e340e389d94adb65a44f173f1b415290c",
+      "sha256": "1af28b38318bbed014c341b948433b5e340e389d94adb65a44f173f1b415290c"
+    },
+    {
+      "path": "anydes_tools/settings/__init__.py",
+      "bytes": 294,
+      "source_sha256": "ad83ef377f17173a0c21416ca86df03edb40c75c04be0d5e54a207e08c4defb7",
+      "sha256": "ad83ef377f17173a0c21416ca86df03edb40c75c04be0d5e54a207e08c4defb7"
+    },
+    {
+      "path": "anydes_tools/tests/compare_legacy_fixtures_g6.py",
+      "bytes": 1296,
+      "source_sha256": "7637093b90646e6e3733a09c0a3487fdd58a51b5c62be0765667347f6a03d29d",
+      "sha256": "7637093b90646e6e3733a09c0a3487fdd58a51b5c62be0765667347f6a03d29d"
+    },
+    {
+      "path": "anydes_tools/tests/diagnose_ui_lifecycle_incident.py",
+      "bytes": 3016,
+      "source_sha256": "cb456b0bf00f765c05040b74d99729363e6f46584dd97649d0da8376f76a4018",
+      "sha256": "cb456b0bf00f765c05040b74d99729363e6f46584dd97649d0da8376f76a4018"
+    },
+    {
+      "path": "anydes_tools/tests/observe_candidate_g2.py",
+      "bytes": 9516,
+      "source_sha256": "d59f452e46955a55b75ef3ce7a39d409346679687b394be3b968bd969c1718a5",
+      "sha256": "d59f452e46955a55b75ef3ce7a39d409346679687b394be3b968bd969c1718a5"
+    },
+    {
+      "path": "anydes_tools/tests/phase_c_failure_injection.py",
+      "bytes": 1990,
+      "source_sha256": "30c02494d90a01324576bb23a98c485323aae9ebe79d4bd8b17dff77f6cde107",
+      "sha256": "30c02494d90a01324576bb23a98c485323aae9ebe79d4bd8b17dff77f6cde107"
+    },
+    {
+      "path": "anydes_tools/tests/report_classifier_branches.py",
+      "bytes": 5176,
+      "source_sha256": "985670eea6e318c59bd87ba2ab74279b828dda3b3b632047eb53622f72ed9809",
+      "sha256": "985670eea6e318c59bd87ba2ab74279b828dda3b3b632047eb53622f72ed9809"
+    },
+    {
+      "path": "anydes_tools/tests/report_conversational_core.py",
+      "bytes": 4743,
+      "source_sha256": "7dced28d66a3faff6d78746b6c340f8a4e6f433787e5668319ad7068975fad6f",
+      "sha256": "7dced28d66a3faff6d78746b6c340f8a4e6f433787e5668319ad7068975fad6f"
+    },
+    {
+      "path": "anydes_tools/tests/report_execute_contract.py",
+      "bytes": 4164,
+      "source_sha256": "16f2943d02edc7e662a49f34562082ade81a17c4e3cc5130caaa86d7e26cbec2",
+      "sha256": "16f2943d02edc7e662a49f34562082ade81a17c4e3cc5130caaa86d7e26cbec2"
+    },
+    {
+      "path": "anydes_tools/tests/report_explanation_continuation.py",
+      "bytes": 5728,
+      "source_sha256": "a8379debcfb0df9acd7daf5c76cd361d8d6c77d05ccfc880fa1b739b55e5ab99",
+      "sha256": "a8379debcfb0df9acd7daf5c76cd361d8d6c77d05ccfc880fa1b739b55e5ab99"
+    },
+    {
+      "path": "anydes_tools/tests/report_final_acceptance_triage.py",
+      "bytes": 6208,
+      "source_sha256": "215adedbb8dae96939bfcc48b5e103aad0921c160f33c4d73d806700d24e6b55",
+      "sha256": "215adedbb8dae96939bfcc48b5e103aad0921c160f33c4d73d806700d24e6b55"
+    },
+    {
+      "path": "anydes_tools/tests/report_final_stabilization.py",
+      "bytes": 5026,
+      "source_sha256": "12a81d32fa964a70127c4f94b1d56b371c84223577cabd0e67fef717b07d9760",
+      "sha256": "12a81d32fa964a70127c4f94b1d56b371c84223577cabd0e67fef717b07d9760"
+    },
+    {
+      "path": "anydes_tools/tests/report_identity_attribute.py",
+      "bytes": 4827,
+      "source_sha256": "d6201fe65ad057f5a84417ab5eb927b645b0bbaec1e820626f5211d5dc58c619",
+      "sha256": "d6201fe65ad057f5a84417ab5eb927b645b0bbaec1e820626f5211d5dc58c619"
+    },
+    {
+      "path": "anydes_tools/tests/report_intent_acceptance.py",
+      "bytes": 5759,
+      "source_sha256": "d761fcb7cd8b842577d039f124a49f98ff94f6bc633d0cb6061381fd69d97dff",
+      "sha256": "d761fcb7cd8b842577d039f124a49f98ff94f6bc633d0cb6061381fd69d97dff"
+    },
+    {
+      "path": "anydes_tools/tests/report_operation_grounding.py",
+      "bytes": 4016,
+      "source_sha256": "4a686a09d23216f943b8c8640ffd421104787c392e28fa3f8a5a3881adc6a551",
+      "sha256": "4a686a09d23216f943b8c8640ffd421104787c392e28fa3f8a5a3881adc6a551"
+    },
+    {
+      "path": "anydes_tools/tests/report_planner_resilience.py",
+      "bytes": 4466,
+      "source_sha256": "16b43bd1ce423ea64281a4d64447a5d104d0af1a7347ee22f509541e222f6d93",
+      "sha256": "16b43bd1ce423ea64281a4d64447a5d104d0af1a7347ee22f509541e222f6d93"
+    },
+    {
+      "path": "anydes_tools/tests/report_testspec_contract.py",
+      "bytes": 4403,
+      "source_sha256": "7fbc7dff0ef0d07e37e95753fe975b3ac810c39a734f107a37c61903d4e299d7",
+      "sha256": "7fbc7dff0ef0d07e37e95753fe975b3ac810c39a734f107a37c61903d4e299d7"
+    },
+    {
+      "path": "anydes_tools/tests/report_two_major_fix.py",
+      "bytes": 5757,
+      "source_sha256": "96c10e9049019887dc7fb8bd8fd9d91526e67cb9d40b56804e8222ce7116f79c",
+      "sha256": "96c10e9049019887dc7fb8bd8fd9d91526e67cb9d40b56804e8222ce7116f79c"
+    },
+    {
+      "path": "anydes_tools/tests/report_ui_lifecycle.py",
+      "bytes": 4647,
+      "source_sha256": "813ead978dc7771a5cc4a3c0a214e5d3bf4e766547c814561ce5f890a05444bb",
+      "sha256": "813ead978dc7771a5cc4a3c0a214e5d3bf4e766547c814561ce5f890a05444bb"
+    },
+    {
+      "path": "anydes_tools/tests/runtime_comparison.py",
+      "bytes": 13249,
+      "source_sha256": "52e2c1aa15e76b84ff378486625bbe27da9e3c58c1e9ed02cb902fbe5bf172b7",
+      "sha256": "52e2c1aa15e76b84ff378486625bbe27da9e3c58c1e9ed02cb902fbe5bf172b7"
+    },
+    {
+      "path": "anydes_tools/tests/runtime_observation.py",
+      "bytes": 4379,
+      "source_sha256": "22258d06d0325df09893209853a90a154733ba1636f475e73ceb1a18c7546a43",
+      "sha256": "22258d06d0325df09893209853a90a154733ba1636f475e73ceb1a18c7546a43"
+    },
+    {
+      "path": "anydes_tools/tests/run_exact_self_description_staging_e2e.py",
+      "bytes": 8445,
+      "source_sha256": "036f7bbb87dcad91b144d9dfe1f8797ab2c3cd4d76a5c4b1a199df63f3c1d326",
+      "sha256": "036f7bbb87dcad91b144d9dfe1f8797ab2c3cd4d76a5c4b1a199df63f3c1d326"
+    },
+    {
+      "path": "anydes_tools/tests/run_full_runtime_phase_a.py",
+      "bytes": 14882,
+      "source_sha256": "c35ad9081a5c31a0e4036d79a8a47b5611eafb06559336281e01a68cfed9bbf0",
+      "sha256": "c35ad9081a5c31a0e4036d79a8a47b5611eafb06559336281e01a68cfed9bbf0"
+    },
+    {
+      "path": "anydes_tools/tests/run_general_reasoner_live_groq_e2e.py",
+      "bytes": 7013,
+      "source_sha256": "ed49175e65ce3023a1445e04ee64840e3cb32bbf8a953f8151310bca986f66cd",
+      "sha256": "28b3dfa1fefd880ac8ce87da004382d7a00b82c08568e3aa2aa05d910fe11f5a"
+    },
+    {
+      "path": "anydes_tools/tests/run_general_reasoner_staging_e2e.py",
+      "bytes": 7618,
+      "source_sha256": "7508ec728ce4f689baebbb4af00b612bb4b91ba060dd6f7d4fa6eb7f3212aa98",
+      "sha256": "e5311aba95d409074ceed74255af861bc1f7bdb561682d73ca85f612a147975e"
+    },
+    {
+      "path": "anydes_tools/tests/run_interaction_execution_phase_c.py",
+      "bytes": 3417,
+      "source_sha256": "17338f778ffc49cec8a9f61d848fa9bb8b5df8c416b868f18e63b7c53cb05f16",
+      "sha256": "17338f778ffc49cec8a9f61d848fa9bb8b5df8c416b868f18e63b7c53cb05f16"
+    },
+    {
+      "path": "anydes_tools/tests/run_interaction_router_staging_e2e.py",
+      "bytes": 8713,
+      "source_sha256": "02e107c11708210dbdc88c71a27a9fd9ad83e057fbe952f0f1997081cb88e15a",
+      "sha256": "02e107c11708210dbdc88c71a27a9fd9ad83e057fbe952f0f1997081cb88e15a"
+    },
+    {
+      "path": "anydes_tools/tests/run_security_phase_b2.py",
+      "bytes": 2942,
+      "source_sha256": "32895d2906cb831241e2a8a710b40d84968dba875d43a0f02a258354a6f2c993",
+      "sha256": "32895d2906cb831241e2a8a710b40d84968dba875d43a0f02a258354a6f2c993"
+    },
+    {
+      "path": "anydes_tools/tests/summarize_candidate_phase_g1.py",
+      "bytes": 6660,
+      "source_sha256": "e707929c6529be63128e765a125e25d0023e2ef05ae41eb6fb6f0f75020c879e",
+      "sha256": "e707929c6529be63128e765a125e25d0023e2ef05ae41eb6fb6f0f75020c879e"
+    },
+    {
+      "path": "anydes_tools/tests/summarize_phase_a1.py",
+      "bytes": 3466,
+      "source_sha256": "1aa39a495617031802fc6cf346c5fd3071cdc81334ad6e909c4248b6cd164d69",
+      "sha256": "1aa39a495617031802fc6cf346c5fd3071cdc81334ad6e909c4248b6cd164d69"
+    },
+    {
+      "path": "anydes_tools/tests/test_action_experience_memory_v001_5.py",
+      "bytes": 15727,
+      "source_sha256": "713a32b1900ec338e37b5ff9c3d7b503b2c8fcf47d6cdf0fd2dc4b01635a92da",
+      "sha256": "713a32b1900ec338e37b5ff9c3d7b503b2c8fcf47d6cdf0fd2dc4b01635a92da"
+    },
+    {
+      "path": "anydes_tools/tests/test_architecture_v001.py",
+      "bytes": 19914,
+      "source_sha256": "f0a0b53c7bb420cdc6e0bf97abf96536f6a3c2cf25a90961da6fa75a665d2fe0",
+      "sha256": "f0a0b53c7bb420cdc6e0bf97abf96536f6a3c2cf25a90961da6fa75a665d2fe0"
+    },
+    {
+      "path": "anydes_tools/tests/test_artifact_dataflow_phase_d.py",
+      "bytes": 17385,
+      "source_sha256": "2421dc3b503e2cb583c801cea069079b8f462c47f751d21bbd997dbefa66725e",
+      "sha256": "2421dc3b503e2cb583c801cea069079b8f462c47f751d21bbd997dbefa66725e"
+    },
+    {
+      "path": "anydes_tools/tests/test_candidate_blockers_g2.py",
+      "bytes": 3228,
+      "source_sha256": "30b906b7136ba97850cf82a81dedbfdd235784a40308130bdca455fe64be6a30",
+      "sha256": "30b906b7136ba97850cf82a81dedbfdd235784a40308130bdca455fe64be6a30"
+    },
+    {
+      "path": "anydes_tools/tests/test_candidate_blockers_g3.py",
+      "bytes": 10064,
+      "source_sha256": "1c16658c132d516c4134a99e358f1d9c26a8164421016d9b7cdd00f1c2bbfbed",
+      "sha256": "1c16658c132d516c4134a99e358f1d9c26a8164421016d9b7cdd00f1c2bbfbed"
+    },
+    {
+      "path": "anydes_tools/tests/test_classifier_branches.py",
+      "bytes": 6478,
+      "source_sha256": "dd579883879523c56710be3e36daa8fc4aa36b1c6c3db727ac18dbad99903917",
+      "sha256": "dd579883879523c56710be3e36daa8fc4aa36b1c6c3db727ac18dbad99903917"
+    },
+    {
+      "path": "anydes_tools/tests/test_context_control_resolution.py",
+      "bytes": 7898,
+      "source_sha256": "176fc2c2cf0f71514e27db6701e5c9de559f8fd575d12b5e636e1845231fc50a",
+      "sha256": "176fc2c2cf0f71514e27db6701e5c9de559f8fd575d12b5e636e1845231fc50a"
+    },
+    {
+      "path": "anydes_tools/tests/test_contract_adherence_phase_e3.py",
+      "bytes": 6977,
+      "source_sha256": "e742eb13a5bad1ce01130a967c1892e4484545ef31fca15d074089e00759031a",
+      "sha256": "e742eb13a5bad1ce01130a967c1892e4484545ef31fca15d074089e00759031a"
+    },
+    {
+      "path": "anydes_tools/tests/test_conversational_core.py",
+      "bytes": 9063,
+      "source_sha256": "1f74392a5f40e5a072b0359dfc4d24dc4763c9859bd41cc108610191cf89754f",
+      "sha256": "1f74392a5f40e5a072b0359dfc4d24dc4763c9859bd41cc108610191cf89754f"
+    },
+    {
+      "path": "anydes_tools/tests/test_conversational_discourse.py",
+      "bytes": 11171,
+      "source_sha256": "825ccd6efe3e601d8de1817f698fb8c5009a0465be4db315be9eefd12ba83571",
+      "sha256": "825ccd6efe3e601d8de1817f698fb8c5009a0465be4db315be9eefd12ba83571"
+    },
+    {
+      "path": "anydes_tools/tests/test_conversation_diagnostics.py",
+      "bytes": 6077,
+      "source_sha256": "972eb84a28ba45e6d8a8fd185b5ade628707eff2bdc1f1412be7572a461acebf",
+      "sha256": "972eb84a28ba45e6d8a8fd185b5ade628707eff2bdc1f1412be7572a461acebf"
+    },
+    {
+      "path": "anydes_tools/tests/test_conversation_v001_5.py",
+      "bytes": 52978,
+      "source_sha256": "7ec60fee87b87684165aa0afd57a708c663c267d1c24d4c469f6b9d728bf50e2",
+      "sha256": "5cc3907e5d81f0cb2292b690c7a64550a1ad350ef1ab1d2fc8d62c9b438b315a"
+    },
+    {
+      "path": "anydes_tools/tests/test_dataflow_closure_phase_d5.py",
+      "bytes": 9126,
+      "source_sha256": "a62a34b8c8aed7715e70eb674a7e5ba808a4332badaa91786d4776755075fea3",
+      "sha256": "a62a34b8c8aed7715e70eb674a7e5ba808a4332badaa91786d4776755075fea3"
+    },
+    {
+      "path": "anydes_tools/tests/test_execute_contract.py",
+      "bytes": 9127,
+      "source_sha256": "02c6eedeb88765d666ff257dd095f8404e2d9c9c98fdd69f8819fab692adb5ac",
+      "sha256": "02c6eedeb88765d666ff257dd095f8404e2d9c9c98fdd69f8819fab692adb5ac"
+    },
+    {
+      "path": "anydes_tools/tests/test_explanation_continuation.py",
+      "bytes": 7712,
+      "source_sha256": "e485deff1b787a1112e590f56dde89a6ec8807d2ab7c83159706389026ccfcbd",
+      "sha256": "e485deff1b787a1112e590f56dde89a6ec8807d2ab7c83159706389026ccfcbd"
+    },
+    {
+      "path": "anydes_tools/tests/test_failure_record_phase_c.py",
+      "bytes": 9886,
+      "source_sha256": "284faf7d235830248d7fa4af9a09bb7ce39186b5c664e4639fb4cbe4c665c316",
+      "sha256": "284faf7d235830248d7fa4af9a09bb7ce39186b5c664e4639fb4cbe4c665c316"
+    },
+    {
+      "path": "anydes_tools/tests/test_failure_remediation_intent.py",
+      "bytes": 6016,
+      "source_sha256": "37d6a8d0812ecb5d9067549024023209ea2c9f79a0b008bb2a0741117ef7d29a",
+      "sha256": "37d6a8d0812ecb5d9067549024023209ea2c9f79a0b008bb2a0741117ef7d29a"
+    },
+    {
+      "path": "anydes_tools/tests/test_failure_topic_preservation.py",
+      "bytes": 7154,
+      "source_sha256": "7797039d85c9a65928e1af95e29a6e257fb55d5e2834e36e6b576dd37b201b2c",
+      "sha256": "7797039d85c9a65928e1af95e29a6e257fb55d5e2834e36e6b576dd37b201b2c"
+    },
+    {
+      "path": "anydes_tools/tests/test_final_acceptance_triage.py",
+      "bytes": 2192,
+      "source_sha256": "eb417885f3887105b086a143df0094309060c49f543c2e4eae9a0b6cb2e2bba3",
+      "sha256": "eb417885f3887105b086a143df0094309060c49f543c2e4eae9a0b6cb2e2bba3"
+    },
+    {
+      "path": "anydes_tools/tests/test_general_task_reasoner_v001_5.py",
+      "bytes": 23566,
+      "source_sha256": "3b3241b9dd199225e1b62df459207ca13ea29e931eb8755bc89f38d3aead97ab",
+      "sha256": "6b335e4c27514b83a703e943c1f573d1d646dc23a58d01124af8b571a748ffb7"
+    },
+    {
+      "path": "anydes_tools/tests/test_human_acceptance_round1.py",
+      "bytes": 20170,
+      "source_sha256": "8148863878a5ade9b4aa771729b708aa77262e76d161e43be99a3221d5089cc9",
+      "sha256": "8148863878a5ade9b4aa771729b708aa77262e76d161e43be99a3221d5089cc9"
+    },
+    {
+      "path": "anydes_tools/tests/test_human_launcher_document_pipeline_e2e.py",
+      "bytes": 8536,
+      "source_sha256": "63fd840db1faaf158b5e85f0851fe711fdb720862e1a92b3d67ce6957c6e4950",
+      "sha256": "63fd840db1faaf158b5e85f0851fe711fdb720862e1a92b3d67ce6957c6e4950"
+    },
+    {
+      "path": "anydes_tools/tests/test_human_launcher_runtime_e2e_v001_5.py",
+      "bytes": 9142,
+      "source_sha256": "095b3a715abb970a66a5e5fa3845951586526fca46e4d546dc0f570b58701ade",
+      "sha256": "21a547f6e565f50d64486cd46079f9f5e570e9f6117bfdaca3a94b1652b165ee"
+    },
+    {
+      "path": "anydes_tools/tests/test_identity_attribute.py",
+      "bytes": 8721,
+      "source_sha256": "43bb3f528cce53aec79337d4d213d85f3d93ff4006ece8b9d6593e7811997d81",
+      "sha256": "43bb3f528cce53aec79337d4d213d85f3d93ff4006ece8b9d6593e7811997d81"
+    },
+    {
+      "path": "anydes_tools/tests/test_intent_acceptance.py",
+      "bytes": 13121,
+      "source_sha256": "03e60d54d82813d43aa59196ca93f012a43e176b67ab81896b074ba85cc4ea94",
+      "sha256": "03e60d54d82813d43aa59196ca93f012a43e176b67ab81896b074ba85cc4ea94"
+    },
+    {
+      "path": "anydes_tools/tests/test_interaction_execution_phase_c.py",
+      "bytes": 21017,
+      "source_sha256": "2219251858c0f02e8e812d2eb95a5626c822cfec83c281f4a2c5410efed0be51",
+      "sha256": "2219251858c0f02e8e812d2eb95a5626c822cfec83c281f4a2c5410efed0be51"
+    },
+    {
+      "path": "anydes_tools/tests/test_interaction_router_code_dataflow_v001_5.py",
+      "bytes": 14946,
+      "source_sha256": "b22f0c9c6d6c1cdbd6cda5e65a639def5ab64cfd17be3ac19203ddae5c243dc8",
+      "sha256": "b22f0c9c6d6c1cdbd6cda5e65a639def5ab64cfd17be3ac19203ddae5c243dc8"
+    },
+    {
+      "path": "anydes_tools/tests/test_local_natural_invariant.py",
+      "bytes": 6193,
+      "source_sha256": "755d4f21d319f9fb243a6a5e58ad3701a66da45647935da02d794f2b2dc05d7f",
+      "sha256": "755d4f21d319f9fb243a6a5e58ad3701a66da45647935da02d794f2b2dc05d7f"
+    },
+    {
+      "path": "anydes_tools/tests/test_natural_response.py",
+      "bytes": 8492,
+      "source_sha256": "ed81ba0361977298f24d50fd2098eb597dcd9fe0a64c2ec319897e4c3903ca87",
+      "sha256": "ed81ba0361977298f24d50fd2098eb597dcd9fe0a64c2ec319897e4c3903ca87"
+    },
+    {
+      "path": "anydes_tools/tests/test_operation_grounding.py",
+      "bytes": 16085,
+      "source_sha256": "342db2760debc7bc698db3c6756a3f9c36e396256bcfb9d7e764ba186d40958d",
+      "sha256": "342db2760debc7bc698db3c6756a3f9c36e396256bcfb9d7e764ba186d40958d"
+    },
+    {
+      "path": "anydes_tools/tests/test_oracle_registry_phase_e1.py",
+      "bytes": 6513,
+      "source_sha256": "681e6cddb049da51ef001fe6aeaeb9fc084344d3e403c4cf701bd0ae5411445c",
+      "sha256": "681e6cddb049da51ef001fe6aeaeb9fc084344d3e403c4cf701bd0ae5411445c"
+    },
+    {
+      "path": "anydes_tools/tests/test_outcome_voice.py",
+      "bytes": 10287,
+      "source_sha256": "bdad85fb1e19e7f74998b7f1c440a6d0fd8e49e3c9371d7754ca7551921a7af9",
+      "sha256": "bdad85fb1e19e7f74998b7f1c440a6d0fd8e49e3c9371d7754ca7551921a7af9"
+    },
+    {
+      "path": "anydes_tools/tests/test_pending_confirmation_contract.py",
+      "bytes": 7461,
+      "source_sha256": "d516b50a46327effa04a0af571d5dff5a331511a7bd292155ec9f70beeb01ada",
+      "sha256": "d516b50a46327effa04a0af571d5dff5a331511a7bd292155ec9f70beeb01ada"
+    },
+    {
+      "path": "anydes_tools/tests/test_pipeline_consistency_g4.py",
+      "bytes": 5106,
+      "source_sha256": "745b95d4e4a7ade096444dc61ae6aa0bbffc890ec2bfa65ebdcc9a7b79c49f47",
+      "sha256": "745b95d4e4a7ade096444dc61ae6aa0bbffc890ec2bfa65ebdcc9a7b79c49f47"
+    },
+    {
+      "path": "anydes_tools/tests/test_pipeline_terminality_g5.py",
+      "bytes": 6280,
+      "source_sha256": "7950eb2fc15a40fe46c65861d1ac137508639498377516fdaa241c093188c390",
+      "sha256": "7950eb2fc15a40fe46c65861d1ac137508639498377516fdaa241c093188c390"
+    },
+    {
+      "path": "anydes_tools/tests/test_planner_resilience.py",
+      "bytes": 8691,
+      "source_sha256": "f8da77be132d3168cd88ac5faee60fc7bb3ab1d1c0b3c014b208cb43f6719293",
+      "sha256": "f8da77be132d3168cd88ac5faee60fc7bb3ab1d1c0b3c014b208cb43f6719293"
+    },
+    {
+      "path": "anydes_tools/tests/test_plan_completeness_phase_d1.py",
+      "bytes": 10070,
+      "source_sha256": "07cdb30a8518e5cd1874f5c27d68cf90b99163ac7054e6e2f7da5d9a3ef5c5c0",
+      "sha256": "07cdb30a8518e5cd1874f5c27d68cf90b99163ac7054e6e2f7da5d9a3ef5c5c0"
+    },
+    {
+      "path": "anydes_tools/tests/test_plan_protocol_phase_d2.py",
+      "bytes": 7557,
+      "source_sha256": "153b604760ce4920fb3f611d85fa4ce7152fb0df6d095647e415a5a938ae0a53",
+      "sha256": "153b604760ce4920fb3f611d85fa4ce7152fb0df6d095647e415a5a938ae0a53"
+    },
+    {
+      "path": "anydes_tools/tests/test_pre_request_semantics.py",
+      "bytes": 7280,
+      "source_sha256": "2eddb072f318f222d743207f037150823aa1d7cbfcfff511e05f944f4e6dc93f",
+      "sha256": "2eddb072f318f222d743207f037150823aa1d7cbfcfff511e05f944f4e6dc93f"
+    },
+    {
+      "path": "anydes_tools/tests/test_publication_phase_f.py",
+      "bytes": 16079,
+      "source_sha256": "b5c6ad3450792d5e3a9f757b2fa6e3197e381586df4c4a2a748001d12a421495",
+      "sha256": "8695754969cb19cdc2cc0c92ddc08cd0bf398bb32e58f4da19d74fbf88f34b62"
+    },
+    {
+      "path": "anydes_tools/tests/test_recent_artifact_index_g6.py",
+      "bytes": 5790,
+      "source_sha256": "936ab5fabdc29f5a1cafff7303874623a57ef8e0c0f6876ed2fa5817c981a348",
+      "sha256": "936ab5fabdc29f5a1cafff7303874623a57ef8e0c0f6876ed2fa5817c981a348"
+    },
+    {
+      "path": "anydes_tools/tests/test_reviewer_resilience.py",
+      "bytes": 10575,
+      "source_sha256": "7167a7573797b5e9ad998399553f8ddca25d466942c95ded68dae4a870538379",
+      "sha256": "7167a7573797b5e9ad998399553f8ddca25d466942c95ded68dae4a870538379"
+    },
+    {
+      "path": "anydes_tools/tests/test_runtime_comparison_phase_a1.py",
+      "bytes": 1921,
+      "source_sha256": "c17e40b0e7b655bcc71747607c6a293245820a56f95abef276d17e0acb5e5189",
+      "sha256": "c17e40b0e7b655bcc71747607c6a293245820a56f95abef276d17e0acb5e5189"
+    },
+    {
+      "path": "anydes_tools/tests/test_runtime_environment_g1.py",
+      "bytes": 2816,
+      "source_sha256": "c3a83878b52b9bb5bd43065cd0d852086c6e68ec6004d0c049f655eb779ca9d3",
+      "sha256": "c3a83878b52b9bb5bd43065cd0d852086c6e68ec6004d0c049f655eb779ca9d3"
+    },
+    {
+      "path": "anydes_tools/tests/test_runtime_observation_phase_a.py",
+      "bytes": 2471,
+      "source_sha256": "fd46686a442296c9d60f5e989e6d59354f0efd339f9d88b95367d1415820e361",
+      "sha256": "fd46686a442296c9d60f5e989e6d59354f0efd339f9d88b95367d1415820e361"
+    },
+    {
+      "path": "anydes_tools/tests/test_security_boundary_b1.py",
+      "bytes": 12665,
+      "source_sha256": "f4fd1a6d6fee2876d46e29aea278a0cf114e912e085ab2c3dc1869ffb51cd818",
+      "sha256": "f4fd1a6d6fee2876d46e29aea278a0cf114e912e085ab2c3dc1869ffb51cd818"
+    },
+    {
+      "path": "anydes_tools/tests/test_self_description_failure_grounding_v001_5.py",
+      "bytes": 5815,
+      "source_sha256": "43d45d25360450d7a2678911f816bce7b07d00d372ad7fbcf536ee7c4e96ec49",
+      "sha256": "43d45d25360450d7a2678911f816bce7b07d00d372ad7fbcf536ee7c4e96ec49"
+    },
+    {
+      "path": "anydes_tools/tests/test_semantics_propagation_phase_e4.py",
+      "bytes": 9239,
+      "source_sha256": "631a00e5cad0dd9193320e98006f211e5bc11556377a23c3d2221561751d58df",
+      "sha256": "631a00e5cad0dd9193320e98006f211e5bc11556377a23c3d2221561751d58df"
+    },
+    {
+      "path": "anydes_tools/tests/test_semantic_lowering_phase_d4.py",
+      "bytes": 11277,
+      "source_sha256": "885d0572743f9f2fffbf728e54c3c74cc1a79295aa949cc6030a92d845a1e06a",
+      "sha256": "885d0572743f9f2fffbf728e54c3c74cc1a79295aa949cc6030a92d845a1e06a"
+    },
+    {
+      "path": "anydes_tools/tests/test_settings_capability_v001_5.py",
+      "bytes": 13890,
+      "source_sha256": "397a1d3be6deaa22fe8a961817619eb403b2dde170c38c13c0190c9181bfa550",
+      "sha256": "397a1d3be6deaa22fe8a961817619eb403b2dde170c38c13c0190c9181bfa550"
+    },
+    {
+      "path": "anydes_tools/tests/test_testspec_contract.py",
+      "bytes": 8919,
+      "source_sha256": "da02b827acc629ecd5269af1814cd1f0588df59844dcbb448e0b4de017f61bf2",
+      "sha256": "da02b827acc629ecd5269af1814cd1f0588df59844dcbb448e0b4de017f61bf2"
+    },
+    {
+      "path": "anydes_tools/tests/test_two_major_fix.py",
+      "bytes": 9485,
+      "source_sha256": "184416abb2cadf5796fc4945ad1ab8a869c3fb54ef410317d9d08d37957ee22b",
+      "sha256": "184416abb2cadf5796fc4945ad1ab8a869c3fb54ef410317d9d08d37957ee22b"
+    },
+    {
+      "path": "anydes_tools/tests/test_typed_verification_phase_e.py",
+      "bytes": 11702,
+      "source_sha256": "eba8875b26a87244591167e9fab1cd3c7f09f601652d192bde3d4edcc4060f46",
+      "sha256": "eba8875b26a87244591167e9fab1cd3c7f09f601652d192bde3d4edcc4060f46"
+    },
+    {
+      "path": "anydes_tools/tests/test_ui_lifecycle.py",
+      "bytes": 6214,
+      "source_sha256": "a6737817cd32c62cc414ea45369dfaeb6eea5476882c5bff5d2c54734b17351e",
+      "sha256": "a6737817cd32c62cc414ea45369dfaeb6eea5476882c5bff5d2c54734b17351e"
+    },
+    {
+      "path": "anydes_tools/tests/test_verification_reachability_phase_e2.py",
+      "bytes": 5878,
+      "source_sha256": "49e773d1aaf888b78de50bbfd2fa7277d4ba0769b600fa5d5de2746616de0f24",
+      "sha256": "49e773d1aaf888b78de50bbfd2fa7277d4ba0769b600fa5d5de2746616de0f24"
+    },
+    {
+      "path": "anydes_tools/tests/test_voice_artifact_workflow_v001_5.py",
+      "bytes": 17350,
+      "source_sha256": "fb5ca8d519e0db0a5515e46dc91cab0724240c54220e4d05a549430466278c69",
+      "sha256": "fb5ca8d519e0db0a5515e46dc91cab0724240c54220e4d05a549430466278c69"
+    },
+    {
+      "path": "anydes_tools/tests/test_windows_sandbox_b2.py",
+      "bytes": 16057,
+      "source_sha256": "6d5c7afcab5e3f3f622ea9ab30493bb1578f73d1e58cbd2084f8a045924c3571",
+      "sha256": "6d5c7afcab5e3f3f622ea9ab30493bb1578f73d1e58cbd2084f8a045924c3571"
+    },
+    {
+      "path": "anydes_tools/tests/test_word_pdf_phase_d3.py",
+      "bytes": 6056,
+      "source_sha256": "bf746b28ba6b4fee4b94130beb36875228ca7af5fe7ec700c50dcb026274fb51",
+      "sha256": "bf746b28ba6b4fee4b94130beb36875228ca7af5fe7ec700c50dcb026274fb51"
+    },
+    {
+      "path": "anydes_tools/tests/ui_lifecycle_fixture.py",
+      "bytes": 2960,
+      "source_sha256": "d49bc65f361e8021a1eeb330f569fe52a0560bfb215e8f3a54bac2f8eba606d9",
+      "sha256": "d49bc65f361e8021a1eeb330f569fe52a0560bfb215e8f3a54bac2f8eba606d9"
+    },
+    {
+      "path": "anydes_tools/tests/validate_candidate_phase_g.py",
+      "bytes": 4289,
+      "source_sha256": "3e5dcb645925612093cf46c1b1c6d77fdfb9060bf37f17b158348864af695c8c",
+      "sha256": "3e5dcb645925612093cf46c1b1c6d77fdfb9060bf37f17b158348864af695c8c"
+    },
+    {
+      "path": "anydes_tools/tests/validate_candidate_phase_g1.py",
+      "bytes": 1575,
+      "source_sha256": "0ac696df9ebecf3077a8ecc2301e95506366fc4f66fff42a26c0ee7350f753c6",
+      "sha256": "0ac696df9ebecf3077a8ecc2301e95506366fc4f66fff42a26c0ee7350f753c6"
+    },
+    {
+      "path": "anydes_tools/tests/validate_candidate_phase_g2.py",
+      "bytes": 3157,
+      "source_sha256": "01be5121b06e39b98d566d351d51f401a687b1baedcc4420cdce4903208fe2b6",
+      "sha256": "01be5121b06e39b98d566d351d51f401a687b1baedcc4420cdce4903208fe2b6"
+    },
+    {
+      "path": "anydes_tools/tests/validate_candidate_phase_g3.py",
+      "bytes": 891,
+      "source_sha256": "460949598887578bdad610f059c74c7c263db27183df86d46ecfe5bfd31dfda1",
+      "sha256": "460949598887578bdad610f059c74c7c263db27183df86d46ecfe5bfd31dfda1"
+    },
+    {
+      "path": "anydes_tools/tests/validate_candidate_phase_g3_review.py",
+      "bytes": 467,
+      "source_sha256": "b0558e3a005c37817177cd44bdd5b01d1d2eb1ef95410cf16bf272d01a2a346d",
+      "sha256": "b0558e3a005c37817177cd44bdd5b01d1d2eb1ef95410cf16bf272d01a2a346d"
+    },
+    {
+      "path": "anydes_tools/tests/validate_candidate_phase_g4.py",
+      "bytes": 699,
+      "source_sha256": "ae8ace740b4e9db08b84c3341fa75507565290cd0b667d1412553a9263389b33",
+      "sha256": "ae8ace740b4e9db08b84c3341fa75507565290cd0b667d1412553a9263389b33"
+    },
+    {
+      "path": "anydes_tools/tests/validate_candidate_phase_g5.py",
+      "bytes": 742,
+      "source_sha256": "4992be3f8da0da731e8ccc8d8cbf5f9c255e11302930674c7b895dfefddffbb4",
+      "sha256": "4992be3f8da0da731e8ccc8d8cbf5f9c255e11302930674c7b895dfefddffbb4"
+    },
+    {
+      "path": "anydes_tools/tests/validate_candidate_phase_g6.py",
+      "bytes": 642,
+      "source_sha256": "620e0144e59cd8757f15b0c08213e2894b6d9e0a5ea1e6d9daaf56fc4e0195af",
+      "sha256": "620e0144e59cd8757f15b0c08213e2894b6d9e0a5ea1e6d9daaf56fc4e0195af"
+    },
+    {
+      "path": "anydes_tools/tests/validate_classifier_branches.py",
+      "bytes": 500,
+      "source_sha256": "7260ebdd31bcdc1ebb071480aba4c04c3050cd05a94bb3bf185c05c3f0071bbd",
+      "sha256": "7260ebdd31bcdc1ebb071480aba4c04c3050cd05a94bb3bf185c05c3f0071bbd"
+    },
+    {
+      "path": "anydes_tools/tests/validate_context_control_acceptance.py",
+      "bytes": 538,
+      "source_sha256": "1cfd8d7eaa319d84e3ab61739d30e393ec0a67419c1212e67e772f7acc729050",
+      "sha256": "1cfd8d7eaa319d84e3ab61739d30e393ec0a67419c1212e67e772f7acc729050"
+    },
+    {
+      "path": "anydes_tools/tests/validate_conversational_acceptance.py",
+      "bytes": 468,
+      "source_sha256": "9e67cc2891c3baf02727a46cdf4857bc96b02a5cc3fbb77ece177476a8634ad3",
+      "sha256": "9e67cc2891c3baf02727a46cdf4857bc96b02a5cc3fbb77ece177476a8634ad3"
+    },
+    {
+      "path": "anydes_tools/tests/validate_conversational_core.py",
+      "bytes": 939,
+      "source_sha256": "6ad1320e9bc09d91671d044ec4cf9b6cc1986a7f638881b2916ec28aa72e6c51",
+      "sha256": "6ad1320e9bc09d91671d044ec4cf9b6cc1986a7f638881b2916ec28aa72e6c51"
+    },
+    {
+      "path": "anydes_tools/tests/validate_execute_contract.py",
+      "bytes": 811,
+      "source_sha256": "6926f40628ef3b843c24b4f824cd02f953a7d186b8769f27c234dd8bb8fb6350",
+      "sha256": "6926f40628ef3b843c24b4f824cd02f953a7d186b8769f27c234dd8bb8fb6350"
+    },
+    {
+      "path": "anydes_tools/tests/validate_explanation_continuation.py",
+      "bytes": 452,
+      "source_sha256": "cc5078899db64078a6a78e08eefc352a84115e8c145da486e18abfe57b209626",
+      "sha256": "cc5078899db64078a6a78e08eefc352a84115e8c145da486e18abfe57b209626"
+    },
+    {
+      "path": "anydes_tools/tests/validate_failure_topic_acceptance.py",
+      "bytes": 477,
+      "source_sha256": "b4aba005fbcb3585edba759834f0290e9be65416533ffccec23e0ee949c66bc3",
+      "sha256": "b4aba005fbcb3585edba759834f0290e9be65416533ffccec23e0ee949c66bc3"
+    },
+    {
+      "path": "anydes_tools/tests/validate_final_acceptance_triage.py",
+      "bytes": 475,
+      "source_sha256": "8b57d7a7b645b7572beb847dec774983da84ef6d38f1a00d17dd8830c0d3988c",
+      "sha256": "8b57d7a7b645b7572beb847dec774983da84ef6d38f1a00d17dd8830c0d3988c"
+    },
+    {
+      "path": "anydes_tools/tests/validate_final_stabilization.py",
+      "bytes": 394,
+      "source_sha256": "8b82c6ab4a92b75871514ba22f0320411a67ef8db7af1a77869cd4a84d71bf82",
+      "sha256": "8b82c6ab4a92b75871514ba22f0320411a67ef8db7af1a77869cd4a84d71bf82"
+    },
+    {
+      "path": "anydes_tools/tests/validate_human_acceptance_pass2.py",
+      "bytes": 414,
+      "source_sha256": "c7971dad6caa3cfdab742df9307f14d8992a5c8189c000d50ccc61353aa7ffde",
+      "sha256": "c7971dad6caa3cfdab742df9307f14d8992a5c8189c000d50ccc61353aa7ffde"
+    },
+    {
+      "path": "anydes_tools/tests/validate_human_acceptance_round1.py",
+      "bytes": 736,
+      "source_sha256": "82e8333fc4c2ba04f2fc7a6d5af6822d29f22145326ebf7924a7b5686b334208",
+      "sha256": "82e8333fc4c2ba04f2fc7a6d5af6822d29f22145326ebf7924a7b5686b334208"
+    },
+    {
+      "path": "anydes_tools/tests/validate_identity_attribute.py",
+      "bytes": 594,
+      "source_sha256": "27a2ae5d356b28d6bb91349509ff0a76b8b77e980e343640a105f6cc8a5299a6",
+      "sha256": "27a2ae5d356b28d6bb91349509ff0a76b8b77e980e343640a105f6cc8a5299a6"
+    },
+    {
+      "path": "anydes_tools/tests/validate_intent_acceptance.py",
+      "bytes": 596,
+      "source_sha256": "8c5bdc58f481610bb8b10a547dd22d0f772eaf6ac5b59ae44339de92bad5b142",
+      "sha256": "8c5bdc58f481610bb8b10a547dd22d0f772eaf6ac5b59ae44339de92bad5b142"
+    },
+    {
+      "path": "anydes_tools/tests/validate_intent_acceptance_replay.py",
+      "bytes": 371,
+      "source_sha256": "acc69a25e7bb84a01b73f1ca14af8fc6b3febc269154b35cd5754230f129a70b",
+      "sha256": "acc69a25e7bb84a01b73f1ca14af8fc6b3febc269154b35cd5754230f129a70b"
+    },
+    {
+      "path": "anydes_tools/tests/validate_local_invariant.py",
+      "bytes": 2520,
+      "source_sha256": "d0bc6d0d9d2e93f455507469e7c7cf7343d864dd83b86c4504cd68daf71f75fb",
+      "sha256": "d0bc6d0d9d2e93f455507469e7c7cf7343d864dd83b86c4504cd68daf71f75fb"
+    },
+    {
+      "path": "anydes_tools/tests/validate_operation_grounding.py",
+      "bytes": 444,
+      "source_sha256": "1041f44060cacf511a34c9a3626e9583eef8b2d05ff4c477fd6afaab8825cd87",
+      "sha256": "1041f44060cacf511a34c9a3626e9583eef8b2d05ff4c477fd6afaab8825cd87"
+    },
+    {
+      "path": "anydes_tools/tests/validate_outcome_voice.py",
+      "bytes": 2534,
+      "source_sha256": "da02aa36502ca0720ec56a32b0fc73b671a452f7cc97d2d2a3642cf5a16e5ab0",
+      "sha256": "da02aa36502ca0720ec56a32b0fc73b671a452f7cc97d2d2a3642cf5a16e5ab0"
+    },
+    {
+      "path": "anydes_tools/tests/validate_pending_confirmation.py",
+      "bytes": 465,
+      "source_sha256": "4fac6a40533f3b3035eaf08f692df9b0472eb5997c0fa4eda5cdd945c50ca090",
+      "sha256": "4fac6a40533f3b3035eaf08f692df9b0472eb5997c0fa4eda5cdd945c50ca090"
+    },
+    {
+      "path": "anydes_tools/tests/validate_planner_resilience.py",
+      "bytes": 508,
+      "source_sha256": "092b93e823281999c706685c84a1ee2a231d15bc3caa40ee4ab991cc0a3ca1c1",
+      "sha256": "092b93e823281999c706685c84a1ee2a231d15bc3caa40ee4ab991cc0a3ca1c1"
+    },
+    {
+      "path": "anydes_tools/tests/validate_pre_request.py",
+      "bytes": 440,
+      "source_sha256": "c07f20db135852f69699e86e7f572e811709c553efd361d1f5dd79f1fa74385b",
+      "sha256": "c07f20db135852f69699e86e7f572e811709c553efd361d1f5dd79f1fa74385b"
+    },
+    {
+      "path": "anydes_tools/tests/validate_remediation_acceptance.py",
+      "bytes": 470,
+      "source_sha256": "6867db2c813a0212f3e83644871bd62c3922ea140d13b9521f6c382075672e65",
+      "sha256": "6867db2c813a0212f3e83644871bd62c3922ea140d13b9521f6c382075672e65"
+    },
+    {
+      "path": "anydes_tools/tests/validate_testspec_contract.py",
+      "bytes": 550,
+      "source_sha256": "79d1c53261fda42f7048d93c5cb787f1390f6daf6fbb994c72fcdbcac3bd62da",
+      "sha256": "79d1c53261fda42f7048d93c5cb787f1390f6daf6fbb994c72fcdbcac3bd62da"
+    },
+    {
+      "path": "anydes_tools/tests/validate_two_major_fix.py",
+      "bytes": 430,
+      "source_sha256": "823f407ba6cdba7cbc964363a3860299cbe82ad4828aa60629b8618c3d71d397",
+      "sha256": "823f407ba6cdba7cbc964363a3860299cbe82ad4828aa60629b8618c3d71d397"
+    },
+    {
+      "path": "anydes_tools/tests/validate_ui_lifecycle.py",
+      "bytes": 547,
+      "source_sha256": "e6733868bd11e2c45cb94140d4eab7d61733296eabcf39c1d7efabf5ff9c38ed",
+      "sha256": "e6733868bd11e2c45cb94140d4eab7d61733296eabcf39c1d7efabf5ff9c38ed"
+    },
+    {
+      "path": "anydes_tools/tests/validate_valueerror_diagnostic.py",
+      "bytes": 673,
+      "source_sha256": "a692f393cc12cb50a0b1f702677dc30aeb8a41295bc99455e05399e661417103",
+      "sha256": "a692f393cc12cb50a0b1f702677dc30aeb8a41295bc99455e05399e661417103"
+    },
+    {
+      "path": "anydes_tools/tests/__init__.py",
+      "bytes": 1,
+      "source_sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+    },
+    {
+      "path": "anydes_tools/tests/fixtures/phase_d5_sum.py",
+      "bytes": 47,
+      "source_sha256": "723d5b8e53b9699d2589eaa2a13035df437e12b33b73edcfc6cc68df0e04876b",
+      "sha256": "723d5b8e53b9699d2589eaa2a13035df437e12b33b73edcfc6cc68df0e04876b"
+    },
+    {
+      "path": "experimentos/anydes_professional_shell_h1_4/h1_4b_13/bootstrap.py",
+      "bytes": 1296,
+      "source_sha256": "8979851a4f3064113dd9f4c3c1db2c9d22ed53cbb4f51e146dff8926a0b43ea4",
+      "sha256": "8979851a4f3064113dd9f4c3c1db2c9d22ed53cbb4f51e146dff8926a0b43ea4"
+    },
+    {
+      "path": "experimentos/anydes_professional_shell_h1_4/h1_4b_13/check_integrity.py",
+      "bytes": 1942,
+      "source_sha256": "1c3de90cb62c2fd4662d0ec51fbd6fb746ff1bcf9d0f73f108b17e6e69e30af9",
+      "sha256": "1c3de90cb62c2fd4662d0ec51fbd6fb746ff1bcf9d0f73f108b17e6e69e30af9"
+    },
+    {
+      "path": "experimentos/anydes_professional_shell_h1_4/h1_4b_13/continuation_harness.py",
+      "bytes": 6268,
+      "source_sha256": "16f39cb605aa9a550d13a8f89505d8f2147c432e5778a3c9a32702a8681c51d4",
+      "sha256": "16f39cb605aa9a550d13a8f89505d8f2147c432e5778a3c9a32702a8681c51d4"
+    },
+    {
+      "path": "experimentos/anydes_professional_shell_h1_4/h1_4b_13/generation_harness.py",
+      "bytes": 4330,
+      "source_sha256": "5ef7308dccab6c1211b42bc4f3a3e5114d658f941e1c4c0d20dcda97bb188309",
+      "sha256": "5ef7308dccab6c1211b42bc4f3a3e5114d658f941e1c4c0d20dcda97bb188309"
+    },
+    {
+      "path": "experimentos/anydes_professional_shell_h1_4/h1_4b_13/launch_staging.py",
+      "bytes": 888,
+      "source_sha256": "5c20974075f4f199a2436ffcc55096c388f694c69666bed0b9a41104616f3d3d",
+      "sha256": "5c20974075f4f199a2436ffcc55096c388f694c69666bed0b9a41104616f3d3d"
+    },
+    {
+      "path": "experimentos/anydes_professional_shell_h1_4/h1_4b_13/literal_harness.py",
+      "bytes": 903,
+      "source_sha256": "a8a157aa13f011f0f9838fe5acec8811507d636911f3cc3bcd4adfcaa5790fe7",
+      "sha256": "a8a157aa13f011f0f9838fe5acec8811507d636911f3cc3bcd4adfcaa5790fe7"
+    },
+    {
+      "path": "experimentos/anydes_professional_shell_h1_4/h1_4b_13/run_gate.py",
+      "bytes": 1850,
+      "source_sha256": "8dc68f7fe62f4afe336321e1ea2b6e8da8ad87dbfc59af4d6d1436309f0e0f76",
+      "sha256": "8dc68f7fe62f4afe336321e1ea2b6e8da8ad87dbfc59af4d6d1436309f0e0f76"
+    },
+    {
+      "path": "experimentos/anydes_professional_shell_h1_4/h1_4b_13/run_tests.py",
+      "bytes": 2826,
+      "source_sha256": "4ac9ea9b09fb7cd302532ee125135b7444ddeb8faffa4d4957c635526e0b5ed1",
+      "sha256": "4ac9ea9b09fb7cd302532ee125135b7444ddeb8faffa4d4957c635526e0b5ed1"
+    },
+    {
+      "path": "experimentos/anydes_professional_shell_h1_4/h1_4b_13/sandbox_overlay.py",
+      "bytes": 1504,
+      "source_sha256": "ceb34cc15cd340aba5d6ba10d1ad42fcd99e883845617d9a7c73efbf2f50259e",
+      "sha256": "ceb34cc15cd340aba5d6ba10d1ad42fcd99e883845617d9a7c73efbf2f50259e"
+    },
+    {
+      "path": "experimentos/anydes_professional_shell_h1_4/h1_4b_13/overlay/windows_sandbox.py",
+      "bytes": 25866,
+      "source_sha256": "4f3494a3ac5d5e91cb118eb8d32322dfccdc7078571a8dafc217c9de0ac037e3",
+      "sha256": "4f3494a3ac5d5e91cb118eb8d32322dfccdc7078571a8dafc217c9de0ac037e3"
+    },
+    {
+      "path": "experimentos/anydes_professional_shell_h1_4/h1_4b_13/overlay/conversation/artifact_metadata.py",
+      "bytes": 1815,
+      "source_sha256": "8ac963c917c381e6064646adb3f6ddb70e18126d3d72ed235032a204d3b786c1",
+      "sha256": "8ac963c917c381e6064646adb3f6ddb70e18126d3d72ed235032a204d3b786c1"
+    },
+    {
+      "path": "experimentos/anydes_professional_shell_h1_4/h1_4b_13/overlay/conversation/clarification_anchor.py",
+      "bytes": 5339,
+      "source_sha256": "594ddc02b18051f6c012a89eac69d3f7e7a396c1a8480753d2e70b66f79117dd",
+      "sha256": "594ddc02b18051f6c012a89eac69d3f7e7a396c1a8480753d2e70b66f79117dd"
+    },
+    {
+      "path": "experimentos/anydes_professional_shell_h1_4/h1_4b_13/overlay/conversation/classifier_diagnostics.py",
+      "bytes": 5332,
+      "source_sha256": "f7709d662b4d0ec9fb25e8314017b56cab5efe92756f7229cb7a0e204eae4b20",
+      "sha256": "f7709d662b4d0ec9fb25e8314017b56cab5efe92756f7229cb7a0e204eae4b20"
+    },
+    {
+      "path": "experimentos/anydes_professional_shell_h1_4/h1_4b_13/overlay/conversation/classifier_output.py",
+      "bytes": 5803,
+      "source_sha256": "0e8e09a48388ff585913a1d8ae394701e67c32e6559039b35c6199aace84911b",
+      "sha256": "0e8e09a48388ff585913a1d8ae394701e67c32e6559039b35c6199aace84911b"
+    },
+    {
+      "path": "experimentos/anydes_professional_shell_h1_4/h1_4b_13/overlay/conversation/classifier_repair.py",
+      "bytes": 7073,
+      "source_sha256": "5a3085cb4809822daed4e334a43f4f959e7738eecbb99149228074b1f5c3fffc",
+      "sha256": "5a3085cb4809822daed4e334a43f4f959e7738eecbb99149228074b1f5c3fffc"
+    },
+    {
+      "path": "experimentos/anydes_professional_shell_h1_4/h1_4b_13/overlay/conversation/classifier_wire.py",
+      "bytes": 6291,
+      "source_sha256": "64c735107568fa009fa7bbeba9ed0876085d982dba310087f5895c3aa7ed405f",
+      "sha256": "64c735107568fa009fa7bbeba9ed0876085d982dba310087f5895c3aa7ed405f"
+    },
+    {
+      "path": "experimentos/anydes_professional_shell_h1_4/h1_4b_13/overlay/conversation/code_output.py",
+      "bytes": 8145,
+      "source_sha256": "818983c273b2919cb2cc42dc6927e3bf23deedd5ca3f789b66a38b0f2d029138",
+      "sha256": "818983c273b2919cb2cc42dc6927e3bf23deedd5ca3f789b66a38b0f2d029138"
+    },
+    {
+      "path": "experimentos/anydes_professional_shell_h1_4/h1_4b_13/overlay/conversation/continuation_public.py",
+      "bytes": 3900,
+      "source_sha256": "dc7e393a15f3df6f5aed15d4591d4805bf9cc7c1e81a73d09c2ade0200110085",
+      "sha256": "dc7e393a15f3df6f5aed15d4591d4805bf9cc7c1e81a73d09c2ade0200110085"
+    },
+    {
+      "path": "experimentos/anydes_professional_shell_h1_4/h1_4b_13/overlay/conversation/contracts.py",
+      "bytes": 10052,
+      "source_sha256": "faa69af08159371e2d4a8efcbef265fc7984dc60d91fc9778d4643d2534053bb",
+      "sha256": "faa69af08159371e2d4a8efcbef265fc7984dc60d91fc9778d4643d2534053bb"
+    },
+    {
+      "path": "experimentos/anydes_professional_shell_h1_4/h1_4b_13/overlay/conversation/controller.py",
+      "bytes": 282490,
+      "source_sha256": "49b8676bfaf68e4aa34d395f82637a890f451b19934402a78680bc7479213daa",
+      "sha256": "49b8676bfaf68e4aa34d395f82637a890f451b19934402a78680bc7479213daa"
+    },
+    {
+      "path": "experimentos/anydes_professional_shell_h1_4/h1_4b_13/overlay/conversation/conversational_bridge.py",
+      "bytes": 20986,
+      "source_sha256": "7ad4952e79fc7d0d7c24cb0db8789d5c34a31d257da6a76720c63a36e04c9b66",
+      "sha256": "7ad4952e79fc7d0d7c24cb0db8789d5c34a31d257da6a76720c63a36e04c9b66"
+    },
+    {
+      "path": "experimentos/anydes_professional_shell_h1_4/h1_4b_13/overlay/conversation/execution_contract.py",
+      "bytes": 5798,
+      "source_sha256": "30650970b605f6147839df594489d21a51e95a201a169719147015dc76e91c43",
+      "sha256": "30650970b605f6147839df594489d21a51e95a201a169719147015dc76e91c43"
+    },
+    {
+      "path": "experimentos/anydes_professional_shell_h1_4/h1_4b_13/overlay/conversation/interaction_router.py",
+      "bytes": 40572,
+      "source_sha256": "6cadea68d612acc3ed10ca084e1b220ab865d5026c4183fa1b36e39036200039",
+      "sha256": "6cadea68d612acc3ed10ca084e1b220ab865d5026c4183fa1b36e39036200039"
+    },
+    {
+      "path": "experimentos/anydes_professional_shell_h1_4/h1_4b_13/overlay/conversation/lowering_diagnostics.py",
+      "bytes": 1686,
+      "source_sha256": "3f73ef57b7a0c7b69eafaf0536cda5f4d890f3d0eaef8176c1f90a60228b8dfc",
+      "sha256": "3f73ef57b7a0c7b69eafaf0536cda5f4d890f3d0eaef8176c1f90a60228b8dfc"
+    },
+    {
+      "path": "experimentos/anydes_professional_shell_h1_4/h1_4b_13/overlay/conversation/metadata_publication.py",
+      "bytes": 3876,
+      "source_sha256": "95c17e367261566285b37ef80f8cfcc2f0e8e32f3e35ac1d361baf40fd7bc535",
+      "sha256": "95c17e367261566285b37ef80f8cfcc2f0e8e32f3e35ac1d361baf40fd7bc535"
+    },
+    {
+      "path": "experimentos/anydes_professional_shell_h1_4/h1_4b_13/overlay/conversation/natural_response.py",
+      "bytes": 13423,
+      "source_sha256": "638608fa6935dc5cad2ec8ee420f871b915a808d1f7add674ec31448f1669e2c",
+      "sha256": "638608fa6935dc5cad2ec8ee420f871b915a808d1f7add674ec31448f1669e2c"
+    },
+    {
+      "path": "experimentos/anydes_professional_shell_h1_4/h1_4b_13/overlay/conversation/operation_intent.py",
+      "bytes": 25673,
+      "source_sha256": "3fa35a0f6c0a4b1baef18606cbafb8549f2aa2eddb935539eced253f970175b2",
+      "sha256": "3fa35a0f6c0a4b1baef18606cbafb8549f2aa2eddb935539eced253f970175b2"
+    },
+    {
+      "path": "experimentos/anydes_professional_shell_h1_4/h1_4b_13/overlay/conversation/outcome_voice.py",
+      "bytes": 14889,
+      "source_sha256": "38c468122551de08a35f888f1e76f774aa07e8913025e80f4b7831d0b525e06b",
+      "sha256": "38c468122551de08a35f888f1e76f774aa07e8913025e80f4b7831d0b525e06b"
+    },
+    {
+      "path": "experimentos/anydes_professional_shell_h1_4/h1_4b_13/overlay/conversation/plan_lowering.py",
+      "bytes": 12037,
+      "source_sha256": "8230082afb7990eb20710514ff983155da09d34ca7d4ef1581b765cd2857d8e1",
+      "sha256": "8230082afb7990eb20710514ff983155da09d34ca7d4ef1581b765cd2857d8e1"
+    },
+    {
+      "path": "experimentos/anydes_professional_shell_h1_4/h1_4b_13/overlay/conversation/publication_boundary.py",
+      "bytes": 2329,
+      "source_sha256": "b40fc7be96432da804c7c249f16a56737bf3dbad4531db0cc3242441e757fead",
+      "sha256": "b40fc7be96432da804c7c249f16a56737bf3dbad4531db0cc3242441e757fead"
+    },
+    {
+      "path": "experimentos/anydes_professional_shell_h1_4/h1_4b_13/overlay/conversation/resolution_contract.py",
+      "bytes": 22641,
+      "source_sha256": "819c7c04e43241873023bbdfe4c9703f46c4745173e2b7ecc5019431970e4a28",
+      "sha256": "819c7c04e43241873023bbdfe4c9703f46c4745173e2b7ecc5019431970e4a28"
+    },
+    {
+      "path": "experimentos/anydes_professional_shell_h1_4/h1_4b_13/overlay/conversation/runtime_patch.py",
+      "bytes": 17894,
+      "source_sha256": "669d9476e75f4b5e5bc5eba289996438da4eed7e6b43d2b20c864647d62c053e",
+      "sha256": "669d9476e75f4b5e5bc5eba289996438da4eed7e6b43d2b20c864647d62c053e"
+    },
+    {
+      "path": "experimentos/anydes_professional_shell_h1_4/h1_4b_13/overlay/conversation/semantic_runtime.py",
+      "bytes": 48856,
+      "source_sha256": "b1824fd59d8f66833a0c49854edb202e7b7f2a0938d570c3776bf52eeef7e307",
+      "sha256": "b1824fd59d8f66833a0c49854edb202e7b7f2a0938d570c3776bf52eeef7e307"
+    },
+    {
+      "path": "experimentos/anydes_professional_shell_h1_4/h1_4b_13/overlay/conversation/task_continuity.py",
+      "bytes": 18243,
+      "source_sha256": "7aa20f252e2f8c3b8be2fd777965a04d332809c100f84279b43881b541dade17",
+      "sha256": "7aa20f252e2f8c3b8be2fd777965a04d332809c100f84279b43881b541dade17"
+    },
+    {
+      "path": "experimentos/anydes_professional_shell_h1_4/h1_4b_13/overlay/conversation/technical_literals.py",
+      "bytes": 4559,
+      "source_sha256": "66376ee1d57767682a33e87262d337f69d98873bd83fb1f72c509b5a2997385d",
+      "sha256": "66376ee1d57767682a33e87262d337f69d98873bd83fb1f72c509b5a2997385d"
+    },
+    {
+      "path": "experimentos/anydes_professional_shell_h1_4/h1_4b_13/tests/test_clarification_anchor.py",
+      "bytes": 9689,
+      "source_sha256": "cb8cf3ddcfcdc059d38a05ab8478ad455e4e13c21593ddf0d38333b9d3b7e207",
+      "sha256": "cb8cf3ddcfcdc059d38a05ab8478ad455e4e13c21593ddf0d38333b9d3b7e207"
+    },
+    {
+      "path": "experimentos/anydes_professional_shell_h1_4/h1_4b_13/tests/test_clarification_completeness.py",
+      "bytes": 12541,
+      "source_sha256": "78abc7bc47357a16c82f171637f75b198857b34c421da0e29f6e34edaa654385",
+      "sha256": "78abc7bc47357a16c82f171637f75b198857b34c421da0e29f6e34edaa654385"
+    },
+    {
+      "path": "experimentos/anydes_professional_shell_h1_4/h1_4b_13/tests/test_classifier_branches.py",
+      "bytes": 6514,
+      "source_sha256": "e838f1a045270dc950af2ac76b08bdf63146027dda56a39723000a386c98fe5c",
+      "sha256": "e838f1a045270dc950af2ac76b08bdf63146027dda56a39723000a386c98fe5c"
+    },
+    {
+      "path": "experimentos/anydes_professional_shell_h1_4/h1_4b_13/tests/test_classifier_canonical_output.py",
+      "bytes": 8478,
+      "source_sha256": "b40a80b3007da552e994181a968abf35a949ee8d47096330a6d81f71e58a9c5d",
+      "sha256": "b40a80b3007da552e994181a968abf35a949ee8d47096330a6d81f71e58a9c5d"
+    },
+    {
+      "path": "experimentos/anydes_professional_shell_h1_4/h1_4b_13/tests/test_classifier_request_contract.py",
+      "bytes": 15295,
+      "source_sha256": "a3f9a8e6c7f0ebe0f8e4976c7606a1cb9290e4f1dffc7a2c4f1fd2e462e14fda",
+      "sha256": "a3f9a8e6c7f0ebe0f8e4976c7606a1cb9290e4f1dffc7a2c4f1fd2e462e14fda"
+    },
+    {
+      "path": "experimentos/anydes_professional_shell_h1_4/h1_4b_13/tests/test_classifier_wire.py",
+      "bytes": 8307,
+      "source_sha256": "131c0f4f3b81efd8c1ab1898319e07b98b5bdf1cc88bc33f0357e836626f432a",
+      "sha256": "131c0f4f3b81efd8c1ab1898319e07b98b5bdf1cc88bc33f0357e836626f432a"
+    },
+    {
+      "path": "experimentos/anydes_professional_shell_h1_4/h1_4b_13/tests/test_code_output.py",
+      "bytes": 8007,
+      "source_sha256": "256e1917acf3ed8852e2c62d7b71f63485054bcc215fcafc1fbcaef15e4310bd",
+      "sha256": "acb0cbfd1a200be399d17326f40b9881efc4fba2245684d7037282eaf5d91e25"
+    },
+    {
+      "path": "experimentos/anydes_professional_shell_h1_4/h1_4b_13/tests/test_continuation_public.py",
+      "bytes": 7673,
+      "source_sha256": "a7469e68d59ee1a35592d87ec1675bc8e268f762a54f8bab63d1bb34313ee06c",
+      "sha256": "a7469e68d59ee1a35592d87ec1675bc8e268f762a54f8bab63d1bb34313ee06c"
+    },
+    {
+      "path": "experimentos/anydes_professional_shell_h1_4/h1_4b_13/tests/test_continue_task_contract.py",
+      "bytes": 10853,
+      "source_sha256": "f09a4f96b5a1fe064ac146733fb82bf537feea5110745b5e8e4c124f24bb77ba",
+      "sha256": "f09a4f96b5a1fe064ac146733fb82bf537feea5110745b5e8e4c124f24bb77ba"
+    },
+    {
+      "path": "experimentos/anydes_professional_shell_h1_4/h1_4b_13/tests/test_goal_resolvability.py",
+      "bytes": 10565,
+      "source_sha256": "571186d8c093d97e355e8898f8943e3767d308eca8eb0d745f02c9ff42913064",
+      "sha256": "571186d8c093d97e355e8898f8943e3767d308eca8eb0d745f02c9ff42913064"
+    },
+    {
+      "path": "experimentos/anydes_professional_shell_h1_4/h1_4b_13/tests/test_identity_attribute.py",
+      "bytes": 8842,
+      "source_sha256": "497b341f7154d507bf972048deac133e53e29fb1fa35bff931469f0df74ba0fe",
+      "sha256": "497b341f7154d507bf972048deac133e53e29fb1fa35bff931469f0df74ba0fe"
+    },
+    {
+      "path": "experimentos/anydes_professional_shell_h1_4/h1_4b_13/tests/test_manual_flow.py",
+      "bytes": 17002,
+      "source_sha256": "098e05f96a2d081e62bc006b8dc787470e4dee4af06db657cbe3fbfc32aadd62",
+      "sha256": "098e05f96a2d081e62bc006b8dc787470e4dee4af06db657cbe3fbfc32aadd62"
+    },
+    {
+      "path": "experimentos/anydes_professional_shell_h1_4/h1_4b_13/tests/test_metadata_publication.py",
+      "bytes": 9072,
+      "source_sha256": "87849c372c1ed334b3860b8756ef7f8b8daa1d80239945e9b9c4bffae4f12f2e",
+      "sha256": "87849c372c1ed334b3860b8756ef7f8b8daa1d80239945e9b9c4bffae4f12f2e"
+    },
+    {
+      "path": "experimentos/anydes_professional_shell_h1_4/h1_4b_13/tests/test_outcome_voice.py",
+      "bytes": 10360,
+      "source_sha256": "b8b5f573668a28abd63016794e0911d03efd9159d62c9dfb85e3aeb409cc9e4b",
+      "sha256": "b8b5f573668a28abd63016794e0911d03efd9159d62c9dfb85e3aeb409cc9e4b"
+    },
+    {
+      "path": "experimentos/anydes_professional_shell_h1_4/h1_4b_13/tests/test_publication_phase_f.py",
+      "bytes": 16495,
+      "source_sha256": "588eabbac99493f4a0bcb438f7a7d302e3ea9ec20103c61fcc477812e789cd47",
+      "sha256": "336b62a54af78fe34f2d7830095244ec460049be4767da0ea0d3237839c90077"
+    },
+    {
+      "path": "experimentos/anydes_professional_shell_h1_4/h1_4b_13/tests/test_technical_literals.py",
+      "bytes": 5311,
+      "source_sha256": "9c3ae686d2a29f80695dddecdc5b5492fc65c5d7ba4b4d632e759a6a1b153526",
+      "sha256": "3b306a9e28a1c488ffab1e108c551d70d437ab006b0d317acc4aefbf6cd184cb"
+    },
+    {
+      "path": "experimentos/anydes_professional_shell_h1_4/h1_4b_13/tests/test_usage_race.py",
+      "bytes": 3787,
+      "source_sha256": "324c41f89f293ab35fba301ae165fc4357261265d825acda144499e752b6f580",
+      "sha256": "324c41f89f293ab35fba301ae165fc4357261265d825acda144499e752b6f580"
+    },
+    {
+      "path": "experimentos/anydes_professional_shell_h1_4/h1_4b_13/tests/test_verification_execution.py",
+      "bytes": 7843,
+      "source_sha256": "9307383135c6f81b2eabdd34999b73e1e5bf72574e8fe04d5f50d5e25d459867",
+      "sha256": "9307383135c6f81b2eabdd34999b73e1e5bf72574e8fe04d5f50d5e25d459867"
+    },
+    {
+      "path": "experimentos/anydes_professional_shell_h1_4/h1_4b_13/worker_bootstrap/sitecustomize.py",
+      "bytes": 546,
+      "source_sha256": "1dcd30b2c4fbba9378f13fc24720f49030bcae3cff046a9321ced7f2b5bbc91a",
+      "sha256": "1dcd30b2c4fbba9378f13fc24720f49030bcae3cff046a9321ced7f2b5bbc91a"
+    },
+    {
+      "path": "anydes_tools/manifests/official.archive.json",
+      "bytes": 6121,
+      "source_sha256": "56244a6e97ba1445ec83185ca700d0e6416647893c10ef9bbdbef2bc9bd7a5d2",
+      "sha256": "56244a6e97ba1445ec83185ca700d0e6416647893c10ef9bbdbef2bc9bd7a5d2"
+    },
+    {
+      "path": "anydes_tools/manifests/official.developer.json",
+      "bytes": 14350,
+      "source_sha256": "adbf76981559eea9d2305ea18f7fa8d3291ea05990b283d6ca74d19a82c64da5",
+      "sha256": "adbf76981559eea9d2305ea18f7fa8d3291ea05990b283d6ca74d19a82c64da5"
+    },
+    {
+      "path": "anydes_tools/manifests/official.document.json",
+      "bytes": 12508,
+      "source_sha256": "f9b2cccd65a40185eda22ce9d438afac5e4fa585e37a0dcccc1aa007b265c4d1",
+      "sha256": "f9b2cccd65a40185eda22ce9d438afac5e4fa585e37a0dcccc1aa007b265c4d1"
+    },
+    {
+      "path": "anydes_tools/manifests/official.filesystem.json",
+      "bytes": 17549,
+      "source_sha256": "858293db051aaa3062f014afbc361c5fbd696b64b37f7cfd6980a08948980431",
+      "sha256": "858293db051aaa3062f014afbc361c5fbd696b64b37f7cfd6980a08948980431"
+    },
+    {
+      "path": "production_tools/manifests/official.archive.json",
+      "bytes": 6121,
+      "source_sha256": "56244a6e97ba1445ec83185ca700d0e6416647893c10ef9bbdbef2bc9bd7a5d2",
+      "sha256": "56244a6e97ba1445ec83185ca700d0e6416647893c10ef9bbdbef2bc9bd7a5d2"
+    },
+    {
+      "path": "production_tools/manifests/official.developer.json",
+      "bytes": 14350,
+      "source_sha256": "adbf76981559eea9d2305ea18f7fa8d3291ea05990b283d6ca74d19a82c64da5",
+      "sha256": "adbf76981559eea9d2305ea18f7fa8d3291ea05990b283d6ca74d19a82c64da5"
+    },
+    {
+      "path": "production_tools/manifests/official.document.json",
+      "bytes": 12508,
+      "source_sha256": "f9b2cccd65a40185eda22ce9d438afac5e4fa585e37a0dcccc1aa007b265c4d1",
+      "sha256": "f9b2cccd65a40185eda22ce9d438afac5e4fa585e37a0dcccc1aa007b265c4d1"
+    },
+    {
+      "path": "production_tools/manifests/official.filesystem.json",
+      "bytes": 17549,
+      "source_sha256": "858293db051aaa3062f014afbc361c5fbd696b64b37f7cfd6980a08948980431",
+      "sha256": "858293db051aaa3062f014afbc361c5fbd696b64b37f7cfd6980a08948980431"
+    },
+    {
+      "path": "programa_principal/anydes_hybrid_runtime.py",
+      "bytes": 6587,
+      "source_sha256": "dec18b6a25c0694c1e71bd9acf4c8b15f0b1351bca2063fa337542cc3b9b9581",
+      "sha256": "dec18b6a25c0694c1e71bd9acf4c8b15f0b1351bca2063fa337542cc3b9b9581"
+    },
+    {
+      "path": "programa_principal/anydes_stabilized_runtime.py",
+      "bytes": 3851,
+      "source_sha256": "02d2cb1c7c568ac15ace2178c3c4b5eadf837ae5798a718e35ae1c0055427231",
+      "sha256": "02d2cb1c7c568ac15ace2178c3c4b5eadf837ae5798a718e35ae1c0055427231"
+    },
+    {
+      "path": "programa_principal/lanzar_anydes.py",
+      "bytes": 1627,
+      "source_sha256": "83366d7b4971d6cbc60153f1bf3dcc8ca8a5b306c05d1a6a0ddb49fa2458d569",
+      "sha256": "83366d7b4971d6cbc60153f1bf3dcc8ca8a5b306c05d1a6a0ddb49fa2458d569"
+    },
+    {
+      "path": "programa_principal/lanzar_anydes_25d_hq.py",
+      "bytes": 380,
+      "source_sha256": "3748027eba9e5f728cbdef9d90dfd6024c1e917bee5cec40c3c4e571655da6eb",
+      "sha256": "3748027eba9e5f728cbdef9d90dfd6024c1e917bee5cec40c3c4e571655da6eb"
+    },
+    {
+      "path": "programa_principal/lanzar_anydes_25d_rc.py",
+      "bytes": 3168,
+      "source_sha256": "9bf254c30f306dfb116d9f603706d3a8a8b40286b3cd2075f437ba162b105d4e",
+      "sha256": "9bf254c30f306dfb116d9f603706d3a8a8b40286b3cd2075f437ba162b105d4e"
+    },
+    {
+      "path": "programa_principal/lanzar_anydes_hq_efficient.py",
+      "bytes": 460,
+      "source_sha256": "1bb824a623fd44473fb2719650aec24d9a596665ff65d6cffc23f373a91d7be1",
+      "sha256": "1bb824a623fd44473fb2719650aec24d9a596665ff65d6cffc23f373a91d7be1"
+    },
+    {
+      "path": "programa_principal/lanzar_anydes_performance.py",
+      "bytes": 629,
+      "source_sha256": "a0b812254e9d67ddb43cdeef898bc8757e2c6483767d93415fde7a8513806fde",
+      "sha256": "a0b812254e9d67ddb43cdeef898bc8757e2c6483767d93415fde7a8513806fde"
+    },
+    {
+      "path": "programa_principal/lanzar_anydes_performance_rc.py",
+      "bytes": 482,
+      "source_sha256": "90d3809c37afab3c1732c4cf1ecf44c24ec8f1c95b0666b10231cf3032339711",
+      "sha256": "90d3809c37afab3c1732c4cf1ecf44c24ec8f1c95b0666b10231cf3032339711"
+    },
+    {
+      "path": "programa_principal/lanzar_anydes_tts_rapido.py",
+      "bytes": 801,
+      "source_sha256": "cc23b1ac72b3a3f01f612c86134c9e57dd5b59a51eb62f36766b5cf1d748c678",
+      "sha256": "cc23b1ac72b3a3f01f612c86134c9e57dd5b59a51eb62f36766b5cf1d748c678"
+    },
+    {
+      "path": "programa_principal/lanzar_anydes_voz_baja_latencia.py",
+      "bytes": 466,
+      "source_sha256": "d5917c3782f0eec838db786f841de811ade856dfc0ab04475747a3e4a22a9f03",
+      "sha256": "d5917c3782f0eec838db786f841de811ade856dfc0ab04475747a3e4a22a9f03"
+    },
+    {
+      "path": "programa_principal/lanzar_selector_modo.py",
+      "bytes": 9914,
+      "source_sha256": "0c711ba0bc36d266d02350a9b5f667287a348a4ff1b5a810277ce66f4fbb6e79",
+      "sha256": "0c711ba0bc36d266d02350a9b5f667287a348a4ff1b5a810277ce66f4fbb6e79"
+    },
+    {
+      "path": "programa_principal/lanzar_selector_modo_25d_rc.py",
+      "bytes": 6279,
+      "source_sha256": "594d0752f461021da98cdcb058036e8f10c41e4015b48808e5656ab2fac12d03",
+      "sha256": "594d0752f461021da98cdcb058036e8f10c41e4015b48808e5656ab2fac12d03"
+    },
+    {
+      "path": "programa_principal/main.py",
+      "bytes": 94,
+      "source_sha256": "c3559a4518a3d65791ddf367163829c85c48750581eea70e1bf6bd6a038a47ec",
+      "sha256": "c3559a4518a3d65791ddf367163829c85c48750581eea70e1bf6bd6a038a47ec"
+    },
+    {
+      "path": "programa_principal/modos_arranque.py",
+      "bytes": 5757,
+      "source_sha256": "77b3854812058b269dfddefe092b655439bd56a8a4e869fed754201b217eec2f",
+      "sha256": "77b3854812058b269dfddefe092b655439bd56a8a4e869fed754201b217eec2f"
+    },
+    {
+      "path": "programa_principal/rc_runtime_cleanup.py",
+      "bytes": 1609,
+      "source_sha256": "7a5bd30fa45b81c638ff100fc4585c00fd8fdf5b6472c9d8ce909b5b229e819c",
+      "sha256": "7a5bd30fa45b81c638ff100fc4585c00fd8fdf5b6472c9d8ce909b5b229e819c"
+    },
+    {
+      "path": "programa_principal/runtime_session.py",
+      "bytes": 2002,
+      "source_sha256": "9c494cb6104dfc292beb9588ced10affb4274ac0c6221e13a8aa0671fea27e72",
+      "sha256": "9c494cb6104dfc292beb9588ced10affb4274ac0c6221e13a8aa0671fea27e72"
+    },
+    {
+      "path": "programa_principal/voice.py",
+      "bytes": 76,
+      "source_sha256": "c08559954216c4c6163fb46b710e23ac7ea4a1e71d86eeb1174cbf36652eb32f",
+      "sha256": "c08559954216c4c6163fb46b710e23ac7ea4a1e71d86eeb1174cbf36652eb32f"
+    },
+    {
+      "path": "pyproject.toml",
+      "bytes": 1442,
+      "source_sha256": "90d0f6c8c1e49bd9b889deaa574fcebb2dcb0c2d91753b4d4e7857a073423071",
+      "sha256": "90d0f6c8c1e49bd9b889deaa574fcebb2dcb0c2d91753b4d4e7857a073423071"
+    },
+    {
+      "path": "experimentos/anydes_professional_shell_h1_4/assets.py",
+      "bytes": 4004,
+      "source_sha256": "776e8520dc4fd52670fd92ca81488b0bb2c7e4b592974b651b8d1c0f0908cfaa",
+      "sha256": "776e8520dc4fd52670fd92ca81488b0bb2c7e4b592974b651b8d1c0f0908cfaa"
+    },
+    {
+      "path": "experimentos/anydes_professional_shell_h1_4/policy.py",
+      "bytes": 1741,
+      "source_sha256": "8b8d5f2928e7d743ff284e6b4d7f4515698bb22215bdd7038f8d15ecfc278299",
+      "sha256": "8b8d5f2928e7d743ff284e6b4d7f4515698bb22215bdd7038f8d15ecfc278299"
+    },
+    {
+      "path": "experimentos/anydes_professional_shell_h1_4/run_shell.py",
+      "bytes": 1510,
+      "source_sha256": "331d2c4a64e74cbe64f7b1f355fcafb1d03406775f48b40597276f30a3285932",
+      "sha256": "331d2c4a64e74cbe64f7b1f355fcafb1d03406775f48b40597276f30a3285932"
+    },
+    {
+      "path": "experimentos/anydes_professional_shell_h1_4/shell.py",
+      "bytes": 18221,
+      "source_sha256": "4ace6da84eef80c906af35114292db15af2a26f9823084f8bbcdcac15cb051c0",
+      "sha256": "4ace6da84eef80c906af35114292db15af2a26f9823084f8bbcdcac15cb051c0"
+    },
+    {
+      "path": "experimentos/anydes_professional_shell_h1_4/test_renderers.py",
+      "bytes": 3325,
+      "source_sha256": "5970af836078237b363360fa1a3a423659d6169a3bcaaa14b125f4ec8967acf4",
+      "sha256": "5970af836078237b363360fa1a3a423659d6169a3bcaaa14b125f4ec8967acf4"
+    },
+    {
+      "path": "experimentos/anydes_professional_shell_h1_4/test_shell.py",
+      "bytes": 3801,
+      "source_sha256": "53ae53cbfba50ae39dba0fab4c3f7db00f1f8b175bbf0bae7a980dfa306ad9da",
+      "sha256": "53ae53cbfba50ae39dba0fab4c3f7db00f1f8b175bbf0bae7a980dfa306ad9da"
+    },
+    {
+      "path": "experimentos/anydes_professional_shell_h1_4/validate_launch.py",
+      "bytes": 1922,
+      "source_sha256": "adf47570669a0675768429e6d5a5d54b9a64b455162c692244be2503ee53dfe4",
+      "sha256": "adf47570669a0675768429e6d5a5d54b9a64b455162c692244be2503ee53dfe4"
+    },
+    {
+      "path": "experimentos/anydes_professional_shell_h1_4/h1_4b_8/startup_observer.py",
+      "bytes": 6107,
+      "source_sha256": "84bf8477d611ced85db6cc50cfb5317b4bdf6e488c6b7e83716251fcb61c1fc4",
+      "sha256": "84bf8477d611ced85db6cc50cfb5317b4bdf6e488c6b7e83716251fcb61c1fc4"
+    },
+    {
+      "path": "experimentos/anydes_professional_shell_h1_4/h1_4b_8/test_startup.py",
+      "bytes": 2936,
+      "source_sha256": "8d1de564f825de5d99875d776c4ce4c31b58f3e6c5571b9afc762de1a8acf26d",
+      "sha256": "8d1de564f825de5d99875d776c4ce4c31b58f3e6c5571b9afc762de1a8acf26d"
+    },
+    {
+      "path": "experimentos/anydes_presence_lab_v001/app.js",
+      "bytes": 28939,
+      "source_sha256": "477813abcc5edd8756229b9f47aefbebe84eaa4c7ad2181a08521c491d009384",
+      "sha256": "477813abcc5edd8756229b9f47aefbebe84eaa4c7ad2181a08521c491d009384"
+    },
+    {
+      "path": "experimentos/anydes_presence_lab_v001/motion.mjs",
+      "bytes": 4105,
+      "source_sha256": "96a7fe848a73968a1140233e7d89d8137a297155ef3b87e6a31455783dea8507",
+      "sha256": "96a7fe848a73968a1140233e7d89d8137a297155ef3b87e6a31455783dea8507"
+    },
+    {
+      "path": "experimentos/anydes_presence_lab_v001/speech-motion.mjs",
+      "bytes": 845,
+      "source_sha256": "80596070e46bde0f423e27b5441a4a70ad31f1a75d3a9f46c248c5f68e949155",
+      "sha256": "80596070e46bde0f423e27b5441a4a70ad31f1a75d3a9f46c248c5f68e949155"
+    },
+    {
+      "path": "experimentos/anydes_presence_lab_v001/runtime-bridge.mjs",
+      "bytes": 5054,
+      "source_sha256": "59358e678aec41d1993e1dd8b7a059c1b0538abffd3468dfacea259bb7e6e22d",
+      "sha256": "59358e678aec41d1993e1dd8b7a059c1b0538abffd3468dfacea259bb7e6e22d"
+    },
+    {
+      "path": "experimentos/anydes_presence_lab_v001/style.css",
+      "bytes": 8963,
+      "source_sha256": "d29b4934e0e4008248464b2636c96e8a2f6d56fc53b709e63829b23f4c16c338",
+      "sha256": "d29b4934e0e4008248464b2636c96e8a2f6d56fc53b709e63829b23f4c16c338"
+    },
+    {
+      "path": "experimentos/anydes_presence_lab_v001/index.html",
+      "bytes": 5389,
+      "source_sha256": "da70e4c679e0280effd63367a182c346cf2d37ed52ea41ffd299f5aa365d7d87",
+      "sha256": "da70e4c679e0280effd63367a182c346cf2d37ed52ea41ffd299f5aa365d7d87"
+    },
+    {
+      "path": "experimentos/anydes_presence_lab_v001/server.mjs",
+      "bytes": 2345,
+      "source_sha256": "4b49416f61ca9d5e5641037586ba3f482b3c3c1d43ebc2d59cdfd2051033975d",
+      "sha256": "4b49416f61ca9d5e5641037586ba3f482b3c3c1d43ebc2d59cdfd2051033975d"
+    },
+    {
+      "path": "experimentos/anydes_presence_lab_v001/package.json",
+      "bytes": 224,
+      "source_sha256": "922e15407778e18fe778b69739e2363dbcbdc844918b823a7eab3a7f906c2a88",
+      "sha256": "922e15407778e18fe778b69739e2363dbcbdc844918b823a7eab3a7f906c2a88"
+    },
+    {
+      "path": "experimentos/anydes_presence_lab_v001/package-lock.json",
+      "bytes": 539,
+      "source_sha256": "f2afe3f41c4bde9188eeafc82664c8639374108bd90f10335e268c254753b0c2",
+      "sha256": "f2afe3f41c4bde9188eeafc82664c8639374108bd90f10335e268c254753b0c2"
+    },
+    {
+      "path": "experimentos/anydes_presence_lab_v001/vendor/lucide.min.js",
+      "bytes": 397450,
+      "source_sha256": "ab85225ecc1daa2033607856f03dd2dabcbc08e2d260a5b97e17c690aa929766",
+      "sha256": "ab85225ecc1daa2033607856f03dd2dabcbc08e2d260a5b97e17c690aa929766"
+    },
+    {
+      "path": "experimentos/anydes_presence_lab_v001/vendor/LUCIDE-LICENSE",
+      "bytes": 3208,
+      "source_sha256": "b495047bd93a9b06913511076f504daba17d5bbeb3e0650f3bb53a4220329c57",
+      "sha256": "b495047bd93a9b06913511076f504daba17d5bbeb3e0650f3bb53a4220329c57"
+    },
+    {
+      "path": "experimentos/anydes_presence_lab_v001/h1_2/event_service.py",
+      "bytes": 7300,
+      "source_sha256": "47f1a95df5ee7da2e330f5033957a047fe8a969cf4656595857134eee0a0457a",
+      "sha256": "47f1a95df5ee7da2e330f5033957a047fe8a969cf4656595857134eee0a0457a"
+    },
+    {
+      "path": "experimentos/anydes_presence_lab_v001/h1_2/runtime_observer.py",
+      "bytes": 6052,
+      "source_sha256": "1606ce33dc82a19061c4ad30f2b228e30a2b55302834e26df6fc2bd4ed3f8d05",
+      "sha256": "1606ce33dc82a19061c4ad30f2b228e30a2b55302834e26df6fc2bd4ed3f8d05"
+    },
+    {
+      "path": "experimentos/anydes_presence_lab_v001/h1_2/run_staging.py",
+      "bytes": 7581,
+      "source_sha256": "b593619b0dcc4873e23f5004037e44543fe8211fd2cfe0f65443fefaa7586c69",
+      "sha256": "b593619b0dcc4873e23f5004037e44543fe8211fd2cfe0f65443fefaa7586c69"
+    },
+    {
+      "path": "experimentos/anydes_presence_lab_v001/h1_2/state_adapter.py",
+      "bytes": 4415,
+      "source_sha256": "e0d7667a8b636640720685244be9c235b306867b5d2963fa5d6537492ab6938e",
+      "sha256": "e0d7667a8b636640720685244be9c235b306867b5d2963fa5d6537492ab6938e"
+    },
+    {
+      "path": "experimentos/anydes_presence_lab_v001/h1_2/test_adapter.py",
+      "bytes": 7958,
+      "source_sha256": "9d488f25825d72c5b5ecd6e2756401550bdc99ff9960cef892d3004cc25a29a9",
+      "sha256": "9d488f25825d72c5b5ecd6e2756401550bdc99ff9960cef892d3004cc25a29a9"
+    },
+    {
+      "path": "experimentos/anydes_presence_lab_v001/h1_2/verify_evidence.py",
+      "bytes": 2252,
+      "source_sha256": "21c09d4c7c258b78aac2a8390f166ddf686fb4585ce6616ac4df70ae960f9a77",
+      "sha256": "21c09d4c7c258b78aac2a8390f166ddf686fb4585ce6616ac4df70ae960f9a77"
+    },
+    {
+      "path": "experimentos/anydes_presence_lab_v001/h1_3/audio_tap.py",
+      "bytes": 5569,
+      "source_sha256": "57f0c0e41dd0e35481049d6867f49bb1e0436f416cf8fd290332fc77c2369c39",
+      "sha256": "57f0c0e41dd0e35481049d6867f49bb1e0436f416cf8fd290332fc77c2369c39"
+    },
+    {
+      "path": "experimentos/anydes_presence_lab_v001/h1_3/runtime_motion.py",
+      "bytes": 4059,
+      "source_sha256": "975009b56f5806a5f052dbf51299eac958faa892e87dcaec4aa7bbe3aec23956",
+      "sha256": "975009b56f5806a5f052dbf51299eac958faa892e87dcaec4aa7bbe3aec23956"
+    },
+    {
+      "path": "experimentos/anydes_presence_lab_v001/h1_3/run_staging.py",
+      "bytes": 651,
+      "source_sha256": "b1efa5b06ee6adeee335017293e8f08091ed00c462100a6e43e8110e205ccf85",
+      "sha256": "b1efa5b06ee6adeee335017293e8f08091ed00c462100a6e43e8110e205ccf85"
+    },
+    {
+      "path": "experimentos/anydes_presence_lab_v001/h1_3/test_voice_motion.py",
+      "bytes": 6451,
+      "source_sha256": "2a63a9bb541f821b5bbc4ebab3328db2060c314f60bf258814e8d2aa906762d5",
+      "sha256": "2a63a9bb541f821b5bbc4ebab3328db2060c314f60bf258814e8d2aa906762d5"
+    },
+    {
+      "path": "experimentos/anydes_presence_lab_v001/tests/cognitive-motion.test.mjs",
+      "bytes": 2720,
+      "source_sha256": "e7d70745c60e0447c6d8769dbe18bf9cb3a421a6d8ed48687692b68fdb759225",
+      "sha256": "e7d70745c60e0447c6d8769dbe18bf9cb3a421a6d8ed48687692b68fdb759225"
+    },
+    {
+      "path": "experimentos/anydes_presence_lab_v001/tests/motion.test.mjs",
+      "bytes": 1867,
+      "source_sha256": "ab25fe24026e77cccffe3be0373e09a9a3feed5d90af09d9047dc41678cdeecb",
+      "sha256": "ab25fe24026e77cccffe3be0373e09a9a3feed5d90af09d9047dc41678cdeecb"
+    },
+    {
+      "path": "experimentos/anydes_presence_lab_v001/tests/runtime-bridge.test.mjs",
+      "bytes": 2938,
+      "source_sha256": "6f3ba2258bf5275739f2b1e8e0624a5440d2f644fcae70ce0ee1662aaad77a8f",
+      "sha256": "6f3ba2258bf5275739f2b1e8e0624a5440d2f644fcae70ce0ee1662aaad77a8f"
+    },
+    {
+      "path": "experimentos/anydes_presence_lab_v001/tests/speech-motion.test.mjs",
+      "bytes": 2347,
+      "source_sha256": "cc8bb7b6cfb86c5d87cfaaf6ddbd911bd0bb8549ba51b387dffc20c3ef699577",
+      "sha256": "cc8bb7b6cfb86c5d87cfaaf6ddbd911bd0bb8549ba51b387dffc20c3ef699577"
+    },
+    {
+      "path": "programa_principal/anydes/interfaz/pyside_companion/vrm_stage/vendor/THREE-LICENSE.txt",
+      "bytes": 1081,
+      "source_sha256": "4c40a1ef62450b857c3b2aaf294936304cd552d965fbcd9d32d4c5bcf4ba4454",
+      "sha256": "4c40a1ef62450b857c3b2aaf294936304cd552d965fbcd9d32d4c5bcf4ba4454"
+    },
+    {
+      "path": "programa_principal/anydes/interfaz/pyside_companion/vrm_stage/vendor/THREE-VRM-MTOON-LICENSE.txt",
+      "bytes": 1072,
+      "source_sha256": "387a46128d34de9d85ea1e07a5a716dba532dbabca6c10adad447f48a29518d3",
+      "sha256": "387a46128d34de9d85ea1e07a5a716dba532dbabca6c10adad447f48a29518d3"
+    }
+  ],
+  "sanitizations": [
+    {
+      "path": "programa_principal/anydes/cerebro/llm.py",
+      "category": "ANONYMIZED_SOURCE_LITERAL_OR_PATH"
+    },
+    {
+      "path": "programa_principal/anydes/cerebro/prompt_builder.py",
+      "category": "ANONYMIZED_SOURCE_LITERAL_OR_PATH"
+    },
+    {
+      "path": "programa_principal/anydes/cognition/reflection.py",
+      "category": "ANONYMIZED_SOURCE_LITERAL_OR_PATH"
+    },
+    {
+      "path": "programa_principal/anydes/cognition/providers/goals.py",
+      "category": "ANONYMIZED_SOURCE_LITERAL_OR_PATH"
+    },
+    {
+      "path": "programa_principal/anydes/evaluation/catalog.py",
+      "category": "ANONYMIZED_SOURCE_LITERAL_OR_PATH"
+    },
+    {
+      "path": "programa_principal/anydes/evaluation/long_conversation.py",
+      "category": "ANONYMIZED_SOURCE_LITERAL_OR_PATH"
+    },
+    {
+      "path": "programa_principal/anydes/evaluation/runner.py",
+      "category": "ANONYMIZED_SOURCE_LITERAL_OR_PATH"
+    },
+    {
+      "path": "programa_principal/anydes/identity/core.py",
+      "category": "ANONYMIZED_SOURCE_LITERAL_OR_PATH"
+    },
+    {
+      "path": "programa_principal/anydes/identity/relationship_contracts.py",
+      "category": "ANONYMIZED_SOURCE_LITERAL_OR_PATH"
+    },
+    {
+      "path": "programa_principal/anydes/interfaz/launcher.py",
+      "category": "ANONYMIZED_SOURCE_LITERAL_OR_PATH"
+    },
+    {
+      "path": "programa_principal/anydes/nucleo/assistant.py",
+      "category": "ANONYMIZED_SOURCE_LITERAL_OR_PATH"
+    },
+    {
+      "path": "programa_principal/anydes/nucleo/config.py",
+      "category": "ANONYMIZED_SOURCE_LITERAL_OR_PATH"
+    },
+    {
+      "path": "programa_principal/anydes/nucleo/estado_emocional.py",
+      "category": "ANONYMIZED_SOURCE_LITERAL_OR_PATH"
+    },
+    {
+      "path": "programa_principal/anydes/nucleo/interlocutor.py",
+      "category": "ANONYMIZED_SOURCE_LITERAL_OR_PATH"
+    },
+    {
+      "path": "programa_principal/anydes/nucleo/orquestador.py",
+      "category": "ANONYMIZED_SOURCE_LITERAL_OR_PATH"
+    },
+    {
+      "path": "programa_principal/anydes/realtime/context.py",
+      "category": "ANONYMIZED_SOURCE_LITERAL_OR_PATH"
+    },
+    {
+      "path": "programa_principal/anydes/realtime/identity_profile.py",
+      "category": "ANONYMIZED_SOURCE_LITERAL_OR_PATH"
+    },
+    {
+      "path": "programa_principal/anydes/realtime/self_preferences.py",
+      "category": "ANONYMIZED_SOURCE_LITERAL_OR_PATH"
+    },
+    {
+      "path": "programa_principal/anydes/vision/conciencia_visual.py",
+      "category": "ANONYMIZED_SOURCE_LITERAL_OR_PATH"
+    },
+    {
+      "path": "programa_principal/anydes/vision/identidad.py",
+      "category": "ANONYMIZED_SOURCE_LITERAL_OR_PATH"
+    },
+    {
+      "path": "programa_principal/anydes/vision/memoria_visual.py",
+      "category": "ANONYMIZED_SOURCE_LITERAL_OR_PATH"
+    },
+    {
+      "path": "programa_principal/anydes/voz/controller.py",
+      "category": "ANONYMIZED_SOURCE_LITERAL_OR_PATH"
+    },
+    {
+      "path": "programa_principal/anydes/voz/identity.py",
+      "category": "ANONYMIZED_SOURCE_LITERAL_OR_PATH"
+    },
+    {
+      "path": "programa_principal/anydes/voz/nueva/voice_bank.py",
+      "category": "ANONYMIZED_SOURCE_LITERAL_OR_PATH"
+    },
+    {
+      "path": "anydes_tools/tests/run_general_reasoner_live_groq_e2e.py",
+      "category": "ANONYMIZED_SOURCE_LITERAL_OR_PATH"
+    },
+    {
+      "path": "anydes_tools/tests/run_general_reasoner_staging_e2e.py",
+      "category": "ANONYMIZED_SOURCE_LITERAL_OR_PATH"
+    },
+    {
+      "path": "anydes_tools/tests/test_general_task_reasoner_v001_5.py",
+      "category": "ANONYMIZED_SOURCE_LITERAL_OR_PATH"
+    },
+    {
+      "path": "anydes_tools/tests/test_publication_phase_f.py",
+      "category": "ANONYMIZED_SOURCE_LITERAL_OR_PATH"
+    },
+    {
+      "path": "experimentos/anydes_professional_shell_h1_4/h1_4b_13/tests/test_code_output.py",
+      "category": "ANONYMIZED_SOURCE_LITERAL_OR_PATH"
+    },
+    {
+      "path": "experimentos/anydes_professional_shell_h1_4/h1_4b_13/tests/test_publication_phase_f.py",
+      "category": "ANONYMIZED_SOURCE_LITERAL_OR_PATH"
+    },
+    {
+      "path": "experimentos/anydes_professional_shell_h1_4/h1_4b_13/tests/test_technical_literals.py",
+      "category": "ANONYMIZED_SOURCE_LITERAL_OR_PATH"
+    },
+    {
+      "path": "anydes_tools/tests/test_conversation_v001_5.py",
+      "category": "ANONYMIZED_TEST_WORKSPACE_LITERAL"
+    },
+    {
+      "path": "anydes_tools/tests/test_human_launcher_runtime_e2e_v001_5.py",
+      "category": "ANONYMIZED_TEST_WORKSPACE_LITERAL"
+    }
+  ],
+  "exclusions": [],
+  "source_writes": 0,
+  "models_copied": 0,
+  "private_data_copied": 0,
+  "release_only_omissions": [
+    "anydes_tools/tests/collect_candidate_g2.py",
+    "anydes_tools/tests/collect_candidate_g3.py",
+    "anydes_tools/tests/collect_candidate_g4.py",
+    "anydes_tools/tests/collect_candidate_g5.py",
+    "anydes_tools/tests/collect_candidate_g6.py",
+    "anydes_tools/tests/collect_context_control_acceptance.py",
+    "anydes_tools/tests/collect_failure_topic_acceptance.py",
+    "anydes_tools/tests/collect_human_acceptance_pass2.py",
+    "anydes_tools/tests/collect_human_acceptance_round1.py",
+    "anydes_tools/tests/collect_remediation_acceptance.py",
+    "anydes_tools/tests/recover_telemetry_phase_g1.py",
+    "audit_release.py",
+    "build_release.py",
+    "programa_principal/probar_conciencia_visual.py"
+  ]
+}

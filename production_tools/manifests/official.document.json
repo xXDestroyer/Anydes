@@ -1,0 +1,543 @@
+{
+  "tool_id": "official.document",
+  "name": "DocumentTool",
+  "version": "1.0.0",
+  "category": "document",
+  "description": "Creates and reads TXT, Markdown, DOCX and simple PDF documents in authorized scopes.",
+  "capabilities": [
+    "document.create_txt",
+    "document.create_markdown",
+    "document.create_docx",
+    "document.read_document",
+    "document.edit_document",
+    "document.create_pdf"
+  ],
+  "input_schema": {
+    "type": "object"
+  },
+  "output_schema": {
+    "type": "object"
+  },
+  "side_effects": [
+    "filesystem_read",
+    "filesystem_write"
+  ],
+  "risk_level": "medium",
+  "permission_policy": {
+    "READ": "allow_in_scope",
+    "CREATE": "allow_in_scope",
+    "EDIT": "allow_in_scope",
+    "OVERWRITE": "confirm",
+    "MOVE": "deny",
+    "DELETE": "deny",
+    "EXECUTE_CODE": "deny",
+    "INSTALL_DEPENDENCY": "deny",
+    "EXTERNAL_ACTION": "deny"
+  },
+  "dependencies": [],
+  "timeout": 30,
+  "filesystem_scope": [
+    "authorized_workspace"
+  ],
+  "status": "AVAILABLE",
+  "capability_contracts": {
+    "document.create_txt": {
+      "id": "document.create_txt",
+      "enabled": true,
+      "input_schema": {
+        "type": "object",
+        "properties": {
+          "path": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 32760,
+            "x-path-operation": "WRITE"
+          },
+          "content": {
+            "type": "string",
+            "minLength": 0,
+            "maxLength": 2000000
+          },
+          "title": {
+            "type": "string",
+            "minLength": 0,
+            "maxLength": 2000
+          },
+          "overwrite": {
+            "type": "boolean"
+          }
+        },
+        "required": [
+          "path",
+          "content"
+        ],
+        "additionalProperties": false
+      },
+      "output_schema": {
+        "type": "object",
+        "properties": {
+          "path": {
+            "type": "string",
+            "minLength": 0,
+            "maxLength": 32760
+          },
+          "bytes": {
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 1000000000
+          },
+          "format": {
+            "enum": [
+              "txt",
+              "md",
+              "docx",
+              "pdf"
+            ]
+          }
+        },
+        "required": [
+          "path",
+          "bytes",
+          "format"
+        ],
+        "additionalProperties": false
+      },
+      "side_effects": [
+        "CREATE",
+        "OVERWRITE"
+      ],
+      "risk_level": "medium",
+      "permission_requirements": [
+        "CREATE",
+        "OVERWRITE"
+      ],
+      "allowed_scope_types": [
+        "tools_workspaces",
+        "explicit_user_workspace"
+      ],
+      "timeout": 30,
+      "verifier_type": "DOCUMENT"
+    },
+    "document.create_markdown": {
+      "id": "document.create_markdown",
+      "enabled": true,
+      "input_schema": {
+        "type": "object",
+        "properties": {
+          "path": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 32760,
+            "x-path-operation": "WRITE"
+          },
+          "content": {
+            "type": "string",
+            "minLength": 0,
+            "maxLength": 2000000
+          },
+          "title": {
+            "type": "string",
+            "minLength": 0,
+            "maxLength": 2000
+          },
+          "overwrite": {
+            "type": "boolean"
+          }
+        },
+        "required": [
+          "path",
+          "content"
+        ],
+        "additionalProperties": false
+      },
+      "output_schema": {
+        "type": "object",
+        "properties": {
+          "path": {
+            "type": "string",
+            "minLength": 0,
+            "maxLength": 32760
+          },
+          "bytes": {
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 1000000000
+          },
+          "format": {
+            "enum": [
+              "txt",
+              "md",
+              "docx",
+              "pdf"
+            ]
+          }
+        },
+        "required": [
+          "path",
+          "bytes",
+          "format"
+        ],
+        "additionalProperties": false
+      },
+      "side_effects": [
+        "CREATE",
+        "OVERWRITE"
+      ],
+      "risk_level": "medium",
+      "permission_requirements": [
+        "CREATE",
+        "OVERWRITE"
+      ],
+      "allowed_scope_types": [
+        "tools_workspaces",
+        "explicit_user_workspace"
+      ],
+      "timeout": 30,
+      "verifier_type": "DOCUMENT"
+    },
+    "document.create_docx": {
+      "id": "document.create_docx",
+      "enabled": true,
+      "input_schema": {
+        "type": "object",
+        "properties": {
+          "path": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 32760,
+            "x-path-operation": "WRITE"
+          },
+          "content": {
+            "type": "string",
+            "minLength": 0,
+            "maxLength": 2000000
+          },
+          "title": {
+            "type": "string",
+            "minLength": 0,
+            "maxLength": 2000
+          },
+          "overwrite": {
+            "type": "boolean"
+          }
+        },
+        "required": [
+          "path",
+          "content"
+        ],
+        "additionalProperties": false
+      },
+      "output_schema": {
+        "type": "object",
+        "properties": {
+          "path": {
+            "type": "string",
+            "minLength": 0,
+            "maxLength": 32760
+          },
+          "bytes": {
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 1000000000
+          },
+          "format": {
+            "enum": [
+              "txt",
+              "md",
+              "docx",
+              "pdf"
+            ]
+          }
+        },
+        "required": [
+          "path",
+          "bytes",
+          "format"
+        ],
+        "additionalProperties": false
+      },
+      "side_effects": [
+        "CREATE",
+        "OVERWRITE"
+      ],
+      "risk_level": "medium",
+      "permission_requirements": [
+        "CREATE",
+        "OVERWRITE"
+      ],
+      "allowed_scope_types": [
+        "tools_workspaces",
+        "explicit_user_workspace"
+      ],
+      "timeout": 30,
+      "verifier_type": "DOCUMENT"
+    },
+    "document.read_document": {
+      "id": "document.read_document",
+      "enabled": true,
+      "input_schema": {
+        "type": "object",
+        "properties": {
+          "path": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 32760,
+            "x-path-operation": "READ"
+          }
+        },
+        "required": [
+          "path"
+        ],
+        "additionalProperties": false
+      },
+      "output_schema": {
+        "type": "object",
+        "properties": {
+          "path": {
+            "type": "string",
+            "minLength": 0,
+            "maxLength": 32760
+          },
+          "content": {
+            "type": "string",
+            "minLength": 0,
+            "maxLength": 2000000
+          },
+          "format": {
+            "enum": [
+              "txt",
+              "md",
+              "docx",
+              "pdf"
+            ]
+          }
+        },
+        "required": [
+          "path",
+          "content",
+          "format"
+        ],
+        "additionalProperties": false
+      },
+      "side_effects": [
+        "READ"
+      ],
+      "risk_level": "medium",
+      "permission_requirements": [
+        "READ"
+      ],
+      "allowed_scope_types": [
+        "tools_workspaces",
+        "explicit_user_workspace"
+      ],
+      "timeout": 30,
+      "verifier_type": "DOCUMENT"
+    },
+    "document.edit_document": {
+      "id": "document.edit_document",
+      "enabled": true,
+      "input_schema": {
+        "type": "object",
+        "properties": {
+          "path": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 32760,
+            "x-path-operation": "WRITE"
+          },
+          "old_text": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 2000000
+          },
+          "new_text": {
+            "type": "string",
+            "minLength": 0,
+            "maxLength": 2000000
+          },
+          "title": {
+            "type": "string",
+            "minLength": 0,
+            "maxLength": 2000
+          },
+          "document_edit_spec": {
+            "type": "object",
+            "properties": {
+              "target_path": {
+                "type": "string",
+                "minLength": 1,
+                "maxLength": 32760,
+                "x-path-operation": "WRITE"
+              },
+              "operation": {
+                "enum": [
+                  "APPEND_PARAGRAPH",
+                  "PREPEND_PARAGRAPH",
+                  "REPLACE_TEXT",
+                  "INSERT_AFTER",
+                  "INSERT_BEFORE"
+                ]
+              },
+              "payload": {
+                "type": "string",
+                "minLength": 1,
+                "maxLength": 2000000
+              },
+              "anchor": {
+                "type": "string",
+                "minLength": 0,
+                "maxLength": 1000000
+              },
+              "preserve_structure": {
+                "type": "boolean"
+              }
+            },
+            "required": [
+              "operation",
+              "payload"
+            ],
+            "additionalProperties": false
+          }
+        },
+        "required": [
+          "path"
+        ],
+        "additionalProperties": false,
+        "oneOf": [
+          {
+            "required": [
+              "old_text",
+              "new_text"
+            ],
+            "not": {
+              "required": [
+                "document_edit_spec"
+              ]
+            }
+          },
+          {
+            "required": [
+              "document_edit_spec"
+            ],
+            "not": {
+              "required": [
+                "old_text"
+              ]
+            }
+          }
+        ]
+      },
+      "output_schema": {
+        "type": "object",
+        "properties": {
+          "path": {
+            "type": "string",
+            "minLength": 0,
+            "maxLength": 32760
+          },
+          "edited": {
+            "type": "boolean"
+          },
+          "structural": {
+            "type": "boolean"
+          }
+        },
+        "required": [
+          "path",
+          "edited"
+        ],
+        "additionalProperties": false
+      },
+      "side_effects": [
+        "EDIT"
+      ],
+      "risk_level": "medium",
+      "permission_requirements": [
+        "EDIT"
+      ],
+      "allowed_scope_types": [
+        "tools_workspaces",
+        "explicit_user_workspace"
+      ],
+      "timeout": 30,
+      "verifier_type": "DOCUMENT"
+    },
+    "document.create_pdf": {
+      "id": "document.create_pdf",
+      "enabled": true,
+      "input_schema": {
+        "type": "object",
+        "properties": {
+          "path": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 32760,
+            "x-path-operation": "WRITE"
+          },
+          "content": {
+            "type": "string",
+            "minLength": 0,
+            "maxLength": 2000000
+          },
+          "title": {
+            "type": "string",
+            "minLength": 0,
+            "maxLength": 2000
+          },
+          "overwrite": {
+            "type": "boolean"
+          }
+        },
+        "required": [
+          "path",
+          "content"
+        ],
+        "additionalProperties": false
+      },
+      "output_schema": {
+        "type": "object",
+        "properties": {
+          "path": {
+            "type": "string",
+            "minLength": 0,
+            "maxLength": 32760
+          },
+          "bytes": {
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 1000000000
+          },
+          "format": {
+            "enum": [
+              "txt",
+              "md",
+              "docx",
+              "pdf"
+            ]
+          }
+        },
+        "required": [
+          "path",
+          "bytes",
+          "format"
+        ],
+        "additionalProperties": false
+      },
+      "side_effects": [
+        "CREATE",
+        "OVERWRITE"
+      ],
+      "risk_level": "medium",
+      "permission_requirements": [
+        "CREATE",
+        "OVERWRITE"
+      ],
+      "allowed_scope_types": [
+        "tools_workspaces",
+        "explicit_user_workspace"
+      ],
+      "timeout": 30,
+      "verifier_type": "DOCUMENT"
+    }
+  }
+}

@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#09090f"><title>Anydes | Presence Lab</title>
+  <link rel="icon" href="data:,">
+  <link rel="stylesheet" href="style.css">
+  <script type="importmap">{"imports":{"three":"./node_modules/three/build/three.module.js","three/addons/":"./node_modules/three/examples/jsm/"}}</script>
+</head>
+<body>
+  <div class="app">
+    <header>
+      <div class="brand"><span class="brand-mark" aria-hidden="true">A</span><h1>ANYDES</h1><span class="divider"></span><span class="lab-name">PRESENCE LAB <b>01</b></span></div>
+      <div class="mode-switch" role="group" aria-label="Origen de estados"><button data-mode="SIMULATION" aria-pressed="true">Simulaci&oacute;n</button><button data-mode="RUNTIME" aria-pressed="false">Runtime</button><span id="connection-text" role="status">Local</span></div>
+      <div class="header-actions"><span class="local"><i></i>LOCAL / STAGING</span><button id="fullscreen" class="icon" aria-label="Pantalla completa" title="Pantalla completa" data-icon="maximize"></button></div>
+    </header>
+    <main id="stage">
+      <canvas id="scene" aria-label="Nucleo holografico tridimensional de Anydes"></canvas>
+      <div class="scene-label"><span class="eyebrow">PRESENCIA ABSTRACTA</span><h2>Petal core<span> / 001</span></h2></div>
+      <div class="state-readout"><span class="status-dot"></span><span id="state-name">Reposo</span><span id="state-code">IDLE</span></div>
+      <div class="scene-tools">
+        <button id="reset" class="icon" title="Centrar vista" aria-label="Centrar vista" data-icon="focus"></button>
+        <button id="pause" class="icon" title="Pausar movimiento" aria-label="Pausar movimiento" data-icon="pause"></button>
+        <button id="capture" class="icon" title="Guardar imagen" aria-label="Guardar imagen" data-icon="camera"></button>
+      </div>
+      <div class="signal-visual" aria-hidden="true"><div id="wave"></div><span id="signal-value">00</span></div>
+      <div id="error" role="alert" hidden></div>
+      <details id="motion-debug"><summary>LAB · Motion</summary><pre id="motion-values"></pre></details>
+    </main>
+    <section class="console" aria-label="Controles de presencia">
+      <div class="state-section">
+        <div class="section-top"><span class="eyebrow">ESTADO VISUAL</span><button id="cycle" class="text-tool" aria-pressed="false" title="Recorrer estados"><span data-icon="repeat"></span>Secuencia</button></div>
+        <div class="states" role="group" aria-label="Estado visual">
+          <button data-state="IDLE" aria-pressed="true"><span data-icon="sparkles"></span><span>Reposo</span></button>
+          <button data-state="LISTENING" aria-pressed="false"><span data-icon="ear"></span><span>Escucha</span></button>
+          <button data-state="THINKING" aria-pressed="false"><span data-icon="orbit"></span><span>Pensamiento</span></button>
+          <button data-state="SPEAKING" aria-pressed="false"><span data-icon="audio-lines"></span><span>Habla</span></button>
+          <button data-state="WORKING" aria-pressed="false"><span data-icon="scan-line"></span><span>Trabajo</span></button>
+        </div>
+      </div>
+      <div class="settings">
+        <div class="setting"><label for="intensity">Luminosidad <output id="intensity-value">75%</output></label><input id="intensity" type="range" min="30" max="100" value="75"></div>
+        <div class="setting"><label for="speed">Movimiento <output id="speed-value">1.0x</output></label><input id="speed" type="range" min="20" max="180" value="100"></div>
+      </div>
+      <div class="audio-section">
+        <div class="section-top"><span class="eyebrow">SEÑAL DE HABLA</span><span id="source-label">SIMULADA</span></div>
+        <div class="audio-controls"><button id="demo" class="audio-source active" title="Cadencia de habla simulada" aria-pressed="true"><span data-icon="activity"></span>Demo</button><label class="audio-file" title="Abrir audio local"><span data-icon="file-audio"></span><span id="filename">Audio local</span><input id="audio-file" type="file" accept="audio/*" aria-label="Abrir audio local"></label><button id="audio-play" class="icon" disabled title="Reproducir audio" aria-label="Reproducir audio" data-icon="play"></button></div>
+        <audio id="audio" preload="metadata"></audio>
+        <p id="audio-status" role="status"></p>
+      </div>
+    </section>
+    <div class="motion-lab" aria-label="Motion laboratory">
+      <label>Trabajo <select id="working-mode"><option>NONE</option><option>PROGRAMMING</option><option>CREATING_FILE</option><option>EDITING</option><option>EXECUTING</option><option>VERIFYING</option><option>CONVERTING</option></select></label>
+      <label>Voz <select id="speech-profile"><option value="normal">Cadencia</option><option value="quiet">Suave</option><option value="loud">Fuerte</option><option value="pause">Pausa</option></select></label>
+      <label>Energía <input id="speech-gain" type="range" min="0" max="150" value="100"></label>
+    </div>
+    <footer><span><i></i>ANYDES · PUBLIC PRESENCE</span><span>VIOLET / ROSE / LIGHT</span><span>PROTOTIPO AISLADO <b>v0.1</b></span></footer>
+  </div>
+  <script src="vendor/lucide.min.js"></script>
+  <script type="module" src="app.js"></script>
+</body>
+</html>

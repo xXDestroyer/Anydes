@@ -1,0 +1,208 @@
+{
+  "candidates": [
+    {
+      "area": "programa_principal/anydes",
+      "files": 336,
+      "bytes": 4778377
+    },
+    {
+      "area": "anydes_tools",
+      "files": 320,
+      "bytes": 2877115
+    },
+    {
+      "area": "production_tools/manifests",
+      "files": 4,
+      "bytes": 50528
+    },
+    {
+      "area": "experimentos/anydes_professional_shell_h1_4/h1_4b_13",
+      "files": 54,
+      "bytes": 814540
+    },
+    {
+      "area": "experimentos/anydes_presence_lab_v001",
+      "files": 33,
+      "bytes": 555414
+    }
+  ],
+  "findings": [
+    {
+      "path": "programa_principal/anydes/assets/avatar_25d_hq/assets/export/v001/layer_manifest.json",
+      "line": 6,
+      "category": "MACHINE_PROFILE_PATH"
+    },
+    {
+      "path": "programa_principal/anydes/assets/avatar_25d_hq/assets/export/v002/layer_manifest.json",
+      "line": 6,
+      "category": "MACHINE_PROFILE_PATH"
+    },
+    {
+      "path": "programa_principal/anydes/assets/avatar_25d_hq/assets/export/v003/layer_manifest.json",
+      "line": 6,
+      "category": "MACHINE_PROFILE_PATH"
+    },
+    {
+      "path": "programa_principal/anydes/assets/avatar_25d_hq/assets/export/v004/layer_manifest.json",
+      "line": 6,
+      "category": "MACHINE_PROFILE_PATH"
+    },
+    {
+      "path": "programa_principal/anydes/assets/avatar_25d_hq/assets/export/v005/layer_manifest.json",
+      "line": 6,
+      "category": "MACHINE_PROFILE_PATH"
+    },
+    {
+      "path": "programa_principal/anydes/assets/avatar_25d_hq/assets/export/v006/layer_manifest.json",
+      "line": 6,
+      "category": "MACHINE_PROFILE_PATH"
+    },
+    {
+      "path": "programa_principal/anydes/assets/avatar_25d_hq/assets/export/v007/layer_manifest.json",
+      "line": 6,
+      "category": "MACHINE_PROFILE_PATH"
+    },
+    {
+      "path": "programa_principal/anydes/assets/avatar_25d_hq/assets/export/v008/layer_manifest.json",
+      "line": 6,
+      "category": "MACHINE_PROFILE_PATH"
+    },
+    {
+      "path": "programa_principal/anydes/assets/avatar_25d_hq/assets/export/v009/layer_manifest.json",
+      "line": 6,
+      "category": "MACHINE_PROFILE_PATH"
+    },
+    {
+      "path": "programa_principal/anydes/assets/avatar_25d_hq/assets/export/v010/layer_manifest.json",
+      "line": 6,
+      "category": "MACHINE_PROFILE_PATH"
+    },
+    {
+      "path": "programa_principal/anydes/assets/avatar_25d_hq/assets/export/v011/layer_manifest.json",
+      "line": 6,
+      "category": "MACHINE_PROFILE_PATH"
+    },
+    {
+      "path": "anydes_tools/config/settings-v001_5.json",
+      "line": 3,
+      "category": "MACHINE_PROFILE_PATH"
+    },
+    {
+      "path": "anydes_tools/dependencies/jsonschema_b1/jsonschema/benchmarks/issue232/issue.json",
+      "line": 1622,
+      "category": "EMAIL_LITERAL"
+    },
+    {
+      "path": "anydes_tools/dependencies/jsonschema_b1/jsonschema/tests/test_validators.py",
+      "line": 2150,
+      "category": "EMAIL_LITERAL"
+    },
+    {
+      "path": "anydes_tools/tests/test_publication_phase_f.py",
+      "line": 111,
+      "category": "MACHINE_PROFILE_PATH"
+    },
+    {
+      "path": "anydes_tools/tests/test_publication_phase_f.py",
+      "line": 122,
+      "category": "MACHINE_PROFILE_PATH"
+    },
+    {
+      "path": "anydes_tools/tests/test_publication_phase_f.py",
+      "line": 171,
+      "category": "MACHINE_PROFILE_PATH"
+    },
+    {
+      "path": "experimentos/anydes_professional_shell_h1_4/h1_4b_13/tests/test_code_output.py",
+      "line": 72,
+      "category": "MACHINE_PROFILE_PATH"
+    },
+    {
+      "path": "experimentos/anydes_professional_shell_h1_4/h1_4b_13/tests/test_publication_phase_f.py",
+      "line": 111,
+      "category": "MACHINE_PROFILE_PATH"
+    },
+    {
+      "path": "experimentos/anydes_professional_shell_h1_4/h1_4b_13/tests/test_publication_phase_f.py",
+      "line": 122,
+      "category": "MACHINE_PROFILE_PATH"
+    },
+    {
+      "path": "experimentos/anydes_professional_shell_h1_4/h1_4b_13/tests/test_publication_phase_f.py",
+      "line": 177,
+      "category": "MACHINE_PROFILE_PATH"
+    },
+    {
+      "path": "experimentos/anydes_professional_shell_h1_4/h1_4b_13/tests/test_technical_literals.py",
+      "line": 12,
+      "category": "MACHINE_PROFILE_PATH"
+    },
+    {
+      "path": "experimentos/anydes_professional_shell_h1_4/h1_4b_13/tests/test_technical_literals.py",
+      "line": 13,
+      "category": "MACHINE_PROFILE_PATH"
+    },
+    {
+      "path": "experimentos/anydes_professional_shell_h1_4/h1_4b_13/tests/test_technical_literals.py",
+      "line": 58,
+      "category": "MACHINE_PROFILE_PATH"
+    },
+    {
+      "path": "experimentos/anydes_presence_lab_v001/qa.mjs",
+      "line": 4,
+      "category": "MACHINE_PROFILE_PATH"
+    },
+    {
+      "path": "experimentos/anydes_presence_lab_v001/h1_2/browser_watchdog_check.mjs",
+      "line": 4,
+      "category": "MACHINE_PROFILE_PATH"
+    },
+    {
+      "path": "experimentos/anydes_presence_lab_v001/h1_2/monitor_ui.mjs",
+      "line": 9,
+      "category": "MACHINE_PROFILE_PATH"
+    },
+    {
+      "path": "experimentos/anydes_presence_lab_v001/h1_3/observe.mjs",
+      "line": 15,
+      "category": "MACHINE_PROFILE_PATH"
+    },
+    {
+      "path": "experimentos/anydes_presence_lab_v001/h1_3b/demonstrate.mjs",
+      "line": 14,
+      "category": "MACHINE_PROFILE_PATH"
+    },
+    {
+      "path": "experimentos/anydes_presence_lab_v001/h1_3b/qa.mjs",
+      "line": 4,
+      "category": "MACHINE_PROFILE_PATH"
+    },
+    {
+      "path": "experimentos/anydes_presence_lab_v001/h1_3b/runtime_observe.mjs",
+      "line": 13,
+      "category": "MACHINE_PROFILE_PATH"
+    },
+    {
+      "path": "experimentos/anydes_presence_lab_v001/h1_3c/demonstrate.mjs",
+      "line": 14,
+      "category": "MACHINE_PROFILE_PATH"
+    },
+    {
+      "path": "experimentos/anydes_presence_lab_v001/h1_3c/qa.mjs",
+      "line": 4,
+      "category": "MACHINE_PROFILE_PATH"
+    },
+    {
+      "path": ".env",
+      "decision": "EXCLUDE_ENTIRE_FILE",
+      "line": 11,
+      "category": "PROVIDER_TOKEN"
+    }
+  ],
+  "third_party_license_paths": [],
+  "root_license_files": [],
+  "real_dotenv_present": true,
+  "source_writes": 0,
+  "source_imports": 0,
+  "copied_files": 0
+}

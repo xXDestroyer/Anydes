@@ -1,0 +1,56 @@
+:root {
+  color-scheme: dark;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  overflow: hidden;
+  background: transparent;
+}
+
+body {
+  font-family: "Segoe UI", sans-serif;
+}
+
+#avatar {
+  display: block;
+  width: 100%;
+  height: 100%;
+  background: transparent;
+  outline: none;
+}
+
+#loading {
+  position: fixed;
+  inset: 0;
+  display: grid;
+  place-items: center;
+  pointer-events: none;
+  opacity: 1;
+  transition: opacity 480ms ease;
+}
+
+#loading.ready {
+  opacity: 0;
+}
+
+#loading span {
+  width: 38px;
+  height: 38px;
+  border: 2px solid rgba(255, 255, 255, 0.12);
+  border-top-color: rgba(244, 143, 191, 0.78);
+  border-radius: 50%;
+  animation: breathe 1.4s ease-in-out infinite;
+}
+
+@keyframes breathe {
+  0%, 100% { transform: scale(0.92) rotate(0deg); opacity: 0.48; }
+  50% { transform: scale(1) rotate(180deg); opacity: 0.9; }
+}

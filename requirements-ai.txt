@@ -1,0 +1,3 @@
+# Optional SDK used by cloud/model integration source. Model weights are separate.
+-r requirements.txt
+openai==2.0.0

@@ -1,0 +1,753 @@
+{
+  "tool_id": "official.filesystem",
+  "name": "FileSystemTool",
+  "version": "1.0.0",
+  "category": "filesystem",
+  "description": "Scoped file inspection and mutation with canonical path enforcement.",
+  "capabilities": [
+    "filesystem.inspect",
+    "filesystem.search",
+    "filesystem.read",
+    "filesystem.create_text",
+    "filesystem.edit_text",
+    "filesystem.copy",
+    "filesystem.move",
+    "filesystem.rename",
+    "filesystem.mkdir",
+    "filesystem.delete",
+    "filesystem.atomic_replace"
+  ],
+  "input_schema": {
+    "type": "object"
+  },
+  "output_schema": {
+    "type": "object"
+  },
+  "side_effects": [
+    "filesystem_read",
+    "filesystem_write"
+  ],
+  "risk_level": "medium",
+  "permission_policy": {
+    "READ": "allow_in_scope",
+    "CREATE": "allow_in_scope",
+    "EDIT": "allow_in_scope",
+    "OVERWRITE": "confirm",
+    "MOVE": "confirm",
+    "DELETE": "confirm",
+    "EXECUTE_CODE": "deny",
+    "INSTALL_DEPENDENCY": "deny",
+    "EXTERNAL_ACTION": "deny"
+  },
+  "dependencies": [],
+  "timeout": 30,
+  "filesystem_scope": [
+    "authorized_workspace"
+  ],
+  "status": "AVAILABLE",
+  "capability_contracts": {
+    "filesystem.inspect": {
+      "id": "filesystem.inspect",
+      "enabled": true,
+      "input_schema": {
+        "type": "object",
+        "properties": {
+          "path": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 32760,
+            "x-path-operation": "READ"
+          }
+        },
+        "required": [
+          "path"
+        ],
+        "additionalProperties": false
+      },
+      "output_schema": {
+        "type": "object",
+        "properties": {
+          "path": {
+            "type": "string",
+            "minLength": 0,
+            "maxLength": 32760
+          },
+          "kind": {
+            "enum": [
+              "file",
+              "directory"
+            ]
+          },
+          "size": {
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 1000000000
+          },
+          "modified_ns": {
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 9007199254740991000
+          },
+          "sha256": {
+            "type": "string",
+            "minLength": 0,
+            "maxLength": 64
+          }
+        },
+        "required": [
+          "path",
+          "kind",
+          "size"
+        ],
+        "additionalProperties": false
+      },
+      "side_effects": [
+        "READ"
+      ],
+      "risk_level": "medium",
+      "permission_requirements": [
+        "READ"
+      ],
+      "allowed_scope_types": [
+        "tools_workspaces",
+        "explicit_user_workspace"
+      ],
+      "timeout": 30,
+      "verifier_type": "FILESYSTEM_EFFECT"
+    },
+    "filesystem.search": {
+      "id": "filesystem.search",
+      "enabled": true,
+      "input_schema": {
+        "type": "object",
+        "properties": {
+          "root": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 32760,
+            "x-path-operation": "READ"
+          },
+          "pattern": {
+            "type": "string",
+            "minLength": 0,
+            "maxLength": 255
+          },
+          "limit": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 2000
+          }
+        },
+        "required": [
+          "root"
+        ],
+        "additionalProperties": false
+      },
+      "output_schema": {
+        "type": "object",
+        "properties": {
+          "root": {
+            "type": "string",
+            "minLength": 0,
+            "maxLength": 32760
+          },
+          "pattern": {
+            "type": "string",
+            "minLength": 0,
+            "maxLength": 255
+          },
+          "matches": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "minLength": 0,
+              "maxLength": 32760
+            },
+            "minItems": 0,
+            "maxItems": 2000
+          },
+          "truncated": {
+            "type": "boolean"
+          }
+        },
+        "required": [
+          "matches"
+        ],
+        "additionalProperties": false
+      },
+      "side_effects": [
+        "READ"
+      ],
+      "risk_level": "medium",
+      "permission_requirements": [
+        "READ"
+      ],
+      "allowed_scope_types": [
+        "tools_workspaces",
+        "explicit_user_workspace"
+      ],
+      "timeout": 30,
+      "verifier_type": "FILESYSTEM_EFFECT"
+    },
+    "filesystem.read": {
+      "id": "filesystem.read",
+      "enabled": true,
+      "input_schema": {
+        "type": "object",
+        "properties": {
+          "path": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 32760,
+            "x-path-operation": "READ"
+          },
+          "max_bytes": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 4000000
+          }
+        },
+        "required": [
+          "path"
+        ],
+        "additionalProperties": false
+      },
+      "output_schema": {
+        "type": "object",
+        "properties": {
+          "path": {
+            "type": "string",
+            "minLength": 0,
+            "maxLength": 32760
+          },
+          "content": {
+            "type": "string",
+            "minLength": 0,
+            "maxLength": 4000000
+          },
+          "size": {
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 1000000000
+          }
+        },
+        "required": [
+          "path",
+          "content"
+        ],
+        "additionalProperties": false
+      },
+      "side_effects": [
+        "READ"
+      ],
+      "risk_level": "medium",
+      "permission_requirements": [
+        "READ"
+      ],
+      "allowed_scope_types": [
+        "tools_workspaces",
+        "explicit_user_workspace"
+      ],
+      "timeout": 30,
+      "verifier_type": "FILESYSTEM_EFFECT"
+    },
+    "filesystem.create_text": {
+      "id": "filesystem.create_text",
+      "enabled": true,
+      "input_schema": {
+        "type": "object",
+        "properties": {
+          "path": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 32760,
+            "x-path-operation": "WRITE"
+          },
+          "content": {
+            "type": "string",
+            "minLength": 0,
+            "maxLength": 1000000
+          },
+          "overwrite": {
+            "type": "boolean"
+          }
+        },
+        "required": [
+          "path",
+          "content"
+        ],
+        "additionalProperties": false
+      },
+      "output_schema": {
+        "type": "object",
+        "properties": {
+          "path": {
+            "type": "string",
+            "minLength": 0,
+            "maxLength": 32760
+          },
+          "bytes": {
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 1000000000
+          }
+        },
+        "required": [
+          "path",
+          "bytes"
+        ],
+        "additionalProperties": false
+      },
+      "side_effects": [
+        "CREATE",
+        "OVERWRITE"
+      ],
+      "risk_level": "medium",
+      "permission_requirements": [
+        "CREATE",
+        "OVERWRITE"
+      ],
+      "allowed_scope_types": [
+        "tools_workspaces",
+        "explicit_user_workspace"
+      ],
+      "timeout": 30,
+      "verifier_type": "FILESYSTEM_EFFECT"
+    },
+    "filesystem.edit_text": {
+      "id": "filesystem.edit_text",
+      "enabled": true,
+      "input_schema": {
+        "type": "object",
+        "properties": {
+          "path": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 32760,
+            "x-path-operation": "WRITE"
+          },
+          "old_text": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 1000000
+          },
+          "new_text": {
+            "type": "string",
+            "minLength": 0,
+            "maxLength": 1000000
+          },
+          "count": {
+            "type": "integer",
+            "minimum": -1,
+            "maximum": 1000000
+          }
+        },
+        "required": [
+          "path",
+          "old_text",
+          "new_text"
+        ],
+        "additionalProperties": false
+      },
+      "output_schema": {
+        "type": "object",
+        "properties": {
+          "path": {
+            "type": "string",
+            "minLength": 0,
+            "maxLength": 32760
+          },
+          "replacements": {
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 1000000000
+          }
+        },
+        "required": [
+          "path",
+          "replacements"
+        ],
+        "additionalProperties": false
+      },
+      "side_effects": [
+        "EDIT"
+      ],
+      "risk_level": "medium",
+      "permission_requirements": [
+        "EDIT"
+      ],
+      "allowed_scope_types": [
+        "tools_workspaces",
+        "explicit_user_workspace"
+      ],
+      "timeout": 30,
+      "verifier_type": "FILESYSTEM_EFFECT"
+    },
+    "filesystem.copy": {
+      "id": "filesystem.copy",
+      "enabled": true,
+      "input_schema": {
+        "type": "object",
+        "properties": {
+          "source": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 32760,
+            "x-path-operation": "READ"
+          },
+          "destination": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 32760,
+            "x-path-operation": "WRITE"
+          },
+          "overwrite": {
+            "type": "boolean"
+          }
+        },
+        "required": [
+          "source",
+          "destination"
+        ],
+        "additionalProperties": false
+      },
+      "output_schema": {
+        "type": "object",
+        "properties": {
+          "source": {
+            "type": "string",
+            "minLength": 0,
+            "maxLength": 32760
+          },
+          "destination": {
+            "type": "string",
+            "minLength": 0,
+            "maxLength": 32760
+          }
+        },
+        "required": [
+          "source",
+          "destination"
+        ],
+        "additionalProperties": false
+      },
+      "side_effects": [
+        "CREATE",
+        "OVERWRITE"
+      ],
+      "risk_level": "medium",
+      "permission_requirements": [
+        "CREATE",
+        "OVERWRITE"
+      ],
+      "allowed_scope_types": [
+        "tools_workspaces",
+        "explicit_user_workspace"
+      ],
+      "timeout": 30,
+      "verifier_type": "FILESYSTEM_EFFECT"
+    },
+    "filesystem.move": {
+      "id": "filesystem.move",
+      "enabled": true,
+      "input_schema": {
+        "type": "object",
+        "properties": {
+          "source": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 32760,
+            "x-path-operation": "WRITE"
+          },
+          "destination": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 32760,
+            "x-path-operation": "WRITE"
+          }
+        },
+        "required": [
+          "source",
+          "destination"
+        ],
+        "additionalProperties": false
+      },
+      "output_schema": {
+        "type": "object",
+        "properties": {
+          "source": {
+            "type": "string",
+            "minLength": 0,
+            "maxLength": 32760
+          },
+          "destination": {
+            "type": "string",
+            "minLength": 0,
+            "maxLength": 32760
+          }
+        },
+        "required": [
+          "source",
+          "destination"
+        ],
+        "additionalProperties": false
+      },
+      "side_effects": [
+        "MOVE"
+      ],
+      "risk_level": "medium",
+      "permission_requirements": [
+        "MOVE"
+      ],
+      "allowed_scope_types": [
+        "tools_workspaces",
+        "explicit_user_workspace"
+      ],
+      "timeout": 30,
+      "verifier_type": "FILESYSTEM_EFFECT"
+    },
+    "filesystem.rename": {
+      "id": "filesystem.rename",
+      "enabled": true,
+      "input_schema": {
+        "type": "object",
+        "properties": {
+          "path": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 32760,
+            "x-path-operation": "WRITE"
+          },
+          "new_name": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 255,
+            "pattern": "^[^\\\\/:*?\"<>|]+$"
+          }
+        },
+        "required": [
+          "path",
+          "new_name"
+        ],
+        "additionalProperties": false
+      },
+      "output_schema": {
+        "type": "object",
+        "properties": {
+          "source": {
+            "type": "string",
+            "minLength": 0,
+            "maxLength": 32760
+          },
+          "destination": {
+            "type": "string",
+            "minLength": 0,
+            "maxLength": 32760
+          }
+        },
+        "required": [
+          "source",
+          "destination"
+        ],
+        "additionalProperties": false
+      },
+      "side_effects": [
+        "MOVE"
+      ],
+      "risk_level": "medium",
+      "permission_requirements": [
+        "MOVE"
+      ],
+      "allowed_scope_types": [
+        "tools_workspaces",
+        "explicit_user_workspace"
+      ],
+      "timeout": 30,
+      "verifier_type": "FILESYSTEM_EFFECT"
+    },
+    "filesystem.mkdir": {
+      "id": "filesystem.mkdir",
+      "enabled": true,
+      "input_schema": {
+        "type": "object",
+        "properties": {
+          "path": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 32760,
+            "x-path-operation": "WRITE"
+          },
+          "parents": {
+            "type": "boolean"
+          }
+        },
+        "required": [
+          "path"
+        ],
+        "additionalProperties": false
+      },
+      "output_schema": {
+        "type": "object",
+        "properties": {
+          "path": {
+            "type": "string",
+            "minLength": 0,
+            "maxLength": 32760
+          }
+        },
+        "required": [
+          "path"
+        ],
+        "additionalProperties": false
+      },
+      "side_effects": [
+        "CREATE"
+      ],
+      "risk_level": "medium",
+      "permission_requirements": [
+        "CREATE"
+      ],
+      "allowed_scope_types": [
+        "tools_workspaces",
+        "explicit_user_workspace"
+      ],
+      "timeout": 30,
+      "verifier_type": "FILESYSTEM_EFFECT"
+    },
+    "filesystem.delete": {
+      "id": "filesystem.delete",
+      "enabled": true,
+      "input_schema": {
+        "type": "object",
+        "properties": {
+          "path": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 32760,
+            "x-path-operation": "WRITE"
+          }
+        },
+        "required": [
+          "path"
+        ],
+        "additionalProperties": false
+      },
+      "output_schema": {
+        "type": "object",
+        "properties": {
+          "path": {
+            "type": "string",
+            "minLength": 0,
+            "maxLength": 32760
+          },
+          "deleted": {
+            "type": "boolean"
+          }
+        },
+        "required": [
+          "path",
+          "deleted"
+        ],
+        "additionalProperties": false
+      },
+      "side_effects": [
+        "DELETE"
+      ],
+      "risk_level": "medium",
+      "permission_requirements": [
+        "DELETE"
+      ],
+      "allowed_scope_types": [
+        "tools_workspaces",
+        "explicit_user_workspace"
+      ],
+      "timeout": 30,
+      "verifier_type": "FILESYSTEM_EFFECT"
+    },
+    "filesystem.atomic_replace": {
+      "id": "filesystem.atomic_replace",
+      "enabled": true,
+      "input_schema": {
+        "type": "object",
+        "properties": {
+          "source": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 32760,
+            "x-path-operation": "WRITE"
+          },
+          "destination": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 32760,
+            "x-path-operation": "WRITE"
+          },
+          "commit_effect": {
+            "enum": [
+              "CREATE",
+              "EDIT",
+              "OVERWRITE"
+            ]
+          },
+          "expected_destination_hash": {
+            "type": "string",
+            "pattern": "^(ABSENT|[0-9a-f]{64})$",
+            "maxLength": 64
+          }
+        },
+        "required": [
+          "source",
+          "destination",
+          "commit_effect"
+        ],
+        "additionalProperties": false
+      },
+      "output_schema": {
+        "type": "object",
+        "properties": {
+          "source": {
+            "type": "string",
+            "minLength": 0,
+            "maxLength": 32760
+          },
+          "destination": {
+            "type": "string",
+            "minLength": 0,
+            "maxLength": 32760
+          },
+          "atomic": {
+            "type": "boolean"
+          },
+          "bytes": {
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 1000000000
+          }
+        },
+        "required": [
+          "destination",
+          "atomic",
+          "bytes"
+        ],
+        "additionalProperties": false
+      },
+      "side_effects": [
+        "CREATE",
+        "EDIT",
+        "OVERWRITE"
+      ],
+      "risk_level": "medium",
+      "permission_requirements": [
+        "CREATE",
+        "EDIT",
+        "OVERWRITE"
+      ],
+      "allowed_scope_types": [
+        "tools_workspaces",
+        "explicit_user_workspace"
+      ],
+      "timeout": 30,
+      "verifier_type": "FILESYSTEM_EFFECT"
+    }
+  }
+}
