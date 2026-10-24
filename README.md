@@ -22,17 +22,30 @@ https://anydes.netlify.app/
 
 ## Problem
 
-Assistants built around isolated conversations often lose task continuity, have
-limited access to useful tools, or report an action without independently checking
-its result. Persistent context and extensibility also introduce privacy and
-execution risks that need explicit boundaries.
+Modern AI models are powerful, but by themselves they usually operate as isolated components: they respond to a specific interaction, depend on previously implemented tools, and do not inherently maintain a persistent relationship between context, actions, and verifiable results.
+
+Turning those models into a general-purpose personal intelligence introduces additional challenges involving memory, permissions, security, continuity, and execution control.
+
+Anydes addresses the engineering problem of how to transform AI models into a persistent, adaptable, and secure personal intelligence capable of understanding context, acting on the digital environment, and verifying results across many different user needs without giving the model unrestricted authority over the system.
+
+The same architecture can therefore support different use cases such as programming, learning, organization, content creation, and automation instead of being designed around a single fixed task.
 
 ## Solution
 
-Anydes combines typed cognitive context, memory interfaces, SELF and goals,
-contextual reasoning, a controlled action/tool system, artifact continuity,
-verification, and a publication boundary. Voice, vision, and multiple visual
-presences are adapters around the same core, not separate personalities or memories.
+Anydes addresses this challenge through a modular architecture that turns AI models into components of a persistent personal system.
+
+The architecture separates cognition from operation: the model can interpret a request, propose an intention, or generate a plan, while actions pass through structured contracts and permission checks. When a contract requires code execution, it is isolated through the B2 sandbox. Results are communicated according to the available evidence and level of verification.
+
+The system combines:
+
+- Typed cognitive context, persistent memory, SELF, and goals.
+- Contextual reasoning, intention, and reflection.
+- Controlled tools and actions with explicit permissions and default-deny boundaries.
+- Artifact continuity through identity, versions, references, and grounded metadata.
+- Independent verification and a publication boundary that separates evidence from unsupported success claims.
+- Voice, vision, and multiple visual presences connected to the same underlying core.
+
+This architecture is designed as a general foundation for a personal AI rather than a solution restricted to a single use case.
 
 ## Key Differentiator
 
